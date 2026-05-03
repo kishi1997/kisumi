@@ -1,0 +1,16 @@
+{
+  "name": "local-wordpress-template",
+  "private": true,
+  "scripts": {
+    "start": "wp-env start",
+    "stop": "wp-env stop",
+    "destroy": "wp-env destroy",
+    "clean": "wp-env clean all",
+    "wp": "wp-env run cli wp",
+    "setup": "node scripts/setup-wp-env.mjs",
+    "reset": "wp-env clean all && wp-env start --update && node scripts/setup-wp-env.mjs"
+  },
+  "devDependencies": {
+    "@wordpress/env": "latest"
+  }
+}
