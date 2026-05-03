@@ -1,8 +1,21 @@
-# Local WordPress Template
+## 自分のプロジェクトにクローン
+```
+git clone https://github.com/user/example-repo.git [my-project]
+```
 
-wp-env を使った WordPress ローカル開発テンプレートです。
+### リモートリポジトリの変更
+```
+git remote remove origin
+```
 
-## 初回セットアップ
+### 新しく作成したリポジトリと繋ぐ(push an existing repository from the command line)
+```
+git remote add origin [your-repo-url]
+git branch -M main
+git push -u origin main
+```
+
+## wp-env を使った初回セットアップ
 
 ```bash
 npm install
