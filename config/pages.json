@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "company",
+    "title": "会社概要"
+  },
+  {
+    "slug": "staff",
+    "title": "スタッフ"
+  },
+  {
+    "slug": "faq",
+    "title": "よくある質問"
+  },
+  {
+    "slug": "contact",
+    "title": "お問い合わせ"
+  },
+  {
+    "slug": "privacy",
+    "title": "プライバシーポリシー"
+  }
+]

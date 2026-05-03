@@ -1,0 +1,14 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/wp-env.json",
+  "core": null,
+  "themes": [
+    "./themes/yaotemp"
+  ],
+  "port": 8080,
+  "testsEnvironment": false,
+  "config": {
+    "WP_DEBUG": true,
+    "SCRIPT_DEBUG": true,
+    "WP_DEBUG_DISPLAY": true
+  }
+}
