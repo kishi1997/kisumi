@@ -53,6 +53,29 @@ $(function () {
     });
 });
 
+// トップページ Gallery
+$(function () {
+    if (!$.fn.slick || !$(".js-top-gallery-slider").length) {
+        return;
+    }
+    $(".js-top-gallery-slider").slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+        arrows: true,
+        prevArrow: $(".js-top-gallery-prev"),
+        nextArrow: $(".js-top-gallery-next"),
+        responsive: [
+            {
+                breakpoint: 1000,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
+});
+
 //クリックしたら開閉
 $(function () {
     $(".click-title").on("click", function () {
@@ -142,7 +165,9 @@ function closeModal() {
 
 // 画像拡大
 $(function(){
-    $('.gallery').modaal({
-        type: 'image'
-    });
+    if ($.fn.modaal) {
+        $('.gallery').modaal({
+            type: 'image'
+        });
+    }
   });
