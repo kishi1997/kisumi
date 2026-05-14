@@ -8,8 +8,8 @@
                 季住デザインとつくる、育っていく家。
             </p>
             <h2 id="top-kv-title" class="top-kv__title">
-                丁寧な対話からはじまり、<br>
-                暮らしの本質をかたちにする。
+                <span class="top-kv__title-line top-kv__title-line--top">丁寧な対話からはじまり、</span><br>
+                <span class="top-kv__title-line top-kv__title-line--bottom">暮らしの本質をかたちにする。</span>
             </h2>
         </div>
 
@@ -18,7 +18,7 @@
         </div>
 
         <p class="top-kv__side-text">
-            KISUMI DESIGN OFFICIAL WEBSITE
+            Copyright (c) KISUMI design Co., Ltd. All Rights Reserved. | Produced by ゴデスクリエイト
         </p>
     </section>
 
@@ -35,29 +35,30 @@
     <section class="top-intro" aria-labelledby="top-intro-title">
         <div class="top-intro__inner">
             <h2 id="top-intro-title" class="top-intro__title">
-                家づくりの主語は、<br>
-                「建物」ではなく<br>
-                「人」であってほしい。
+                <span class="top-intro__title-line top-intro__title-line--1">家づくりの主語は、</span>
+                <span class="top-intro__title-line top-intro__title-line--2">「建物」ではなく</span>
+                <span class="top-intro__title-line top-intro__title-line--3">「人」であってほしい。</span>
             </h2>
             <div class="top-intro__text">
-                <p>
-                    住みやすさといった「建物の完成度」以上に私たちが大切にしたいのは、
-                    住まう人の「感情」や「暮らしの動き」を設計することです。
-                </p>
-                <p>
-                    朝の光の中で朝食をつくる時間や、ただぼーっとできる居場所、
-                    特別な日より、何気ない「日常」を愛おしく思える舞台をご提案します。
-                </p>
-                <p>
-                    お子様の目の高さから見える風景。
-                    無垢の木や漆喰に家族の時間が重なり、
-                    子どものつけた傷さえも「加点」になる。
-                    時を重ねるごとにつくづく愛着がわく家づくり。
-                </p>
                 <p>
                     新築もリノベーションも、入り口が違っても想いは同じ。
                     丁寧な対話から、あなただけの
                     「家族のストーリー」を一緒に仕立てていきましょう。
+                </p>
+                <p>
+                    お引き渡しの日が百点ではありません。
+                    無垢の木や漆喰に家族の時間が重なり、
+                    子どものつけた傷さえも「加点」になる。
+                    時を重ねるごとにうつくしく育つ家づくりです。
+
+                </p>
+                <p>
+                    朝の光の中で朝食をつくる時間や、ただぼーっとできる居場所。
+                    特別な日より、何気ない「日常」を愛おしく思える舞台をご提案します。
+                </p>
+                <p>
+                    広さや性能といった「建物の完成度」以上に私たちが大切にしたいのは、
+                    住まう人の「感情」や「暮らしの動き」を設計することです。
                 </p>
             </div>
         </div>
@@ -125,9 +126,7 @@
             <div class="top-concept__text">
                 <p class="top-concept__eyebrow">・Concept</p>
                 <p class="top-concept__sub">季住デザインの想い</p>
-                <h2 id="top-concept-title" class="top-concept__title">
-                    「季節を住まう。時を愛でる。」
-                </h2>
+                <h2 id="top-concept-title" class="top-concept__title">季節を住まう。時を愛でる。</h2>
                 <p class="top-concept__body">
                     家は、完成した時がゴールではありません。<br>
                     無垢の木や壁を愛で、家族の記憶が刻まれ、味わいを増していく。<br>
@@ -165,7 +164,7 @@
 
         <div class="top-homemaking__block top-homemaking__block-house">
             <figure class="top-homemaking__main-photo">
-                <img src="<?php bloginfo('template_url');?>/img/top-homemaking-house-main.jpg" alt="注文住宅の外観">
+                <img src="<?php bloginfo('template_url');?>/img/top-homemaking-img1.jpg" alt="注文住宅の外観">
             </figure>
             <div class="top-homemaking__text">
                 <p class="top-homemaking__label">ー　注文住宅 (自由設計)</p>
@@ -185,13 +184,13 @@
                 </p>
             </div>
             <figure class="top-homemaking__sub-photo">
-                <img src="<?php bloginfo('template_url');?>/img/top-homemaking-house-sub.jpg" alt="玄関の階段">
+                <img src="<?php bloginfo('template_url');?>/img/top-homemaking-img2.jpg" alt="玄関の階段">
             </figure>
         </div>
 
         <div class="top-homemaking__block top-homemaking__block-renovation">
             <figure class="top-homemaking__sub-photo">
-                <img src="<?php bloginfo('template_url');?>/img/top-homemaking-renovation-sub.jpg" alt="リノベーション後の階段">
+                <img src="<?php bloginfo('template_url');?>/img/top-homemaking-img3.jpg" alt="リノベーション後の階段">
             </figure>
             <div class="top-homemaking__text">
                 <p class="top-homemaking__label">ー　リフォーム・リノベーション</p>
@@ -209,7 +208,7 @@
                 </p>
             </div>
             <figure class="top-homemaking__main-photo">
-                <img src="<?php bloginfo('template_url');?>/img/top-homemaking-renovation-main.jpg" alt="リノベーション後のワークスペース">
+                <img src="<?php bloginfo('template_url');?>/img/top-homemaking-img4.jpg" alt="リノベーション後のワークスペース">
             </figure>
         </div>
     </section>
@@ -268,8 +267,7 @@
 
     <section class="top-gallery" aria-labelledby="top-gallery-title">
         <div class="top-gallery__head">
-            <p class="top-gallery__eyebrow">・Gallery</p>
-            <h2 id="top-gallery-title" class="top-gallery__title">ギャラリー</h2>
+            <h2 id="top-gallery-title" class="top-gallery__title">Gallery</h2>
         </div>
         <div class="top-gallery__slider-wrap">
             <div class="top-gallery__slider js-top-gallery-slider">
@@ -284,15 +282,18 @@
                 </div>
             </div>
             <div class="top-gallery__nav" aria-label="ギャラリー操作">
-                <button class="top-gallery__arrow top-gallery__arrow-prev js-top-gallery-prev" type="button" aria-label="前のスライド">←</button>
-                <button class="top-gallery__arrow top-gallery__arrow-next js-top-gallery-next" type="button" aria-label="次のスライド">→</button>
+                <button class="top-gallery__arrow top-gallery__arrow-prev js-top-gallery-prev" type="button"
+                    aria-label="前のスライド">←</button>
+                <button class="top-gallery__arrow top-gallery__arrow-next js-top-gallery-next" type="button"
+                    aria-label="次のスライド">→</button>
             </div>
         </div>
     </section>
 
     <section class="top-support-careers" aria-label="サポートと採用情報">
         <div class="top-support-careers__inner">
-            <a class="top-support-careers__item top-support-careers__item-support" href="<?php bloginfo('url'); ?>/support/">
+            <a class="top-support-careers__item top-support-careers__item-support"
+                href="<?php bloginfo('url'); ?>/support/">
                 <img src="<?php bloginfo('template_url');?>/img/top-support-banner.jpg" alt="アフターサポートのご案内">
                 <div class="top-support-careers__content">
                     <p class="top-support-careers__eyebrow">Support</p>
@@ -304,7 +305,8 @@
                     </p>
                 </div>
             </a>
-            <a class="top-support-careers__item top-support-careers__item-careers" href="<?php bloginfo('url'); ?>/recruit/">
+            <a class="top-support-careers__item top-support-careers__item-careers"
+                href="<?php bloginfo('url'); ?>/recruit/">
                 <img src="<?php bloginfo('template_url');?>/img/top-careers-banner.jpg" alt="採用情報のご案内">
                 <div class="top-support-careers__content">
                     <p class="top-support-careers__eyebrow">Careers</p>
@@ -355,15 +357,20 @@
                 <dl class="top-faq__list">
                     <div class="top-faq__item">
                         <dt>Q ｜ 土地探しや資金計画から相談に乗ってもらえますか？</dt>
-                        <dd>A ｜ はい、もちろんです。不動産のプロと建築士が在籍しておりますので、土地のポテンシャルを見極めた上でのアドバイスや、無理のない資金計画の策定からトータルでサポートいたします。</dd>
+                        <dd>A ｜ はい、もちろんです。不動産のプロと建築士が在籍しておりますので、土地のポテンシャルを見極めた上でのアドバイスや、無理のない資金計画の策定からトータルでサポートいたします。
+                        </dd>
                     </div>
                     <div class="top-faq__item">
                         <dt>Q ｜ リノベーションか新築か迷っていますが、どちらが良いでしょうか？</dt>
-                        <dd>A ｜ お客様のご要望や予算、ライフスタイルによって正解は異なります。季住デザインではどちらも得意としておりますので、双方のメリット・デメリットを中立的な視点でご説明し、最適な選択を一緒に考えます。</dd>
+                        <dd>A ｜
+                            お客様のご要望や予算、ライフスタイルによって正解は異なります。季住デザインではどちらも得意としておりますので、双方のメリット・デメリットを中立的な視点でご説明し、最適な選択を一緒に考えます。
+                        </dd>
                     </div>
                     <div class="top-faq__item">
                         <dt>Q ｜ 住み始めてからのメンテナンスや保証はどうなっていますか？</dt>
-                        <dd>A ｜ 私たちは「住んでから」を大切にしています。定期的な点検はもちろん、自然素材のメンテナンス方法のレクチャーなど、末永く快適に暮らしていただけるよう、一貫したアフターフォロー体制を整えています。</dd>
+                        <dd>A ｜
+                            私たちは「住んでから」を大切にしています。定期的な点検はもちろん、自然素材のメンテナンス方法のレクチャーなど、末永く快適に暮らしていただけるよう、一貫したアフターフォロー体制を整えています。
+                        </dd>
                     </div>
                 </dl>
                 <p class="top-faq__more-wrap">
@@ -378,10 +385,6 @@
 
     <section class="top-posts" aria-label="ブログとコラム">
         <div class="top-posts__inner">
-            <header class="top-posts__head">
-                <p class="top-posts__section-eyebrow">・Blog / Column</p>
-                <h2 class="top-posts__section-title">Blog &amp; Column</h2>
-            </header>
             <section class="top-posts__col" aria-labelledby="top-blog-title">
                 <p class="top-posts__eyebrow">・Blog</p>
                 <h2 id="top-blog-title" class="top-posts__title">スタッフブログ</h2>

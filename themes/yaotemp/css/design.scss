@@ -1,5 +1,21 @@
 @charset "UTF-8";
 
+:root {
+  --color-text: #17130f;
+  --color-text-muted: #5b554d;
+  --color-text-subtle: #4f4b45;
+  --color-bg: #fff;
+  --color-surface: #f6f6f6;
+  --color-surface-alt: #f7f7f7;
+  --color-surface-soft: #f8f7f2;
+  --color-surface-neutral: #efefef;
+  --color-surface-warm: #f6f3ed;
+  --color-surface-note: #f8f4ed;
+  --color-primary: #9d9486;
+  --color-border: #998f7f;
+  --color-border-light: #d8d1c4;
+}
+
 /*=====================
 
 	デザイン用CSS
@@ -12,8 +28,8 @@
 
 #top-page {
   width: 100%;
-  color: #17130f;
-  background-color: #fff;
+  color: var(--color-text);
+  background-color: var(--color-bg);
   letter-spacing: 0;
   overflow-x: clip;
 }
@@ -25,16 +41,38 @@
 }
 
 body:has(#top-page) {
-  padding-top: 80px;
+  padding-top: 0;
+  font-family: "Shippori Mincho", serif;
+}
+body.is-top-page {
+  padding-top: 0;
+  font-family: "Shippori Mincho", serif;
 }
 
 body:has(#top-page) .l-header {
+  position: static !important;
+  top: auto;
+  z-index: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   min-height: 80px;
   padding: 0 36px;
-  background-color: #fff;
+  background-color: var(--color-bg);
+}
+body.is-top-page .l-header {
+  position: static !important;
+  top: auto;
+  z-index: auto;
+}
+body.home {
+  padding-top: 0 !important;
+}
+
+body.home .l-header {
+  position: static !important;
+  top: auto !important;
+  left: auto !important;
 }
 
 body:has(#top-page) .header-top {
@@ -74,8 +112,8 @@ body:has(#top-page) .mainNavi ul {
 body:has(#top-page) .mainNavi a,
 body:has(#top-page) .mainNavi p {
   padding: 0;
-  color: #17130f;
-  font-size: 1.3rem;
+  color: var(--color-text);
+  font-size: 1.5rem;
   font-weight: 400;
   line-height: 1.4;
   background-color: transparent;
@@ -84,36 +122,83 @@ body:has(#top-page) .mainNavi p {
 body:has(#top-page) .mainNavi > ul > li:nth-last-child(-n + 2) > a {
   min-width: 88px;
   padding: 14px 18px;
-  color: #fff;
+  color: var(--color-bg);
   text-align: center;
-  background-color: #9d9486;
+  background-color: var(--color-primary);
 }
 
 body:has(#top-page) .mainNavi p:after {
   content: none;
 }
 
-body:has(#top-page) #Sidebar {
+#Sidebar {
   top: 39vh;
   z-index: 20;
 }
 
-body:has(#top-page) #Sidebar a {
+@media (min-width: 1001px) {
+  #Sidebar {
+    display: none;
+  }
+
+  .top-sidebar-visible #Sidebar {
+    display: block;
+  }
+}
+
+body.home .top-gallery {
+  background-color: var(--color-bg) !important;
+}
+
+body.home .top-gallery__title {
+  color: var(--color-text) !important;
+}
+
+body.home .top-gallery__slider-wrap {
+  background-color: var(--color-bg) !important;
+}
+
+#Sidebar ul {
+  display: grid;
+  gap: 1px;
+  background-color: var(--color-border);
+}
+
+#Sidebar li {
+  background-color: var(--color-bg);
+  border: 0;
+  overflow: hidden;
+}
+
+#Sidebar li:first-child {
+  border-top-left-radius: 4px;
+}
+
+#Sidebar li:last-child {
+  border-bottom-left-radius: 4px;
+}
+
+#Sidebar a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 64px;
   height: 64px;
-  color: #17130f;
-  background-color: #f6f3ed;
-  border-bottom: 1px solid #d8d1c4;
+  color: var(--color-text);
+  background-color: #fff;
+  border: 0;
 }
 
-body:has(#top-page) #Sidebar a img {
-  max-width: 22px;
-  max-height: 22px;
+#Sidebar a img {
+  width: 24px;
   margin-bottom: 4px;
+  height: auto;
+  display: block;
 }
 
-body:has(#top-page) #Sidebar a p {
-  font-size: 0.9rem;
+#Sidebar a p {
+  font-size: 1rem;
   font-weight: 400;
   line-height: 1;
 }
@@ -121,33 +206,41 @@ body:has(#top-page) #Sidebar a p {
 #top-page .top-kv {
   position: relative;
   width: min(1280px, calc(100% - 72px));
-  margin: 0 auto;
+  margin: 0 0 0 auto;
   padding: 86px 0 0;
 }
 
 #top-page .top-kv__lead {
   position: relative;
   z-index: 2;
-  min-height: 132px;
-  padding: 0 34px;
+  padding: 0 34px 37px;
 }
 
 #top-page .top-kv__title {
   position: absolute;
   left: 34px;
-  bottom: -18px;
+  bottom: -68px;
   margin: 0;
-  font-family: "Noto Serif JP", "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
-  font-size: clamp(3.8rem, 4.05vw, 5.8rem);
+  font-size: clamp(3.5rem, 3.8vw, 5.1rem);
   font-weight: 400;
   line-height: 1.32;
   letter-spacing: 0.08em;
+  color: var(--color-bg);
+  text-shadow: none;
+}
+
+#top-page .top-kv__title-line--top {
+  color: var(--color-text);
+}
+
+#top-page .top-kv__title-line--bottom {
+  color: var(--color-bg);
 }
 
 #top-page .top-kv__message {
   width: fit-content;
   margin: 0 0 0 auto;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 400;
   line-height: 2;
   letter-spacing: 0.08em;
@@ -173,7 +266,7 @@ body:has(#top-page) #Sidebar a p {
   left: -30px;
   bottom: 36px;
   margin: 0;
-  color: #5b554d;
+  color: var(--color-text-muted);
   font-size: 0.9rem;
   font-weight: 400;
   line-height: 1;
@@ -197,7 +290,6 @@ body:has(#top-page) #Sidebar a p {
 
 #top-page .top-news__title {
   margin: 0;
-  font-family: "Noto Serif JP", "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
   font-size: 2.5rem;
   font-weight: 400;
   line-height: 1;
@@ -223,9 +315,8 @@ body:has(#top-page) #Sidebar a p {
 
 #top-page .top-intro {
   position: relative;
-  min-height: 840px;
-  padding: 88px 20px 86px;
-  background-color: #f8f7f2;
+  padding: 104px 20px 110px;
+  background-color: var(--color-surface-soft);
   background-image: url("../img/top-intro-bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
@@ -243,30 +334,42 @@ body:has(#top-page) #Sidebar a p {
 }
 
 #top-page .top-intro__title {
+  display: flex;
   margin: 0;
-  font-family: "Noto Serif JP", "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
-  font-size: clamp(2.2rem, 2.15vw, 3rem);
+  font-size: clamp(2rem, 2vw, 2.7rem);
   font-weight: 400;
   line-height: 2.15;
   letter-spacing: 0.12em;
   writing-mode: vertical-rl;
+  flex-direction: column;
+  span {
+    display: inline-block;
+  }
+  span:nth-child(2) {
+    margin-top: 32px;
+  }
+  span:nth-child(3) {
+    margin-top: 64px;
+  }
 }
-
+#top-page .top-intro__text p {
+  flex: 0 0 auto;
+  max-height: 390px;
+  margin: 0;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
 #top-page .top-intro__text {
   display: flex;
-  flex-direction: row-reverse;
-  gap: clamp(18px, 2.5vw, 34px);
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: clamp(16px, 2.2vw, 28px);
   margin-top: 22px;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 1.95;
+  line-height: 2.05;
   letter-spacing: 0.06em;
-  writing-mode: vertical-rl;
-}
-
-#top-page .top-intro__text p {
-  max-height: 560px;
-  margin: 0;
 }
 
 #top-page .top-links {
@@ -288,7 +391,7 @@ body:has(#top-page) #Sidebar a p {
 
 #top-page .top-event {
   padding: 108px 20px 104px;
-  background-color: #f7f7f7;
+  background-color: var(--color-surface-alt);
 }
 
 #top-page .top-event__inner {
@@ -303,9 +406,22 @@ body:has(#top-page) #Sidebar a p {
   text-align: center;
 }
 
+#top-page .top-event__eyebrow::first-letter,
+#top-page .top-concept__eyebrow::first-letter,
+#top-page .top-homemaking__eyebrow::first-letter,
+#top-page .top-voice__eyebrow::first-letter,
+#top-page .top-gallery__eyebrow::first-letter,
+#top-page .top-area__eyebrow::first-letter,
+#top-page .top-faq__eyebrow::first-letter,
+#top-page .top-posts__section-eyebrow::first-letter,
+#top-page .top-posts__eyebrow::first-letter {
+  font-size: 1.65em;
+  line-height: 0;
+  vertical-align: -0.06em;
+}
+
 #top-page .top-event__title {
   margin: 8px 0 58px;
-  font-family: "Noto Serif JP", "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
   font-size: 3rem;
   font-weight: 400;
   line-height: 1.5;
@@ -336,23 +452,23 @@ body:has(#top-page) #Sidebar a p {
   display: inline-block;
   margin-top: 12px;
   padding: 2px 10px;
-  color: #fff;
-  font-size: 1.1rem;
+  color: var(--color-bg);
+  font-size: 1.2rem;
   line-height: 1.4;
-  background-color: #9d9486;
+  background-color: var(--color-primary);
 }
 
 #top-page .top-event-card__name {
   margin: 10px 0 13px;
-  font-size: 1.9rem;
+  font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.45;
 }
 
 #top-page .top-event-card__meta {
   margin: 0;
-  color: #4f4b45;
-  font-size: 1.15rem;
+  color: var(--color-text-subtle);
+  font-size: 1.2rem;
   line-height: 1.8;
 }
 
@@ -360,7 +476,7 @@ body:has(#top-page) #Sidebar a p {
   display: inline-flex;
   align-items: center;
   gap: 14px;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   line-height: 1.5;
 }
 
@@ -368,12 +484,12 @@ body:has(#top-page) #Sidebar a p {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 24px;
-  height: 18px;
-  color: #fff;
-  font-size: 1rem;
+  width: 50px;
+  height: 32px;
+  color: var(--color-bg);
+  font-size: 1.7rem;
   line-height: 1;
-  background-color: #9d9486;
+  background-color: var(--color-primary);
   border-radius: 2px;
 }
 
@@ -384,7 +500,7 @@ body:has(#top-page) #Sidebar a p {
 
 #top-page .top-concept {
   padding: 110px 20px 116px;
-  background-color: #efefef;
+  background-color: var(--color-surface-neutral);
 }
 
 #top-page .top-concept__inner {
@@ -412,17 +528,38 @@ body:has(#top-page) #Sidebar a p {
 }
 
 #top-page .top-concept__title {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
   margin: 44px 0 0;
-  font-family: "Noto Serif JP", "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
   font-size: 3.4rem;
   font-weight: 400;
   line-height: 1.65;
   letter-spacing: 0.04em;
 }
 
+#top-page .top-concept__title::before,
+#top-page .top-concept__title::after {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 34px;
+  border-top: 1px solid var(--color-text);
+  border-bottom: 1px solid var(--color-text);
+}
+
+#top-page .top-concept__title::before {
+  border-left: 1px solid var(--color-text);
+}
+
+#top-page .top-concept__title::after {
+  border-right: 1px solid var(--color-text);
+}
+
 #top-page .top-concept__body {
   margin: 38px 0 0;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   line-height: 2.1;
 }
 
@@ -459,7 +596,7 @@ body:has(#top-page) #Sidebar a p {
 
 #top-page .top-homemaking {
   padding: 108px 20px 120px;
-  background-color: #f6f6f6;
+  background-color: var(--color-surface);
 }
 
 #top-page .top-homemaking__head {
@@ -476,7 +613,6 @@ body:has(#top-page) #Sidebar a p {
 
 #top-page .top-homemaking__title {
   margin: 6px 0 22px;
-  font-family: "Noto Serif JP", "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
   font-size: 3rem;
   font-weight: 400;
   line-height: 1.5;
@@ -484,7 +620,7 @@ body:has(#top-page) #Sidebar a p {
 
 #top-page .top-homemaking__lead {
   margin: 0;
-  color: #4f4b45;
+  color: var(--color-text-subtle);
   font-size: 1.25rem;
   line-height: 2;
 }
@@ -517,7 +653,6 @@ body:has(#top-page) #Sidebar a p {
 
 #top-page .top-homemaking__catch {
   margin: 18px 0 0;
-  font-family: "Noto Serif JP", "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
   font-size: 3.8rem;
   font-weight: 400;
   line-height: 1.45;
@@ -525,7 +660,7 @@ body:has(#top-page) #Sidebar a p {
 
 #top-page .top-homemaking__body {
   margin: 24px 0 0;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   line-height: 2;
 }
 
@@ -575,7 +710,7 @@ body:has(#top-page) #Sidebar a p {
 
 #top-page .top-voice {
   padding: 106px 20px 114px;
-  background-color: #f7f7f7;
+  background-color: var(--color-surface-alt);
 }
 
 #top-page .top-voice__inner {
@@ -587,25 +722,24 @@ body:has(#top-page) #Sidebar a p {
   margin: 0;
   font-size: 1.4rem;
   line-height: 1.6;
-  text-align: center;
+  text-align: left;
 }
 
 #top-page .top-voice__title {
   margin: 8px 0 58px;
-  font-family: "Noto Serif JP", "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
   font-size: 3rem;
   font-weight: 400;
   line-height: 1.5;
-  text-align: center;
+  text-align: left;
 }
 
 #top-page .top-voice__lead {
   max-width: 860px;
-  margin: 4px auto 36px;
-  color: #4f4b45;
+  margin: 4px 0 36px;
+  color: var(--color-text-subtle);
   font-size: 1.2rem;
   line-height: 1.9;
-  text-align: center;
+  text-align: left;
 }
 
 #top-page .top-voice__cards {
@@ -631,7 +765,7 @@ body:has(#top-page) #Sidebar a p {
 #top-page .top-voice-card__cat,
 #top-page .top-voice-card__place {
   margin: 0;
-  color: #5b554d;
+  color: var(--color-text-muted);
   font-size: 1.1rem;
   line-height: 1.7;
 }
@@ -649,7 +783,7 @@ body:has(#top-page) #Sidebar a p {
 
 #top-page .top-voice-card__text {
   margin: 0;
-  color: #4f4b45;
+  color: var(--color-text-subtle);
   font-size: 1.2rem;
   line-height: 1.9;
 }
@@ -660,8 +794,8 @@ body:has(#top-page) #Sidebar a p {
 }
 
 #top-page .top-gallery {
-  padding: 108px 0 116px;
-  background-color: #efefef;
+  padding: 88px 0 36px;
+  background-color: var(--color-bg);
 }
 
 #top-page .top-gallery__head {
@@ -672,14 +806,15 @@ body:has(#top-page) #Sidebar a p {
 
 #top-page .top-gallery__eyebrow {
   margin: 0;
+  color: var(--color-text);
   font-size: 1.4rem;
   line-height: 1.6;
 }
 
 #top-page .top-gallery__title {
-  margin: 8px 0 52px;
-  font-family: "Noto Serif JP", "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
-  font-size: 3rem;
+  margin: 0 0 40px;
+  color: var(--color-text);
+  font-size: 2.9rem;
   font-weight: 400;
   line-height: 1.5;
 }
@@ -689,47 +824,48 @@ body:has(#top-page) #Sidebar a p {
 }
 
 #top-page .top-gallery__slider {
-  width: min(1320px, calc(100% - 60px));
+  width: min(2048px, 100%);
   margin: 0 auto;
 }
 
 #top-page .top-gallery__slide {
-  padding: 0 12px;
+  padding: 0;
 }
 
 #top-page .top-gallery__slide img {
   width: 100%;
-  aspect-ratio: 440 / 294;
+  aspect-ratio: 680 / 430;
   object-fit: cover;
 }
 
 #top-page .top-gallery__nav {
   display: flex;
   justify-content: flex-end;
-  gap: 10px;
-  width: min(1320px, calc(100% - 60px));
-  margin: 14px auto 0;
+  gap: 22px;
+  width: min(2048px, 100%);
+  margin: 40px auto 0;
+  padding: 0 48px;
 }
 
 #top-page .top-gallery__arrow {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 30px;
+  width: 72px;
+  height: 48px;
   padding: 0;
-  color: #fff;
-  font-size: 1.2rem;
+  color: var(--color-bg);
+  font-size: 1.8rem;
   line-height: 1;
-  background-color: #9d9486;
+  background-color: var(--color-primary);
   border: 0;
   border-radius: 2px;
   cursor: pointer;
 }
 
 #top-page .top-support-careers {
-  padding: 110px 20px 118px;
-  background-color: #f8f7f2;
+  padding: 72px 20px 92px;
+  background-color: var(--color-surface-soft);
 }
 
 #top-page .top-support-careers__inner {
@@ -743,7 +879,7 @@ body:has(#top-page) #Sidebar a p {
 #top-page .top-support-careers__item {
   position: relative;
   display: block;
-  min-height: 390px;
+  aspect-ratio: 16 / 7;
   overflow: hidden;
 }
 
@@ -751,7 +887,11 @@ body:has(#top-page) #Sidebar a p {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.08) 0%, rgba(0, 0, 0, 0.42) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.05) 0%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
 }
 
 #top-page .top-support-careers__item img {
@@ -762,11 +902,15 @@ body:has(#top-page) #Sidebar a p {
 
 #top-page .top-support-careers__content {
   position: absolute;
-  right: 30px;
-  bottom: 28px;
-  left: 30px;
+  inset: 0;
   z-index: 1;
-  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 30px;
+  color: var(--color-bg);
+  text-align: center;
 }
 
 #top-page .top-support-careers__eyebrow {
@@ -776,22 +920,21 @@ body:has(#top-page) #Sidebar a p {
 }
 
 #top-page .top-support-careers__title {
-  margin: 12px 0 0;
-  font-family: "Noto Serif JP", "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
-  font-size: 3rem;
+  margin: 8px 0 0;
+  font-size: 2.1rem;
   font-weight: 400;
   line-height: 1.45;
 }
 
 #top-page .top-support-careers__text {
-  margin: 18px 0 0;
-  font-size: 1.2rem;
-  line-height: 1.9;
+  margin: 10px 0 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
 }
 
 #top-page .top-area {
   padding: 108px 20px 116px;
-  background-color: #fff;
+  background-color: var(--color-bg);
 }
 
 #top-page .top-area__inner {
@@ -813,6 +956,10 @@ body:has(#top-page) #Sidebar a p {
   object-fit: cover;
 }
 
+#top-page .top-area__content {
+  text-align: center;
+}
+
 #top-page .top-area__eyebrow {
   margin: 0;
   font-size: 1.4rem;
@@ -821,7 +968,6 @@ body:has(#top-page) #Sidebar a p {
 
 #top-page .top-area__title {
   margin: 8px 0 34px;
-  font-family: "Noto Serif JP", "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
   font-size: 3rem;
   font-weight: 400;
   line-height: 1.5;
@@ -829,6 +975,7 @@ body:has(#top-page) #Sidebar a p {
 
 #top-page .top-area__list {
   margin: 0;
+  text-align: left;
 }
 
 #top-page .top-area__row {
@@ -836,11 +983,11 @@ body:has(#top-page) #Sidebar a p {
   grid-template-columns: 132px minmax(0, 1fr);
   gap: 20px;
   padding: 16px 0;
-  border-bottom: 1px solid #d8d1c4;
+  border-bottom: 1px solid var(--color-border);
 }
 
 #top-page .top-area__row:first-child {
-  border-top: 1px solid #d8d1c4;
+  border-top: 1px solid var(--color-border);
 }
 
 #top-page .top-area__row dt,
@@ -851,19 +998,20 @@ body:has(#top-page) #Sidebar a p {
 }
 
 #top-page .top-area__row dt {
-  color: #5b554d;
+  color: var(--color-text-muted);
 }
 
 #top-page .top-area__note {
   margin: 20px 0 0;
-  color: #5b554d;
+  color: var(--color-text-muted);
   font-size: 1.05rem;
   line-height: 1.8;
+  text-align: left;
 }
 
 #top-page .top-faq {
   padding: 108px 20px 116px;
-  background-color: #f6f6f6;
+  background-color: var(--color-surface);
 }
 
 #top-page .top-faq__inner {
@@ -880,7 +1028,6 @@ body:has(#top-page) #Sidebar a p {
 
 #top-page .top-faq__title {
   margin: 8px 0 46px;
-  font-family: "Noto Serif JP", "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
   font-size: 3rem;
   font-weight: 400;
   line-height: 1.5;
@@ -890,15 +1037,15 @@ body:has(#top-page) #Sidebar a p {
 #top-page .top-faq__lead {
   max-width: 760px;
   margin: -10px auto 30px;
-  color: #5b554d;
-  font-size: 1.15rem;
+  color: var(--color-text-muted);
+  font-size: 1.2rem;
   line-height: 1.9;
   text-align: center;
 }
 
 #top-page .top-faq__box {
   padding: 42px clamp(20px, 4vw, 52px) 40px;
-  background-color: #f8f4ed;
+  background-color: var(--color-surface-note);
   border-radius: 8px;
 }
 
@@ -908,7 +1055,7 @@ body:has(#top-page) #Sidebar a p {
 
 #top-page .top-faq__item {
   padding: 20px 0;
-  border-bottom: 1px solid #d8d1c4;
+  border-bottom: 1px solid var(--color-border);
 }
 
 #top-page .top-faq__item:first-child {
@@ -933,7 +1080,7 @@ body:has(#top-page) #Sidebar a p {
 
 #top-page .top-faq__item dd {
   margin-top: 8px;
-  color: #4f4b45;
+  color: var(--color-text-subtle);
 }
 
 #top-page .top-faq__more-wrap {
@@ -942,8 +1089,8 @@ body:has(#top-page) #Sidebar a p {
 }
 
 #top-page .top-posts {
-  padding: 108px 20px 116px;
-  background-color: #fff;
+  padding: 92px 20px 116px;
+  background-color: var(--color-bg);
 }
 
 #top-page .top-posts__inner {
@@ -954,41 +1101,21 @@ body:has(#top-page) #Sidebar a p {
   margin: 0 auto;
 }
 
-#top-page .top-posts__head {
-  grid-column: 1 / -1;
-  text-align: center;
-}
-
-#top-page .top-posts__section-eyebrow {
-  margin: 0;
-  font-size: 1.4rem;
-  line-height: 1.6;
-}
-
-#top-page .top-posts__section-title {
-  margin: 8px 0 10px;
-  font-family: "Noto Serif JP", "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
-  font-size: 3.3rem;
-  font-weight: 400;
-  line-height: 1.4;
-}
-
 #top-page .top-posts__eyebrow {
   margin: 0;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   line-height: 1.6;
 }
 
 #top-page .top-posts__title {
   margin: 8px 0 26px;
-  font-family: "Noto Serif JP", "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
-  font-size: 3rem;
+  font-size: 2.7rem;
   font-weight: 400;
   line-height: 1.5;
 }
 
 #top-page .top-posts__list {
-  border-top: 1px solid #d8d1c4;
+  border-top: 1px solid var(--color-border);
 }
 
 #top-page .top-posts__item {
@@ -997,7 +1124,7 @@ body:has(#top-page) #Sidebar a p {
   gap: 16px;
   align-items: start;
   padding: 18px 0;
-  border-bottom: 1px solid #d8d1c4;
+  border-bottom: 1px solid var(--color-border);
 }
 
 #top-page .top-posts__item img {
@@ -1023,26 +1150,33 @@ body:has(#top-page) #Sidebar a p {
 }
 
 .top-footer-cv {
-  background-color: #f6f3ed;
+  background-color: var(--color-surface-warm);
 }
 
 .top-footer-cv__inner {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
+  width: min(1280px, 100%);
+  margin: 0 auto;
+  padding: 0;
+  gap: 0;
 }
 
 .top-footer-cv__item {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 12px;
-  min-height: 112px;
-  padding: 16px 12px;
-  border-right: 1px solid #d8d1c4;
+  min-height: 108px;
+  padding: 0 20px;
+  background-color: transparent;
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  border-right: 1px solid var(--color-border);
 }
 
 .top-footer-cv__item:first-child {
-  border-left: 1px solid #d8d1c4;
+  border-left: 1px solid var(--color-border);
 }
 
 .top-footer-cv__label {
@@ -1053,12 +1187,12 @@ body:has(#top-page) #Sidebar a p {
 }
 
 .top-footer-cv__label-ja {
-  font-size: 1.9rem;
+  font-size: 1.55rem;
 }
 
 .top-footer-cv__label-en {
   margin-top: 4px;
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   letter-spacing: 0.06em;
 }
 
@@ -1066,18 +1200,18 @@ body:has(#top-page) #Sidebar a p {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 24px;
-  height: 18px;
-  color: #fff;
+  width: 26px;
+  height: 20px;
+  color: var(--color-bg);
   font-size: 1rem;
   line-height: 1;
-  background-color: #9d9486;
+  background-color: var(--color-primary);
   border-radius: 2px;
 }
 
 .top-site-footer {
   padding: 72px 20px 28px;
-  background-color: #f6f3ed;
+  background-color: var(--color-surface-warm);
 }
 
 .top-site-footer__inner {
@@ -1121,7 +1255,7 @@ body:has(#top-page) #Sidebar a p {
   gap: 24px;
   margin: 36px 0 0;
   padding-top: 24px;
-  border-top: 1px solid #d8d1c4;
+  border-top: 1px solid var(--color-border);
   text-align: left;
 }
 
@@ -1140,7 +1274,17 @@ body:has(#top-page) #Sidebar a p {
   padding-top: 16px;
   font-size: 1rem;
   line-height: 1.6;
-  border-top: 1px solid #d8d1c4;
+  border-top: 1px solid var(--color-border);
+}
+
+@media screen and (max-width: 1200px) {
+  #top-page .top-intro__text {
+    flex-wrap: wrap;
+  }
+
+  #top-page .top-intro__text p {
+    max-width: calc(50% - 18px);
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -1182,7 +1326,7 @@ body:has(#top-page) #Sidebar a p {
   }
 
   body:has(#top-page) #menuNavi__menu {
-    color: #17130f;
+    color: var(--color-text);
     font-size: 2rem;
   }
 
@@ -1194,7 +1338,7 @@ body:has(#top-page) #Sidebar a p {
     width: 100%;
     height: calc(100vh - 58px);
     padding: 36px 24px;
-    background-color: #f6f3ed;
+    background-color: var(--color-surface-warm);
     overflow-y: auto;
   }
 
@@ -1207,14 +1351,14 @@ body:has(#top-page) #Sidebar a p {
   }
 
   body:has(#top-page) .mainNavi li + li {
-    border-top: 1px solid #d8d1c4;
+    border-top: 1px solid var(--color-border);
   }
 
   body:has(#top-page) .mainNavi a,
   body:has(#top-page) .mainNavi p {
     display: block;
     padding: 18px 0;
-    color: #17130f;
+    color: var(--color-text);
     text-align: left;
     border-bottom: 0;
   }
@@ -1222,12 +1366,12 @@ body:has(#top-page) #Sidebar a p {
   body:has(#top-page) .mainNavi > ul > li:nth-last-child(-n + 2) > a {
     min-width: 0;
     padding: 18px 0;
-    color: #17130f;
+    color: var(--color-text);
     text-align: left;
     background-color: transparent;
   }
 
-  body:has(#top-page) #Sidebar {
+  #Sidebar {
     position: fixed;
     top: 74px;
     right: 10px;
@@ -1235,29 +1379,22 @@ body:has(#top-page) #Sidebar a p {
     z-index: 80;
   }
 
-  body:has(#top-page) #Sidebar ul {
-    display: grid;
-    gap: 6px;
-  }
-
-  body:has(#top-page) #Sidebar li:first-child,
-  body:has(#top-page) #Sidebar li:nth-child(3) {
-    display: none;
-  }
-
-  body:has(#top-page) #Sidebar a {
+  #Sidebar a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 58px;
     height: 58px;
-    border: 1px solid #d8d1c4;
   }
 
-  body:has(#top-page) #Sidebar a img {
+  #Sidebar a img {
     max-width: 18px;
     max-height: 18px;
     margin-bottom: 3px;
   }
 
-  body:has(#top-page) #Sidebar a p {
+  #Sidebar a p {
     font-size: 0.8rem;
   }
 
@@ -1277,9 +1414,11 @@ body:has(#top-page) #Sidebar a p {
     position: static;
     order: 2;
     margin-top: 14px;
+    color: var(--color-text);
     font-size: clamp(2.1rem, 6.9vw, 3.2rem);
     line-height: 1.45;
     letter-spacing: 0.06em;
+    text-shadow: none;
   }
 
   #top-page .top-kv__message {
@@ -1741,11 +1880,11 @@ body:has(#top-page) #Sidebar a p {
     padding: 16px;
     border-right: 0;
     border-left: 0;
-    border-top: 1px solid #d8d1c4;
+    border-top: 1px solid var(--color-border);
   }
 
   .top-footer-cv__item:last-child {
-    border-bottom: 1px solid #d8d1c4;
+    border-bottom: 1px solid var(--color-border);
   }
 
   .top-footer-cv__label {
@@ -1799,12 +1938,16 @@ body:has(#top-page) #Sidebar a p {
     width: 152px;
   }
 
-  body:has(#top-page) #Sidebar {
+  #Sidebar {
     top: 72px;
     right: 8px;
   }
 
-  body:has(#top-page) #Sidebar a {
+  #Sidebar a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 54px;
     height: 54px;
   }
