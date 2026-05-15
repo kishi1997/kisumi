@@ -77,6 +77,28 @@ $(function () {
   });
 });
 
+// トップページ Voice
+$(function () {
+  if (!$.fn.slick || !$(".js-top-voice-slider").length) {
+    return;
+  }
+  var $voiceSlider = $(".js-top-voice-slider");
+  if ($voiceSlider.hasClass("slick-initialized")) {
+    return;
+  }
+  $voiceSlider.slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    infinite: true,
+    arrows: false,
+    dots: true,
+    speed: 500,
+    cssEase: "ease",
+    adaptiveHeight: true,
+    swipeToSlide: true,
+  });
+});
+
 //クリックしたら開閉
 $(function () {
   $(".click-title").on("click", function () {

@@ -149,10 +149,6 @@ body.home .top-gallery {
   background-color: var(--color-bg) !important;
 }
 
-body.home .top-gallery__title {
-  color: var(--color-text) !important;
-}
-
 body.home .top-gallery__slider-wrap {
   background-color: var(--color-bg) !important;
 }
@@ -290,11 +286,14 @@ body.home .top-gallery__slider-wrap {
   margin: 0 auto;
 }
 
-#top-page .top-news__title {
-  margin: 0;
-  font-size: 2.5rem;
+#top-page .section-title-en {
+  font-size: 1.6rem;
+}
+
+#top-page .section-title-ja {
+  font-size: 2rem;
+  margin-top: 40px;
   font-weight: 400;
-  line-height: 1;
 }
 
 #top-page .top-news__link {
@@ -404,35 +403,6 @@ body.home .top-gallery__slider-wrap {
   margin: 0 auto;
 }
 
-#top-page .top-event__eyebrow {
-  margin: 0;
-  font-size: 1.4rem;
-  line-height: 1.6;
-  text-align: center;
-}
-
-#top-page .top-event__eyebrow::first-letter,
-#top-page .top-concept__eyebrow::first-letter,
-#top-page .top-homemaking__eyebrow::first-letter,
-#top-page .top-voice__eyebrow::first-letter,
-#top-page .top-gallery__eyebrow::first-letter,
-#top-page .top-area__eyebrow::first-letter,
-#top-page .top-faq__eyebrow::first-letter,
-#top-page .top-posts__section-eyebrow::first-letter,
-#top-page .top-posts__eyebrow::first-letter {
-  font-size: 1.65em;
-  line-height: 0;
-  vertical-align: -0.06em;
-}
-
-#top-page .top-event__title {
-  margin: 8px 0 58px;
-  font-size: 3rem;
-  font-weight: 400;
-  line-height: 1.5;
-  text-align: center;
-}
-
 #top-page .top-event__cards {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -510,57 +480,10 @@ body.home .top-gallery__slider-wrap {
 }
 
 #top-page .top-concept__inner {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 420px);
-  gap: clamp(34px, 6.3vw, 94px);
+  display: flex;
+  gap: clamp(34px, 4vw, 60px);
   width: min(1120px, 100%);
   margin: 0 auto;
-}
-
-#top-page .top-concept__eyebrow,
-#top-page .top-concept__sub {
-  margin: 0;
-}
-
-#top-page .top-concept__eyebrow {
-  font-size: 1.4rem;
-  line-height: 1.6;
-}
-
-#top-page .top-concept__sub {
-  margin-top: 10px;
-  font-size: 2rem;
-  line-height: 1.6;
-}
-
-#top-page .top-concept__title {
-  position: relative;
-  display: inline-flex;
-  align-items: center;
-  gap: 14px;
-  margin: 44px 0 0;
-  font-size: 3.4rem;
-  font-weight: 400;
-  line-height: 1.65;
-  letter-spacing: 0.04em;
-}
-
-#top-page .top-concept__title::before,
-#top-page .top-concept__title::after {
-  content: "";
-  display: inline-block;
-  width: 14px;
-  height: 34px;
-  border-top: 1px solid var(--color-text);
-  border-bottom: 1px solid var(--color-text);
-}
-
-#top-page .top-concept__title::before {
-  border-left: 1px solid var(--color-text);
-}
-
-#top-page .top-concept__title::after {
-  border-right: 1px solid var(--color-text);
 }
 
 #top-page .top-concept__body {
@@ -569,36 +492,28 @@ body.home .top-gallery__slider-wrap {
   line-height: 2.1;
 }
 
+.top-concept__title {
+  font-size: 2.6rem;
+  font-weight: 400;
+  line-height: 1.3;
+  margin-top: 100px;
+  padding-left: -10px;
+}
+
 #top-page .top-concept__more-wrap {
   margin: 52px 0 0;
 }
 
 #top-page .top-concept__photos {
   position: relative;
-  min-height: 594px;
+  height: -moz-min-content;
+  height: min-content;
+  display: flex;
+  gap: 30px;
 }
 
-#top-page .top-concept__photo {
-  margin: 0;
-  overflow: hidden;
-}
-
-#top-page .top-concept__photo-main {
-  width: min(100%, 370px);
-}
-
-#top-page .top-concept__photo-sub {
-  position: absolute;
-  right: -44px;
-  bottom: 0;
-  width: min(68%, 286px);
-}
-
-#top-page .top-concept__photo img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+.top-concept__photo-sub {
+  margin-top: 256px;
 }
 
 #top-page .top-homemaking {
@@ -612,24 +527,12 @@ body.home .top-gallery__slider-wrap {
   text-align: center;
 }
 
-#top-page .top-homemaking__eyebrow {
-  margin: 0;
-  font-size: 1.4rem;
-  line-height: 1.6;
-}
-
-#top-page .top-homemaking__title {
-  margin: 6px 0 22px;
-  font-size: 3rem;
-  font-weight: 400;
-  line-height: 1.5;
-}
-
 #top-page .top-homemaking__lead {
   margin: 0;
   color: var(--color-text-subtle);
   font-size: 1.25rem;
   line-height: 2;
+  margin-top: 48px;
 }
 
 #top-page .top-homemaking__block {
@@ -641,6 +544,7 @@ body.home .top-gallery__slider-wrap {
 }
 
 #top-page .top-homemaking__block-house {
+  position: relative;
   grid-template-columns: minmax(0, 56%) minmax(0, 44%);
 }
 
@@ -660,7 +564,7 @@ body.home .top-gallery__slider-wrap {
 
 #top-page .top-homemaking__catch {
   margin: 18px 0 0;
-  font-size: 3.8rem;
+  font-size: 2.4rem;
   font-weight: 400;
   line-height: 1.45;
 }
@@ -698,17 +602,21 @@ body.home .top-gallery__slider-wrap {
 }
 
 #top-page .top-homemaking__block-house .top-homemaking__sub-photo {
-  grid-column: 2/3;
-  margin-top: 26px;
+  position: absolute;
+  bottom: 16px;
+  transform: translateY(100%);
+  right: 0;
 }
 
 #top-page .top-homemaking__block-renovation .top-homemaking__sub-photo {
   grid-column: 1/2;
+  grid-row: 2/3;
 }
 
 #top-page .top-homemaking__block-renovation .top-homemaking__text {
   grid-column: 1/2;
-  margin-top: 16px;
+  grid-row: 1/2;
+  margin-top: 0;
 }
 
 #top-page .top-homemaking__block-renovation .top-homemaking__main-photo {
@@ -726,26 +634,9 @@ body.home .top-gallery__slider-wrap {
   margin: 0 auto;
 }
 
-#top-page .top-voice__eyebrow {
-  margin: 0;
-  font-size: 1.4rem;
-  line-height: 1.6;
-  text-align: left;
-}
-
-#top-page .top-voice__title {
-  margin: 8px 0 58px;
-  font-size: 3rem;
-  font-weight: 400;
-  line-height: 1.5;
-  text-align: left;
-}
-
 #top-page .top-voice__lead {
-  max-width: 860px;
-  margin: 4px 0 36px;
-  color: var(--color-text-subtle);
-  font-size: 1.2rem;
+  margin: 64px 0 64px;
+  font-size: 1.5rem;
   line-height: 1.9;
   text-align: left;
 }
@@ -775,31 +666,43 @@ body.home .top-gallery__slider-wrap {
 #top-page .top-voice-card__place {
   margin: 0;
   color: var(--color-text-muted);
-  font-size: 1.1rem;
   line-height: 1.7;
 }
 
 #top-page .top-voice-card__cat {
-  margin-top: 12px;
+  margin-top: 16px;
+  font-size: 1.2rem;
+  border: 1px solid #dadada;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+  line-height: 1;
+}
+
+#top-page .top-voice-card__place {
+  display: inline-block;
+  margin-left: 16px;
+  font-size: 1.4rem;
 }
 
 #top-page .top-voice-card__name {
-  margin: 10px 0 8px;
-  font-size: 1.9rem;
+  margin: 32px 0 14px;
+  padding-bottom: 19px;
+  font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.5;
+  border-bottom: 1px solid #dadada;
 }
 
 #top-page .top-voice-card__text {
   margin: 0;
   color: var(--color-text-subtle);
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   line-height: 1.9;
 }
 
 #top-page .top-voice__more-wrap {
   margin: 56px 0 0;
-  text-align: center;
 }
 
 #top-page .top-gallery {
@@ -811,21 +714,6 @@ body.home .top-gallery__slider-wrap {
   width: min(1180px, 100% - 40px);
   margin: 0 auto;
   text-align: center;
-}
-
-#top-page .top-gallery__eyebrow {
-  margin: 0;
-  color: var(--color-text);
-  font-size: 1.4rem;
-  line-height: 1.6;
-}
-
-#top-page .top-gallery__title {
-  margin: 0 0 40px;
-  color: var(--color-text);
-  font-size: 2.9rem;
-  font-weight: 400;
-  line-height: 1.5;
 }
 
 #top-page .top-gallery__slider-wrap {
@@ -920,19 +808,6 @@ body.home .top-gallery__slider-wrap {
   text-align: center;
 }
 
-#top-page .top-support-careers__eyebrow {
-  margin: 0;
-  font-size: 1.35rem;
-  line-height: 1.5;
-}
-
-#top-page .top-support-careers__title {
-  margin: 8px 0 0;
-  font-size: 2.1rem;
-  font-weight: 400;
-  line-height: 1.45;
-}
-
 #top-page .top-support-careers__text {
   margin: 10px 0 0;
   font-size: 0.95rem;
@@ -966,19 +841,6 @@ body.home .top-gallery__slider-wrap {
 
 #top-page .top-area__content {
   text-align: center;
-}
-
-#top-page .top-area__eyebrow {
-  margin: 0;
-  font-size: 1.4rem;
-  line-height: 1.6;
-}
-
-#top-page .top-area__title {
-  margin: 8px 0 34px;
-  font-size: 3rem;
-  font-weight: 400;
-  line-height: 1.5;
 }
 
 #top-page .top-area__list {
@@ -1025,21 +887,6 @@ body.home .top-gallery__slider-wrap {
 #top-page .top-faq__inner {
   width: min(1120px, 100%);
   margin: 0 auto;
-}
-
-#top-page .top-faq__eyebrow {
-  margin: 0;
-  font-size: 1.4rem;
-  line-height: 1.6;
-  text-align: center;
-}
-
-#top-page .top-faq__title {
-  margin: 8px 0 46px;
-  font-size: 3rem;
-  font-weight: 400;
-  line-height: 1.5;
-  text-align: center;
 }
 
 #top-page .top-faq__lead {
@@ -1107,19 +954,6 @@ body.home .top-gallery__slider-wrap {
   gap: clamp(28px, 3.7vw, 52px);
   width: min(1180px, 100%);
   margin: 0 auto;
-}
-
-#top-page .top-posts__eyebrow {
-  margin: 0;
-  font-size: 1.5rem;
-  line-height: 1.6;
-}
-
-#top-page .top-posts__title {
-  margin: 8px 0 26px;
-  font-size: 2.7rem;
-  font-weight: 400;
-  line-height: 1.5;
 }
 
 #top-page .top-posts__list {
@@ -1433,9 +1267,6 @@ body.home .top-gallery__slider-wrap {
   #top-page .top-news__inner {
     display: block;
   }
-  #top-page .top-news__title {
-    font-size: 1.8rem;
-  }
   #top-page .top-news__link {
     display: block;
     margin-top: 18px;
@@ -1490,10 +1321,6 @@ body.home .top-gallery__slider-wrap {
   #top-page .top-event {
     padding: 66px 16px 72px;
   }
-  #top-page .top-event__title {
-    margin: 6px 0 34px;
-    font-size: 2.5rem;
-  }
   #top-page .top-event__cards {
     grid-template-columns: minmax(0, 1fr);
     gap: 34px;
@@ -1520,15 +1347,6 @@ body.home .top-gallery__slider-wrap {
   #top-page .top-concept__inner {
     display: block;
   }
-  #top-page .top-concept__sub {
-    margin-top: 8px;
-    font-size: 1.8rem;
-  }
-  #top-page .top-concept__title {
-    margin-top: 26px;
-    font-size: 2.8rem;
-    line-height: 1.55;
-  }
   #top-page .top-concept__body {
     margin-top: 22px;
     font-size: 1.2rem;
@@ -1551,10 +1369,6 @@ body.home .top-gallery__slider-wrap {
   }
   #top-page .top-homemaking {
     padding: 74px 16px 80px;
-  }
-  #top-page .top-homemaking__title {
-    margin-bottom: 14px;
-    font-size: 2.4rem;
   }
   #top-page .top-homemaking__lead {
     font-size: 1.1rem;
@@ -1584,10 +1398,6 @@ body.home .top-gallery__slider-wrap {
   }
   #top-page .top-voice {
     padding: 70px 16px 76px;
-  }
-  #top-page .top-voice__title {
-    margin: 6px 0 34px;
-    font-size: 2.5rem;
   }
   #top-page .top-voice__lead {
     margin: 0 0 24px;
@@ -1622,10 +1432,6 @@ body.home .top-gallery__slider-wrap {
   #top-page .top-gallery__head {
     width: calc(100% - 32px);
   }
-  #top-page .top-gallery__title {
-    margin: 6px 0 34px;
-    font-size: 2.5rem;
-  }
   #top-page .top-gallery__slider {
     width: calc(100% - 32px);
   }
@@ -1658,14 +1464,6 @@ body.home .top-gallery__slider-wrap {
     bottom: 18px;
     left: 20px;
   }
-  #top-page .top-support-careers__eyebrow {
-    font-size: 1.2rem;
-  }
-  #top-page .top-support-careers__title {
-    margin-top: 8px;
-    font-size: 2.4rem;
-    line-height: 1.45;
-  }
   #top-page .top-support-careers__text {
     margin-top: 12px;
     font-size: 1.05rem;
@@ -1677,10 +1475,6 @@ body.home .top-gallery__slider-wrap {
   #top-page .top-area__inner {
     grid-template-columns: minmax(0, 1fr);
     gap: 24px;
-  }
-  #top-page .top-area__title {
-    margin: 6px 0 22px;
-    font-size: 2.5rem;
   }
   #top-page .top-area__row {
     grid-template-columns: minmax(0, 1fr);
@@ -1699,10 +1493,6 @@ body.home .top-gallery__slider-wrap {
   }
   #top-page .top-faq {
     padding: 72px 16px 80px;
-  }
-  #top-page .top-faq__title {
-    margin: 6px 0 28px;
-    font-size: 2.5rem;
   }
   #top-page .top-faq__lead {
     margin: -6px auto 20px;
@@ -1738,14 +1528,6 @@ body.home .top-gallery__slider-wrap {
   #top-page .top-posts__head {
     text-align: left;
     margin-bottom: -20px;
-  }
-  #top-page .top-posts__section-title {
-    margin: 6px 0 0;
-    font-size: 2.5rem;
-  }
-  #top-page .top-posts__title {
-    margin: 6px 0 18px;
-    font-size: 2.5rem;
   }
   #top-page .top-posts__item {
     grid-template-columns: 100px minmax(0, 1fr);
@@ -1869,11 +1651,6 @@ body.home .top-gallery__slider-wrap {
     right: 14px;
     bottom: 12px;
     left: 14px;
-  }
-  #top-page .top-support-careers__title {
-    margin-top: 6px;
-    font-size: 1.95rem;
-    line-height: 1.35;
   }
   #top-page .top-support-careers__text {
     margin-top: 8px;

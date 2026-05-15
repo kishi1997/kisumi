@@ -5,8 +5,8 @@
 //////////////////////////////////////////////////
 function fit_footer() {
 	echo'<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>'."\n";//削除不可
-	echo'<script src="'.get_template_directory_uri().'/js/design.js"></script>'."\n";//削除不可
 	echo'<script src="'.get_template_directory_uri().'/js/slick.min.js"></script>'."\n";//削除不可
+	echo'<script src="'.get_template_directory_uri().'/js/design.js"></script>'."\n";//削除不可
 }
 
 add_action('wp_footer', 'fit_footer', '999');
@@ -2869,4 +2869,3 @@ function my_mwform_after_send($Data) {
 	}
 }
 add_action('mwform_after_send_mw-wp-form-171', 'my_mwform_after_send');
-
