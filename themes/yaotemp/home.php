@@ -18,7 +18,8 @@
         </div>
 
         <p class="top-kv__side-text">
-            Copyright (c) KISUMI design Co., Ltd. All Rights Reserved. | Produced by ゴデスクリエイト
+            <span class="top-kv__side-text-en">Copyright (c) KISUMI design Co., Ltd. All Rights Reserved. | Produced
+                by </span><span class="top-kv__side-text-jp">ゴデスクリエイト</span>
         </p>
     </section>
 
@@ -67,23 +68,41 @@
     <section class="top-links" aria-label="季住デザインの取り組み">
         <a class="top-links__item top-links__item-support" href="<?php bloginfo('url'); ?>/support/">
             <img src="<?php bloginfo('template_url');?>/img/top-link-support.jpg" alt="保証・アフターサポート">
+            <div class="top-links__text">
+                <p class="top-links__label">Support</p>
+                <p class="top-links__title">保証・アフターサポート</p>
+            </div>
         </a>
         <a class="top-links__item top-links__item-story" href="<?php bloginfo('url'); ?>/story/">
             <img src="<?php bloginfo('template_url');?>/img/top-link-story.jpg" alt="暮らしの解像度を上げる短編ストーリー">
+            <div class="top-links__text">
+                <p class="top-links__label">Story</p>
+                <p class="top-links__title">暮らしの解像度を上げる短編ストーリー</p>
+            </div>
         </a>
         <a class="top-links__item top-links__item-window" href="<?php bloginfo('url'); ?>/window/">
             <img src="<?php bloginfo('template_url');?>/img/top-link-window.jpg" alt="1つの窓口">
+            <div class="top-links__text">
+                <p class="top-links__label">Window</p>
+                <p class="top-links__title">１つの窓口</p>
+            </div>
         </a>
         <a class="top-links__item top-links__item-region" href="<?php bloginfo('url'); ?>/area/">
             <img src="<?php bloginfo('template_url');?>/img/top-link-region.jpg" alt="地域のよりどころ">
+            <div class="top-links__text">
+                <p class="top-links__label">Region</p>
+                <p class="top-links__title">地域のよりどころ</p>
+            </div>
         </a>
     </section>
 
     <section class="top-event" aria-labelledby="top-event-title">
         <div class="top-event__inner">
-            <p class="top-event__eyebrow section-title-en">・Event</p>
-            <h2 id="top-event-title" class="top-event__title section-title-ja">イベント情報</h2>
-            <div class="top-event__cards">
+            <div class="c-section-head">
+                <p class="section-title-en">・Event</p>
+                <h2 id="top-event-title" class="section-title-ja">イベント情報</h2>
+            </div>
+            <div class="top-event__cards js-top-event-slider">
                 <article class="top-event-card">
                     <a href="<?php bloginfo('url'); ?>/events/">
                         <img src="<?php bloginfo('template_url');?>/img/top-event-01.jpg" alt="イベント会場の外観">
@@ -124,21 +143,17 @@
     <section class="top-concept" aria-labelledby="top-concept-title">
         <div class="top-concept__inner">
             <div class="top-concept__text">
-                <p class="top-concept__eyebrow section-title-en">・Concept</p>
-                <p class="top-concept__sub section-title-ja">季住デザインの想い</p>
-                <h2 class="top-concept__title">「季節を住まう。時を愛でる。」</h2>
+                <div class="c-section-head">
+                    <p class="section-title-en">・Concept</p>
+                    <p class="section-title-ja">季住デザインの想い</p>
+                </div>
+                <h2 class="top-concept__title"><span class="top-concept__title-text">季節を住まう。時を愛でる。</span></h2>
                 <p class="top-concept__body">
                     家は、完成した時がゴールではありません。<br>
                     無垢の木や壁を愛で、家族の記憶が刻まれ、味わいを増していく。<br>
                     私たちは、スペックや間取りの前に、あなたの「感情」を大切にします。<br>
                     どこでコーヒーを飲み、どんな風に光を感じたいか。<br>
                     そんな、ささやかでかけがえのない日常の解像度を上げる家づくりを。
-                </p>
-                <p class="top-concept__more-wrap">
-                    <a class="top-more-btn" href="<?php bloginfo('url'); ?>/about/">
-                        初めての方へ
-                        <span class="top-more-btn__arrow">→</span>
-                    </a>
                 </p>
             </div>
             <div class="top-concept__photos">
@@ -149,13 +164,21 @@
                     <img src="<?php bloginfo('template_url');?>/img/top-concept-02.jpg" alt="玄関の植栽">
                 </figure>
             </div>
+            <p class="top-concept__more-wrap">
+                <a class="top-more-btn" href="<?php bloginfo('url'); ?>/about/">
+                    初めての方へ
+                    <span class="top-more-btn__arrow">→</span>
+                </a>
+            </p>
         </div>
     </section>
 
     <section class="top-homemaking" aria-labelledby="top-homemaking-title">
         <div class="top-homemaking__head">
-            <p class="top-homemaking__eyebrow section-title-en">・Homemaking</p>
-            <h2 id="top-homemaking-title" class="top-homemaking__title section-title-ja">季住デザインの家づくり</h2>
+            <div class="c-section-head">
+                <p class="section-title-en">・Homemaking</p>
+                <h2 id="top-homemaking-title" class="section-title-ja">季住デザインの家づくり</h2>
+            </div>
             <p class="top-homemaking__lead">
                 テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
                 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
@@ -215,13 +238,48 @@
 
     <section class="top-voice" aria-labelledby="top-voice-title">
         <div class="top-voice__inner">
-            <p class="top-voice__eyebrow section-title-en">・Portfolio / User's voice</p>
-            <h2 id="top-voice-title" class="top-voice__title section-title-ja">施工事例＆お客様の声</h2>
+            <div class="c-section-head">
+                <p class="section-title-en">・Portfolio&User's voice</p>
+                <h2 id="top-voice-title" class="section-title-ja">施工事例＆お客様の声</h2>
+            </div>
             <p class="top-voice__lead">
                 一つひとつに、住む人の物語があります。<br>
                 お引き渡しは、お付き合いの始まり。私たちが形にしてきた「暮らし」の断片と、実際に住まわれてからの率直な感想をご紹介します。
             </p>
             <div class="top-voice__cards js-top-voice-slider">
+                <article class="top-voice-card">
+                    <a href="<?php bloginfo('url'); ?>/voice/">
+                        <img src="<?php bloginfo('template_url');?>/img/top-voice-01.jpg" alt="木造住宅の外観">
+                        <p class="top-voice-card__cat">リフォーム</p>
+                        <p class="top-voice-card__place">大阪市旭区 山本様</p>
+                        <h3 class="top-voice-card__name">高台に佇む、木と眺望の家</h3>
+                        <p class="top-voice-card__text">
+                            一つひとつに、住む人の物語があります。お引き渡しは、お付き合いの始まり。
+                        </p>
+                    </a>
+                </article>
+                <article class="top-voice-card">
+                    <a href="<?php bloginfo('url'); ?>/voice/">
+                        <img src="<?php bloginfo('template_url');?>/img/top-voice-02.jpg" alt="やわらかい光が入る住まいの内観">
+                        <p class="top-voice-card__cat">新築</p>
+                        <p class="top-voice-card__place">大阪市旭区 山本様</p>
+                        <h3 class="top-voice-card__name">明るいキッチンが主役のお家</h3>
+                        <p class="top-voice-card__text">
+                            一つひとつに、住む人の物語があります。お引き渡しは、お付き合いの始まり。
+                        </p>
+                    </a>
+                </article>
+                <article class="top-voice-card">
+                    <a href="<?php bloginfo('url'); ?>/voice/">
+                        <img src="<?php bloginfo('template_url');?>/img/top-voice-03.jpg" alt="木のキッチンとダイニング">
+                        <p class="top-voice-card__cat">リノベーション</p>
+                        <p class="top-voice-card__place">大阪市旭区 山本様</p>
+                        <h3 class="top-voice-card__name">陽だまりの階段</h3>
+                        <p class="top-voice-card__text">
+                            一つひとつに、住む人の物語があります。お引き渡しは、お付き合いの始まり。
+                        </p>
+                    </a>
+                </article>
                 <article class="top-voice-card">
                     <a href="<?php bloginfo('url'); ?>/voice/">
                         <img src="<?php bloginfo('template_url');?>/img/top-voice-01.jpg" alt="木造住宅の外観">
@@ -267,7 +325,7 @@
 
     <section class="top-gallery" aria-labelledby="top-gallery-title">
         <div class="top-gallery__head">
-            <h2 id="top-gallery-title" class="top-gallery__title section-title-en">Gallery</h2>
+            <h2 id="top-gallery-title" class="section-title-ja">Gallery</h2>
         </div>
         <div class="top-gallery__slider-wrap">
             <div class="top-gallery__slider js-top-gallery-slider">
@@ -296,8 +354,10 @@
                 href="<?php bloginfo('url'); ?>/support/">
                 <img src="<?php bloginfo('template_url');?>/img/top-support-banner.jpg" alt="アフターサポートのご案内">
                 <div class="top-support-careers__content">
-                    <p class="top-support-careers__eyebrow section-title-en">Support</p>
-                    <h2 class="top-support-careers__title section-title-ja">保証・アフターサポート</h2>
+                    <div class="c-section-head">
+                        <p class="section-title-en">Support</p>
+                        <h2 class="section-title-ja">保証・アフターサポート</h2>
+                    </div>
                     <p class="top-support-careers__text">
                         家は完成して終わりではなく、暮らしとともに育っていくものです。<br>
                         私たちは、お引き渡し後も変わらぬパートナーとして、定期点検やメンテナンスを通して生涯の快適な暮らしをサポートします。<br>
@@ -309,8 +369,10 @@
                 href="<?php bloginfo('url'); ?>/recruit/">
                 <img src="<?php bloginfo('template_url');?>/img/top-careers-banner.jpg" alt="採用情報のご案内">
                 <div class="top-support-careers__content">
-                    <p class="top-support-careers__eyebrow section-title-en">Careers</p>
-                    <h2 class="top-support-careers__title section-title-ja">採用情報</h2>
+                    <div class="c-section-head">
+                        <p class="section-title-en">Careers</p>
+                        <h2 class="section-title-ja">採用情報</h2>
+                    </div>
                     <p class="top-support-careers__text">
                         私たちが求めているのは、単なるスキル以上に「住む人の喜び」を自分のことのように考えられる心です。<br>
                         一人ひとりの個性と深く向き合い、理想の先にある感動を共に創造しませんか。<br>
@@ -322,13 +384,19 @@
     </section>
 
     <section class="top-area" aria-labelledby="top-area-title">
+        <div class="c-section-head">
+            <p class="section-title-en">・Area</p>
+            <h2 id="top-area-title" class="section-title-ja">対応エリア</h2>
+        </div>
         <div class="top-area__inner">
             <figure class="top-area__map">
-                <img src="<?php bloginfo('template_url');?>/img/top-area-map.jpg" alt="対応エリア地図">
+                <picture>
+                    <source media="(max-width: 560px)"
+                        srcset="<?php bloginfo('template_url');?>/img/top-area-map-sp.jpg">
+                    <img src="<?php bloginfo('template_url');?>/img/top-area-map.jpg" alt="対応エリア地図">
+                </picture>
             </figure>
             <div class="top-area__content">
-                <p class="top-area__eyebrow section-title-en">・Area</p>
-                <h2 id="top-area-title" class="top-area__title section-title-ja">対応エリア</h2>
                 <dl class="top-area__list">
                     <div class="top-area__row">
                         <dt>大阪府</dt>
@@ -350,26 +418,50 @@
 
     <section class="top-faq" aria-labelledby="top-faq-title">
         <div class="top-faq__inner">
-            <p class="top-faq__eyebrow section-title-en">・FAQ</p>
-            <h2 id="top-faq-title" class="top-faq__title section-title-ja">よくある質問</h2>
+            <div class="c-section-head">
+                <p class="section-title-en">・FAQ</p>
+                <h2 id="top-faq-title" class="section-title-ja">よくある質問</h2>
+            </div>
             <p class="top-faq__lead">季住ついて寄せられるご質問に、ていねいにお答えします。</p>
             <div class="top-faq__box">
                 <dl class="top-faq__list">
                     <div class="top-faq__item">
-                        <dt>Q ｜ 土地探しや資金計画から相談に乗ってもらえますか？</dt>
-                        <dd>A ｜ はい、もちろんです。不動産のプロと建築士が在籍しておりますので、土地のポテンシャルを見極めた上でのアドバイスや、無理のない資金計画の策定からトータルでサポートいたします。
+                        <dt>
+                            <span class="top-faq__mark">Q</span>
+                            <span class="top-faq__separator" aria-hidden="true"></span>
+                            <span class="top-faq__text">土地探しや資金計画から相談に乗ってもらえますか？</span>
+                        </dt>
+                        <dd>
+                            <span class="top-faq__mark">A</span>
+                            <span class="top-faq__separator" aria-hidden="true"></span>
+                            <span
+                                class="top-faq__text">はい、もちろんです。不動産のプロと建築士が在籍しておりますので、土地のポテンシャルを見極めた上でのアドバイスや、無理のない資金計画の策定からトータルでサポートいたします。</span>
                         </dd>
                     </div>
                     <div class="top-faq__item">
-                        <dt>Q ｜ リノベーションか新築か迷っていますが、どちらが良いでしょうか？</dt>
-                        <dd>A ｜
-                            お客様のご要望や予算、ライフスタイルによって正解は異なります。季住デザインではどちらも得意としておりますので、双方のメリット・デメリットを中立的な視点でご説明し、最適な選択を一緒に考えます。
+                        <dt>
+                            <span class="top-faq__mark">Q</span>
+                            <span class="top-faq__separator" aria-hidden="true"></span>
+                            <span class="top-faq__text">リノベーションか新築か迷っていますが、どちらが良いでしょうか？</span>
+                        </dt>
+                        <dd>
+                            <span class="top-faq__mark">A</span>
+                            <span class="top-faq__separator" aria-hidden="true"></span>
+                            <span
+                                class="top-faq__text">お客様のご要望や予算、ライフスタイルによって正解は異なります。季住デザインではどちらも得意としておりますので、双方のメリット・デメリットを中立的な視点でご説明し、最適な選択を一緒に考えます。</span>
                         </dd>
                     </div>
                     <div class="top-faq__item">
-                        <dt>Q ｜ 住み始めてからのメンテナンスや保証はどうなっていますか？</dt>
-                        <dd>A ｜
-                            私たちは「住んでから」を大切にしています。定期的な点検はもちろん、自然素材のメンテナンス方法のレクチャーなど、末永く快適に暮らしていただけるよう、一貫したアフターフォロー体制を整えています。
+                        <dt>
+                            <span class="top-faq__mark">Q</span>
+                            <span class="top-faq__separator" aria-hidden="true"></span>
+                            <span class="top-faq__text">住み始めてからのメンテナンスや保証はどうなっていますか？</span>
+                        </dt>
+                        <dd>
+                            <span class="top-faq__mark">A</span>
+                            <span class="top-faq__separator" aria-hidden="true"></span>
+                            <span
+                                class="top-faq__text">私たちは「住んでから」を大切にしています。定期的な点検はもちろん、自然素材のメンテナンス方法のレクチャーなど、末永く快適に暮らしていただけるよう、一貫したアフターフォロー体制を整えています。</span>
                         </dd>
                     </div>
                 </dl>
@@ -386,25 +478,27 @@
     <section class="top-posts" aria-label="ブログとコラム">
         <div class="top-posts__inner">
             <section class="top-posts__col" aria-labelledby="top-blog-title">
-                <p class="top-posts__eyebrow section-title-en">・Blog</p>
-                <h2 id="top-blog-title" class="top-posts__title section-title-ja">スタッフブログ</h2>
+                <div class="c-section-head">
+                    <p class="section-title-en">・Blog</p>
+                    <h2 id="top-blog-title" class="section-title-ja">スタッフブログ</h2>
+                </div>
                 <div class="top-posts__list">
                     <a class="top-posts__item" href="<?php bloginfo('url'); ?>/blog/">
-                        <img src="<?php bloginfo('template_url');?>/img/top-event-01.jpg" alt="ブログ記事サムネイル">
+                        <img src="<?php bloginfo('template_url');?>/img/blog-img.jpg" alt="ブログ記事サムネイル">
                         <div class="top-posts__meta">
                             <time datetime="2025-10-20">2025.10.20</time>
                             <p>家族の時間とアトリエの時間、家族の時間とアトリエの時間。</p>
                         </div>
                     </a>
                     <a class="top-posts__item" href="<?php bloginfo('url'); ?>/blog/">
-                        <img src="<?php bloginfo('template_url');?>/img/top-event-02.jpg" alt="ブログ記事サムネイル">
+                        <img src="<?php bloginfo('template_url');?>/img/blog-img.jpg" alt="ブログ記事サムネイル">
                         <div class="top-posts__meta">
                             <time datetime="2025-10-20">2025.10.20</time>
                             <p>家族の時間とアトリエの時間、家族の時間とアトリエの時間。</p>
                         </div>
                     </a>
                     <a class="top-posts__item" href="<?php bloginfo('url'); ?>/blog/">
-                        <img src="<?php bloginfo('template_url');?>/img/top-event-03.jpg" alt="ブログ記事サムネイル">
+                        <img src="<?php bloginfo('template_url');?>/img/blog-img.jpg" alt="ブログ記事サムネイル">
                         <div class="top-posts__meta">
                             <time datetime="2025-10-20">2025.10.20</time>
                             <p>家族の時間とアトリエの時間、家族の時間とアトリエの時間。</p>
@@ -420,25 +514,27 @@
             </section>
 
             <section class="top-posts__col" aria-labelledby="top-column-title">
-                <p class="top-posts__eyebrow section-title-en">・Column</p>
-                <h2 id="top-column-title" class="top-posts__title section-title-ja">コラム</h2>
-                [] <div class="top-posts__list">
+                <div class="c-section-head">
+                    <p class="section-title-en">・Column</p>
+                    <h2 id="top-column-title" class="section-title-ja">コラム</h2>
+                </div>
+                <div class="top-posts__list">
                     <a class="top-posts__item" href="<?php bloginfo('url'); ?>/column/">
-                        <img src="<?php bloginfo('template_url');?>/img/top-concept-01.jpg" alt="コラム記事サムネイル">
+                        <img src="<?php bloginfo('template_url');?>/img/column-img.jpg" alt="コラム記事サムネイル">
                         <div class="top-posts__meta">
                             <time datetime="2025-10-20">2025.10.20</time>
                             <p>家族の時間とアトリエの時間、家族の時間とアトリエの時間。</p>
                         </div>
                     </a>
                     <a class="top-posts__item" href="<?php bloginfo('url'); ?>/column/">
-                        <img src="<?php bloginfo('template_url');?>/img/top-concept-02.jpg" alt="コラム記事サムネイル">
+                        <img src="<?php bloginfo('template_url');?>/img/column-img.jpg" alt="コラム記事サムネイル">
                         <div class="top-posts__meta">
                             <time datetime="2025-10-20">2025.10.20</time>
                             <p>家族の時間とアトリエの時間、家族の時間とアトリエの時間。</p>
                         </div>
                     </a>
                     <a class="top-posts__item" href="<?php bloginfo('url'); ?>/column/">
-                        <img src="<?php bloginfo('template_url');?>/img/top-homemaking-house-sub.jpg" alt="コラム記事サムネイル">
+                        <img src="<?php bloginfo('template_url');?>/img/column-img.jpg" alt="コラム記事サムネイル">
                         <div class="top-posts__meta">
                             <time datetime="2025-10-20">2025.10.20</time>
                             <p>家族の時間とアトリエの時間、家族の時間とアトリエの時間。</p>

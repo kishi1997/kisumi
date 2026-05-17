@@ -8,7 +8,10 @@
 			</li>
 			<li>
 				<a href="<?php bloginfo('url'); ?>/contact/" class="sidebar_menu_b">
-					<img src="<?php bloginfo('template_url');?>/img/ico-mail.svg">
+					<picture>
+						<source media="(max-width: 560px)" srcset="<?php bloginfo('template_url');?>/img/ico-mail-white.svg">
+						<img src="<?php bloginfo('template_url');?>/img/ico-mail.svg" alt="">
+					</picture>
 					<p class="sidebar-rabel">CONTACT</p>
 				</a>
 			</li>
@@ -20,7 +23,10 @@
 			</li>
 			<li>
 				<a href="<?php bloginfo('url'); ?>/line/" class="sidebar_menu_c">
-					<img src="<?php bloginfo('template_url');?>/img/ico-line.svg">
+					<picture>
+						<source media="(max-width: 560px)" srcset="<?php bloginfo('template_url');?>/img/ico-line-white.svg">
+						<img src="<?php bloginfo('template_url');?>/img/ico-line.svg" alt="">
+					</picture>
 					<p class="sidebar-rabel">LINE</p>
 				</a>
 			</li>

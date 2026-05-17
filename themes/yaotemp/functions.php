@@ -26,7 +26,7 @@ function fit_head() {
 	//GoogleFonts
 	echo '<link rel="preconnect" href="https://fonts.googleapis.com">'."\n";//削除不可
 	echo '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'."\n";//削除不可
-	echo '<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">'."\n";
+	echo '<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans+JP:wght@100..900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">'."\n";
 	//Favicon
 	echo '<link rel="icon" href="'.get_template_directory_uri().'/favicon.ico">'."\n";//削除不可
 	

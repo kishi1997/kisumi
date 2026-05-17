@@ -40,7 +40,7 @@ $(function () {
     asNavFor: ".yao-thumbnail",
   });
   $(".yao-thumbnail").slick({
-    slidesToShow: 6,
+    slidesToShow: 3,
     asNavFor: ".yao-slider",
     focusOnSelect: true,
     responsive: [
@@ -60,9 +60,11 @@ $(function () {
     return;
   }
   $(".js-top-gallery-slider").slick({
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
     infinite: true,
+    centerMode: true,
+    centerPadding: "25%",
     arrows: true,
     prevArrow: $(".js-top-gallery-prev"),
     nextArrow: $(".js-top-gallery-next"),
@@ -70,11 +72,49 @@ $(function () {
       {
         breakpoint: 1000,
         settings: {
-          slidesToShow: 1,
+          centerPadding: "12%",
+        },
+      },
+      {
+        breakpoint: 560,
+        settings: {
+          centerPadding: "0%",
         },
       },
     ],
   });
+});
+
+// トップページ Event (560px以下でスライダー)
+$(function () {
+  if (!$.fn.slick || !$(".js-top-event-slider").length) {
+    return;
+  }
+  var $eventSlider = $(".js-top-event-slider");
+
+  function initEventSlider() {
+    if (window.innerWidth <= 560) {
+      if (!$eventSlider.hasClass("slick-initialized")) {
+        $eventSlider.slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          arrows: false,
+          dots: true,
+          speed: 500,
+          cssEase: "ease",
+          swipeToSlide: true,
+        });
+      }
+    } else {
+      if ($eventSlider.hasClass("slick-initialized")) {
+        $eventSlider.slick("unslick");
+      }
+    }
+  }
+
+  initEventSlider();
+  $(window).on("resize", initEventSlider);
 });
 
 // トップページ Voice
@@ -87,8 +127,8 @@ $(function () {
     return;
   }
   $voiceSlider.slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
+    slidesToShow: 3,
+    slidesToScroll: 3,
     infinite: true,
     arrows: false,
     dots: true,
@@ -96,6 +136,14 @@ $(function () {
     cssEase: "ease",
     adaptiveHeight: true,
     swipeToSlide: true,
+    responsive: [
+      {
+        breakpoint: 1000,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   });
 });
 
