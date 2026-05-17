@@ -251,11 +251,11 @@ body.is-top-page .l-header {
   background-color: transparent;
 }
 
-.mainNavi ul li > ul a:before {
-  display: none !important;
-}
 .mainNavi a::after {
   content: none;
+}
+.mainNavi ul li > ul a:before {
+  display: none !important;
 }
 .mainNavi ul li:hover > ul {
   background-color: transparent !important;
@@ -2938,6 +2938,7 @@ main {
     padding: 0;
     background-color: transparent;
     cursor: default;
+    color: var(--color-primary);
   }
 
   .mainNavi .top-drawer__tel {
@@ -3083,8 +3084,9 @@ main {
 
   .top-drawer__col li > ul {
     gap: 6px;
-    margin-top: 13px;
-    padding-left: 16px;
+    margin-top: 8px;
+    padding-left: 16px !important;
+    margin-left: 0;
   }
 
   .top-drawer__col li > ul a {
@@ -3105,6 +3107,7 @@ main {
     padding: 0;
     background-color: transparent;
     cursor: default;
+    color: var(--color-primary);
   }
 
   .mainNavi .top-drawer__tel {
