@@ -99,7 +99,7 @@
     <section class="top-event" aria-labelledby="top-event-title">
         <div class="top-event__inner">
             <div class="c-section-head">
-                <p class="section-title-en">・Event</p>
+                <p class="section-title-en">Event</p>
                 <h2 id="top-event-title" class="section-title-ja">イベント情報</h2>
             </div>
             <div class="top-event__cards js-top-event-slider">
@@ -144,7 +144,7 @@
         <div class="top-concept__inner">
             <div class="top-concept__text">
                 <div class="c-section-head">
-                    <p class="section-title-en">・Concept</p>
+                    <p class="section-title-en">Concept</p>
                     <p class="section-title-ja">季住デザインの想い</p>
                 </div>
                 <h2 class="top-concept__title"><span class="top-concept__title-text">季節を住まう。時を愛でる。</span></h2>
@@ -176,7 +176,7 @@
     <section class="top-homemaking" aria-labelledby="top-homemaking-title">
         <div class="top-homemaking__head">
             <div class="c-section-head">
-                <p class="section-title-en">・Homemaking</p>
+                <p class="section-title-en">Homemaking</p>
                 <h2 id="top-homemaking-title" class="section-title-ja">季住デザインの家づくり</h2>
             </div>
             <p class="top-homemaking__lead">
@@ -239,7 +239,7 @@
     <section class="top-voice" aria-labelledby="top-voice-title">
         <div class="top-voice__inner">
             <div class="c-section-head">
-                <p class="section-title-en">・Portfolio&User's voice</p>
+                <p class="section-title-en">Portfolio&User's voice</p>
                 <h2 id="top-voice-title" class="section-title-ja">施工事例＆お客様の声</h2>
             </div>
             <p class="top-voice__lead">
@@ -385,7 +385,7 @@
 
     <section class="top-area" aria-labelledby="top-area-title">
         <div class="c-section-head">
-            <p class="section-title-en">・Area</p>
+            <p class="section-title-en">Area</p>
             <h2 id="top-area-title" class="section-title-ja">対応エリア</h2>
         </div>
         <div class="top-area__inner">
@@ -419,7 +419,7 @@
     <section class="top-faq" aria-labelledby="top-faq-title">
         <div class="top-faq__inner">
             <div class="c-section-head">
-                <p class="section-title-en">・FAQ</p>
+                <p class="section-title-en">FAQ</p>
                 <h2 id="top-faq-title" class="section-title-ja">よくある質問</h2>
             </div>
             <p class="top-faq__lead">季住ついて寄せられるご質問に、ていねいにお答えします。</p>
@@ -479,7 +479,7 @@
         <div class="top-posts__inner">
             <section class="top-posts__col" aria-labelledby="top-blog-title">
                 <div class="c-section-head">
-                    <p class="section-title-en">・Blog</p>
+                    <p class="section-title-en">Blog</p>
                     <h2 id="top-blog-title" class="section-title-ja">スタッフブログ</h2>
                 </div>
                 <div class="top-posts__list">
@@ -515,7 +515,7 @@
 
             <section class="top-posts__col" aria-labelledby="top-column-title">
                 <div class="c-section-head">
-                    <p class="section-title-en">・Column</p>
+                    <p class="section-title-en">Column</p>
                     <h2 id="top-column-title" class="section-title-ja">コラム</h2>
                 </div>
                 <div class="top-posts__list">

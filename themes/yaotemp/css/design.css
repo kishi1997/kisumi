@@ -246,12 +246,25 @@ body.is-top-page .l-header {
   background-color: transparent;
 }
 
+.mainNavi .top-drawer__nav a:hover,
+.mainNavi .top-drawer__nav a:focus,
+.mainNavi .top-drawer__nav p:hover,
+.mainNavi .top-drawer__nav p:focus {
+  color: var(--color-text);
+  background-color: transparent;
+}
+
 .mainNavi ul li > ul a:before {
   display: none !important;
 }
 
 .mainNavi a::after {
   content: none;
+}
+
+.mainNavi ul li:hover > ul {
+  background-color: transparent !important;
+  position: relative !important;
 }
 
 .mainNavi p::after {
@@ -401,7 +414,7 @@ main {
 
 .top-kv {
   position: relative;
-  width: min(1280px, 100% - 72px);
+  width: calc(100% - 72px);
   margin: 0 0 0 auto;
   padding: 86px 0 0;
 }
@@ -438,7 +451,7 @@ main {
   width: -moz-fit-content;
   width: fit-content;
   margin: 0 0 0 auto;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 400;
   line-height: 2;
   letter-spacing: 0.08em;
@@ -502,8 +515,20 @@ main {
 }
 
 .section-title-en {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   font-size: 1.6rem;
   font-family: var(--font-en);
+}
+
+.section-title-en::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  flex: 0 0 6px;
+  border-radius: 50%;
+  background-color: #000;
 }
 
 .section-title-ja {
@@ -1183,8 +1208,8 @@ main {
 .top-support-careers__inner {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 24px;
-  width: min(1200px, 100%);
+  gap: 15px;
+  width: calc(100% - 24px);
   margin: 0 auto;
 }
 
@@ -1220,6 +1245,9 @@ main {
   padding: 24px 30px;
   color: var(--color-bg);
   text-align: center;
+}
+.top-support-careers__content .section-title-en::before {
+  background-color: #fff;
 }
 
 .top-support-careers__text {
@@ -1404,7 +1432,7 @@ main {
 .top-posts__inner {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: clamp(70px, 7.4vw, 120px);
+  gap: clamp(60px, 6.4vw, 80px);
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;
@@ -1421,17 +1449,16 @@ main {
   min-width: 0;
 }
 
-s .top-posts__list {
-  border-bottom: 1px solid var(--color-border-light);
+.top-posts__list {
+  margin-top: 32px;
 }
 
 .top-posts__item {
   display: grid;
-  grid-template-columns: clamp(150px, 11.1vw, 228px) minmax(0, 1fr);
+  grid-template-columns: clamp(80px, 8.3vw, 120px) minmax(0, 1fr);
   gap: clamp(28px, 2.25vw, 46px);
   align-items: center;
-  min-height: 274px;
-  padding: 44px 0;
+  padding: 24px 0;
   border-bottom: 1px solid var(--color-border-light);
 }
 
@@ -1449,7 +1476,7 @@ s .top-posts__list {
 }
 
 .top-posts__meta p {
-  margin: 12px 0 0;
+  margin: 6px 0 0;
   font-size: 1.6rem;
   line-height: 1.8;
   letter-spacing: 0.06em;
@@ -1555,16 +1582,17 @@ s .top-posts__list {
 }
 
 .top-site-footer {
-  background-color: #fff;
-}
-
-.top-site-footer__top {
-  padding: 118px 20px 38px;
   background-color: var(--color-surface-warm);
 }
 
+.top-site-footer__top {
+  max-width: 1280px;
+  margin-inline: auto;
+  padding: 118px 20px 38px;
+}
+
 .top-site-footer__inner {
-  width: min(1540px, 100%);
+  width: 100%;
   margin: 0 auto;
   text-align: center;
 }
@@ -1663,6 +1691,7 @@ s .top-posts__list {
 .top-site-footer__copyright {
   padding: 32px 0;
   font-size: 1rem;
+  background-color: #fff;
 }
 
 @media screen and (max-width: 1200px) {
@@ -1787,7 +1816,7 @@ s .top-posts__list {
   .top-kv__title {
     order: 2;
     color: var(--color-text);
-    font-size: clamp(2.3rem, 2.2vw, 3.2rem);
+    font-size: clamp(2.6rem, 2.2vw, 3.2rem);
     line-height: 1.45;
     letter-spacing: 0.06em;
     text-shadow: none;
@@ -1796,7 +1825,7 @@ s .top-posts__list {
     order: 1;
     width: 100%;
     margin: 0;
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.8;
     text-align: right;
   }
@@ -2584,7 +2613,7 @@ s .top-posts__list {
     left: 0;
     width: 36px;
     height: 1px;
-    background-color: var(--color-bg);
+    background-color: #998f7f;
   }
   .mainNavi {
     height: 100vh;
@@ -2657,8 +2686,19 @@ s .top-posts__list {
     display: grid !important;
     gap: clamp(5px, 0.7vw, 9px);
     margin: clamp(10px, 1.5vw, 19px) 0 0;
-    padding-left: clamp(12px, 1.25vw, 16px);
+    padding-left: clamp(12px, 1.25vw, 16px) !important;
     border-left: 1px solid var(--color-border-light);
+  }
+  .mainNavi a:hover,
+  .mainNavi p:hover {
+    background-color: transparent;
+  }
+  .mainNavi .top-drawer__nav a:hover,
+  .mainNavi .top-drawer__nav a:focus,
+  .mainNavi .top-drawer__nav p:hover,
+  .mainNavi .top-drawer__nav p:focus {
+    color: var(--color-text);
+    background-color: transparent;
   }
   .top-drawer__col li > ul a {
     font-size: clamp(0.98rem, 0.9vw, 1.15rem);

@@ -140,6 +140,11 @@ $(function () {
       {
         breakpoint: 1000,
         settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+        breakpoint: 560,
+        settings: {
           slidesToShow: 1,
         },
       },
