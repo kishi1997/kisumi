@@ -682,13 +682,6 @@ main {
     margin-top: 64px;
   }
 }
-.top-intro__text p {
-  flex: 0 0 auto;
-  max-height: 390px;
-  margin: 0;
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
-}
 .top-intro__text {
   display: flex;
   flex-direction: row;
@@ -700,6 +693,14 @@ main {
   font-weight: 400;
   line-height: 2.05;
   letter-spacing: 0.06em;
+}
+
+.top-intro__text p {
+  flex: 0 0 auto;
+  max-height: 390px;
+  margin: 0;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
 }
 
 .top-links {
@@ -1191,26 +1192,25 @@ main {
   object-fit: cover;
 }
 
-.top-voice-card__cat,
-.top-voice-card__place {
-  margin: 0;
-  color: var(--color-text-muted);
-  line-height: 1.7;
-}
-
 .top-voice-card__cat {
+  margin: 0;
   margin-top: 24px;
+  display: inline-block;
+  color: var(--color-text-muted);
   font-size: 1.2rem;
+  line-height: 1.4;
   border: 1px solid #dadada;
   padding: 4px 14px;
   border-radius: 4px;
-  display: inline-block;
-  line-height: 1.4;
 }
+
 .top-voice-card__place {
+  margin: 0;
   display: inline-block;
   margin-left: 22px;
+  color: var(--color-text-muted);
   font-size: 1.4rem;
+  line-height: 1.7;
 }
 .top-voice-card__name {
   margin: 32px 0 0;
@@ -1398,19 +1398,16 @@ main {
   border-top: 1px solid #dadada;
 }
 
-.top-area__row dt,
-.top-area__row dd {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.9;
-}
-
 .top-area__row dt {
+  margin: 0;
+  line-height: 1.9;
   color: var(--color-text-muted);
   font-size: 18px;
 }
 
 .top-area__row dd {
+  margin: 0;
+  line-height: 1.9;
   font-size: 15px;
 }
 
@@ -1472,6 +1469,9 @@ main {
   gap: 40px;
   align-items: start;
   margin: 0;
+}
+
+.top-faq__item dt {
   color: var(--color-text);
 }
 
@@ -1749,14 +1749,16 @@ main {
   gap: 20px;
 }
 
-.top-site-footer__col a,
-.top-site-footer__sub-links a {
+.top-site-footer__col a {
   font-size: 1.4rem;
   line-height: 1.6;
   letter-spacing: 0.04em;
 }
+
 .top-site-footer__sub-links a {
   font-size: 1.2rem;
+  line-height: 1.6;
+  letter-spacing: 0.04em;
 }
 
 .top-site-footer__col:first-child > a:first-child {
@@ -2102,13 +2104,13 @@ main {
     margin-top: 42px;
   }
 
-  .top-concept__photo-main,
-  .top-concept__photo-sub {
+  .top-concept__photo-main {
     position: static;
     width: 100%;
   }
 
   .top-concept__photo-sub {
+    position: static;
     width: 72%;
     margin-left: auto;
     margin-top: 24px;
@@ -2133,39 +2135,41 @@ main {
     margin-inline: auto;
   }
 
-  .top-homemaking__block-house .top-homemaking__main-photo,
-  .top-homemaking__block-renovation .top-homemaking__sub-photo {
-    order: 1;
-  }
-
-  .top-homemaking__block-house .top-homemaking__text,
-  .top-homemaking__block-renovation .top-homemaking__main-photo {
-    order: 2;
-  }
-
-  .top-homemaking__block-house .top-homemaking__sub-photo,
-  .top-homemaking__block-renovation .top-homemaking__text {
-    order: 3;
-  }
-
   .top-homemaking__text {
     width: 100%;
     margin: 24px 0 0;
   }
 
-  .top-homemaking__block-house .top-homemaking__text,
-  .top-homemaking__block-renovation .top-homemaking__text {
-    margin: 24px 0 0;
+  .top-homemaking__block-house .top-homemaking__main-photo {
+    order: 1;
   }
 
-  .top-homemaking__block-house .top-homemaking__sub-photo,
-  .top-homemaking__block-renovation .top-homemaking__sub-photo,
-  .top-homemaking__block-renovation .top-homemaking__main-photo {
+  .top-homemaking__block-renovation .top-homemaking__sub-photo {
+    order: 1;
     width: 360px;
     margin: 18px 0 0;
   }
+
+  .top-homemaking__block-house .top-homemaking__text {
+    order: 2;
+    margin: 24px 0 0;
+  }
+
   .top-homemaking__block-renovation .top-homemaking__main-photo {
+    order: 2;
     width: 100%;
+    margin: 18px 0 0;
+  }
+
+  .top-homemaking__block-house .top-homemaking__sub-photo {
+    order: 3;
+    width: 360px;
+    margin: 20px 0 0 auto;
+  }
+
+  .top-homemaking__block-renovation .top-homemaking__text {
+    order: 3;
+    margin: 24px 0 0;
   }
   .top-homemaking__label {
     font-size: 1.4rem;
@@ -2315,7 +2319,6 @@ main {
 
   .top-area__row dt,
   .top-area__row dd {
-    font-size: 1.1rem;
     line-height: 1.75;
   }
 
@@ -2355,6 +2358,7 @@ main {
   .top-faq__item dd {
     margin-top: 28px;
   }
+
 
   .top-faq__separator {
     min-height: 30px;
@@ -2483,9 +2487,6 @@ main {
     margin: 0;
     padding-left: 16px;
   }
-  .top-homemaking__block-house .top-homemaking__sub-photo {
-    margin: 20px 0 0 auto;
-  }
 }
 
 @media screen and (max-width: 760px) {
@@ -2518,15 +2519,6 @@ main {
     width: 185px;
   }
 
-  #Sidebar a {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 54px;
-    height: 54px;
-  }
-
   #Sidebar {
     position: fixed;
     top: auto;
@@ -2554,7 +2546,10 @@ main {
   }
 
   #Sidebar a {
+    display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 56px;
     gap: 8px;
@@ -2766,6 +2761,7 @@ main {
   .top-homemaking__head {
     display: block;
     text-align: center;
+    margin: 40px 0 0;
   }
 
   .top-homemaking__lead {
@@ -2773,9 +2769,6 @@ main {
     font-size: 1.4rem;
     text-align: center;
     line-height: 1.9;
-  }
-  .top-homemaking__head {
-    margin: 40px 0 0;
   }
   .top-homemaking__block {
     display: flex;
@@ -2786,35 +2779,35 @@ main {
     margin-top: 64px;
   }
 
+  .top-homemaking__main-photo,
+  .top-homemaking__sub-photo {
+    width: 100%;
+    margin: 0;
+  }
+
+  .top-homemaking__block-house .top-homemaking__main-photo {
+    order: 1;
+    width: calc(100% + 32px);
+    margin-top: 24px;
+    margin-left: -16px;
+  }
+
   .top-homemaking__block-house .top-homemaking__text {
     order: 2;
     width: 100%;
     margin: 48px 0;
   }
 
-  .top-homemaking__block-house .top-homemaking__main-photo {
-    order: 1;
-    margin-top: 24px;
-  }
-
   .top-homemaking__block-house .top-homemaking__sub-photo {
     order: 3;
-    margin: 20px 0 0 auto;
     width: 280px;
-  }
-  .top-homemaking__more-wrap {
-    text-align: center;
-  }
-  .top-homemaking__block-renovation .top-homemaking__text {
-    order: 3;
-    width: 100%;
-    margin: 64px 0 24px;
+    margin: 20px 0 0 auto;
   }
 
   .top-homemaking__block-renovation .top-homemaking__sub-photo {
     order: 1;
-    margin: 0px auto 0 0;
-    width: 280px;
+    width: calc(100% + 32px);
+    margin: 0 auto 0 -16px;
   }
 
   .top-homemaking__block-renovation .top-homemaking__main-photo {
@@ -2822,16 +2815,14 @@ main {
     margin-top: 64px;
   }
 
-  .top-homemaking__main-photo,
-  .top-homemaking__sub-photo {
+  .top-homemaking__block-renovation .top-homemaking__text {
+    order: 3;
     width: 100%;
-    margin: 0;
+    margin: 64px 0 24px;
   }
 
-  .top-homemaking__block-house .top-homemaking__main-photo,
-  .top-homemaking__block-renovation .top-homemaking__sub-photo {
-    width: calc(100% + 32px);
-    margin-left: -16px;
+  .top-homemaking__more-wrap {
+    text-align: center;
   }
 
   .top-homemaking__label {
