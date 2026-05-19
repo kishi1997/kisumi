@@ -5,6 +5,14 @@ $(function () {
     $("#menuNavi__menu").toggleClass("icon-close");
     $(".mainNavi").toggleClass("menu-open");
   });
+
+  // サイドバーのMENUボタンでも同じドロワーを開く
+  $(".sidebar_menu_a").click(function (e) {
+    e.preventDefault();
+    $("#menuNavi__menu").toggleClass("icon-menu");
+    $("#menuNavi__menu").toggleClass("icon-close");
+    $(".mainNavi").toggleClass("menu-open");
+  });
 });
 
 //Scroll Rules

@@ -30,6 +30,43 @@
                 <?php endif; ?>
             </div>
 
+            <nav class="header-pcNavi" aria-label="ヘッダーメニュー">
+                <ul>
+                    <li>
+                        <a href="<?php bloginfo('url'); ?>/about/">初めての方へ</a>
+                    </li>
+                    <li>
+                        <p>サービス</p>
+                        <ul>
+                            <li>
+                                <a href="<?php bloginfo('url'); ?>/custom-home/">注文住宅（自由設計）</a>
+                            </li>
+                            <li>
+                                <a href="<?php bloginfo('url'); ?>/renovation/">リフォーム・リノベーション</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="<?php bloginfo('url'); ?>/voice/">施工事例・お客様の声</a>
+                    </li>
+                    <li>
+                        <a href="<?php bloginfo('url'); ?>/gallery/">ギャラリー</a>
+                    </li>
+                    <li>
+                        <a href="<?php bloginfo('url'); ?>/faq/">よくある質問</a>
+                    </li>
+                    <li>
+                        <a href="<?php bloginfo('url'); ?>/company/">会社概要</a>
+                    </li>
+                    <li class="header-pcNavi__cta">
+                        <a href="<?php bloginfo('url'); ?>/request/">資料請求</a>
+                    </li>
+                    <li class="header-pcNavi__cta">
+                        <a href="<?php bloginfo('url'); ?>/contact/">お問い合わせ</a>
+                    </li>
+                </ul>
+            </nav>
+
             <nav class="menuNavi">
                 <span class="menuNavi__link menuNavi__link-current icon-menu" id="menuNavi__menu">
                 </span>
