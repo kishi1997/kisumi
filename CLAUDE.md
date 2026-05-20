@@ -10,6 +10,7 @@
 | トップページ作業時 | `rules/.codingrules-top.md` |
 | 下層ページ作業時 | `rules/.clauderules-lower.md` |
 | コーディング全般 | `rules/.codingrules-common.md` |
+| SCSS記述時 | `rules/.codingrules-scss.md` |
 
 ## 参考資料
 

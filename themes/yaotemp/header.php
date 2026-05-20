@@ -79,6 +79,7 @@
                     <img src="<?php bloginfo('template_url');?>/img/logo.png" alt="季住 -kisumi design-">
                 </a>
             </div>
+            <div class="top-drawer">
             <div class="top-drawer__content">
                 <div class="top-drawer__nav">
                     <ul class="top-drawer__col top-drawer__col--1">
@@ -180,6 +181,7 @@
                         メールでのお問い合わせ
                     </a>
                 </div>
+            </div>
             </div>
         </nav>
     </header>
