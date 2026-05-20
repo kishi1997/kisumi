@@ -144,6 +144,7 @@ $(function () {
     cssEase: "ease",
     adaptiveHeight: true,
     swipeToSlide: true,
+
     responsive: [
       {
         breakpoint: 1000,
@@ -151,9 +152,12 @@ $(function () {
           slidesToShow: 2,
           slidesToScroll: 1,
         },
+      },
+      {
         breakpoint: 560,
         settings: {
           slidesToShow: 1,
+          slidesToScroll: 1,
         },
       },
     ],
