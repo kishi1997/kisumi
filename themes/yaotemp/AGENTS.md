@@ -30,6 +30,14 @@ For the current kisumi lower-page workflow:
 - If wireframe text cannot be read confidently from the image, record a question instead of guessing.
 - Keep the wireframe layout. Do not add sections, CTA blocks, icons, decorative elements, or copy.
 
+## Image Selection / Embedding
+
+- Use `docs/image-selection-embed-workflow.md` when page files already exist and only image selection/embedding remains.
+- Create AI-only thumbnails with `npm run images:catalog` from the repository root.
+- `themes/yaotemp/img/catalog/` is for AI image selection only. Never reference it from PHP, SCSS, CSS, or HTML.
+- When adopting an image, copy the matching original from `themes/yaotemp/img/draft/` to `themes/yaotemp/img/` with a meaningful English filename.
+- For image display adjustments, edit `/Users/tomoyukikishi/Desktop/wordpress/kisumi/themes/yaotemp/css/design.scss` only within the target page scope.
+
 ## Implementation Rules
 
 - Lower pages must be implemented as `page-XXX.php`.

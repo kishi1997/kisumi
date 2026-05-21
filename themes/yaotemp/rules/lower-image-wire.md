@@ -11,6 +11,7 @@ Use these rules for kisumi lower pages when the wireframe is shared as image fil
 | Base layout | Wireframe image |
 | Tone | Existing top page and current theme |
 | Image content | Placeholder images in `img/draft` or `img` until final images are supplied |
+| Image selection | AI-only thumbnails in `img/catalog` and `.ai-work/image-catalog.md` |
 | UI patterns | `~/Documents/Obsidian Vault/wiki/ui-patterns/INDEX.md` when the shape matches |
 
 If text in a wireframe image is ambiguous, do not guess. Record it in `.ai-work/lower/{slug}/content-notes.md` as an unresolved question.
@@ -29,6 +30,7 @@ If text in a wireframe image is ambiguous, do not guess. Record it in `.ai-work/
 - Read both source and target PHP before reusing a top-page or lower-page pattern.
 - Follow `../../rules/.codingrules-scss.md`; never use `&` shorthand.
 - Place all used images in `img/` with meaningful English filenames.
+- Use `img/catalog/` thumbnails only for AI image selection. Never use them in rendered PHP/SCSS/CSS/HTML.
 - Set alt text guidance for every placeholder image.
 - Commit after each completed task.
 
@@ -37,6 +39,7 @@ If text in a wireframe image is ambiguous, do not guess. Record it in `.ai-work/
 - Do not add, rewrite, or remove copy.
 - Do not add new sections, CTA blocks, icons, decorative elements, or links not present in the wireframe.
 - Do not treat placeholder images as final content.
+- Do not use `img/catalog/` thumbnails as site images.
 - Do not let lower-page CSS affect unrelated pages, archives, posts, or forms.
 - Do not force a UI Pattern Library pattern if the wireframe shape differs.
 
@@ -63,8 +66,11 @@ Before implementation, create or update:
 
 `image-plan.md` should include:
 
+- catalog id, when selected from `.ai-work/image-catalog.md`
+- catalog thumbnail path, for review only
 - image slot
 - placeholder source filename
+- matching original path in `img/draft/`
 - renamed theme filename
 - destination path
 - alt text guidance
@@ -84,6 +90,7 @@ Before implementation, create or update:
 - Ambiguous text is recorded as a question, not guessed.
 - Section order and base layout match the wireframe image.
 - Placeholder images are clearly planned and named.
+- No PHP/SCSS/CSS/HTML references `img/catalog/`.
 - Top-page tone is preserved.
 - Shared section title/common layout classes are used where appropriate.
 - No horizontal overflow at 1440px and 390px.

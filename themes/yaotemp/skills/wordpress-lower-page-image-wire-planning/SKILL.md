@@ -13,6 +13,7 @@ Use this skill before writing lower-page code in the kisumi `themes/yaotemp` the
 - Wireframe image path(s), usually `/Users/tomoyukikishi/Desktop/wordpress/kisumi/wireframe/*.png`.
 - Existing theme files in `/Users/tomoyukikishi/Desktop/wordpress/kisumi/themes/yaotemp`.
 - Placeholder image sources in `img/draft/` or existing `img/`.
+- Optional image catalog generated with `npm run images:catalog`.
 - Rules:
   - `AGENTS.md`
   - `rules/lower-image-wire.md`
@@ -43,7 +44,10 @@ Images are placeholders unless the user explicitly says they are final.
 5. Inspect existing top page and relevant lower page templates for tone and reusable parts.
 6. Check the UI Pattern Library index. Read only matching patterns.
 7. Plan placeholder image usage:
+   - catalog id, if selected from `.ai-work/image-catalog.md`
+   - catalog thumbnail path, for AI review only
    - source image
+   - matching original path in `img/draft/`
    - new meaningful English filename
    - destination in `img/`
    - alt text guidance
@@ -76,5 +80,6 @@ Images are placeholders unless the user explicitly says they are final.
 - Keep planning notes concise and implementation-ready.
 - Do not start coding during this skill.
 - Do not treat placeholder image choice as final design approval.
+- Do not use `img/catalog/` thumbnails as rendered-site images.
 - Do not force a reusable pattern if the wireframe shape differs.
 - If a reusable layout is created later, report it as a UI Pattern Library addition candidate.

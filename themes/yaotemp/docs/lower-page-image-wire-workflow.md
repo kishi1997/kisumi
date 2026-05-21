@@ -22,6 +22,7 @@ tags: [kisumi, yaotemp, wordpress, lower-page, wireframe-image, placeholder-imag
 | セクションタイトル | 共通見出し化。必要なら `c-sec-title` 相当を作る |
 | 繰り返しレイアウト | 共通クラス化 |
 | 画像 | プレースホルダー。最終画像ではない前提で計画する |
+| 画像選定 | catalogサムネイルで候補を絞り、実装時はdraft元画像を使う |
 | 画像ファイル名 | 使用前に意味のある英語名へ変更して `img/` に配置 |
 | alt | プレースホルダーでも用途に応じて方針を決める |
 | コミット | タスクごとにコミット |
@@ -39,6 +40,7 @@ tags: [kisumi, yaotemp, wordpress, lower-page, wireframe-image, placeholder-imag
 - `../../rules/.codingrules-scss.md`
 - `~/Documents/Obsidian Vault/wiki/ui-patterns/INDEX.md`
 - `~/Documents/Obsidian Vault/wiki/wordpress/yaotemp/gotchas.md`
+- `docs/image-selection-embed-workflow.md`（ページ作成済みで画像だけ扱う場合）
 
 <h2 style="color:#f2994a;">全体フロー</h2>
 
@@ -87,7 +89,10 @@ flowchart TD
 
 画像はプレースホルダーとして扱う。
 
-- `img/draft/` または既存 `img/` から仮画像を選ぶ。
+- 支給画像が多い場合は、先に `npm run images:catalog` を実行する。
+- `img/catalog/` のサムネイルと `.ai-work/image-catalog.md` で候補を絞る。
+- `img/catalog/` はAI選定用で、実サイトでは使わない。
+- 実装時は `img/draft/` の元画像を使う。
 - 使用する画像だけ `img/` 直下へコピーする。
 - `image copy 10.jpg` や `frame-627321.jpg` のような名前のまま使わない。
 - 用途が分かる英語名にする。

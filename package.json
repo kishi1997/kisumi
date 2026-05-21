@@ -8,6 +8,7 @@
     "clean": "wp-env clean all",
     "wp": "wp-env run cli wp",
     "setup": "node scripts/setup-wp-env.mjs",
+    "images:catalog": "node scripts/create-image-catalog-thumbnails.mjs",
     "reset": "wp-env clean all && wp-env start --update && node scripts/setup-wp-env.mjs"
   },
   "devDependencies": {

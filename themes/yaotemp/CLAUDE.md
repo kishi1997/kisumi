@@ -4,6 +4,10 @@ Use this file when Claude Code is opened inside `themes/yaotemp`.
 
 ## Primary Workflow
 
+For page files that already exist and only need image selection/embedding, read:
+
+- `docs/image-selection-embed-workflow.md`
+
 For kisumi lower pages built from wireframe images and placeholder images, read:
 
 - `docs/lower-page-image-wire-workflow.md`
