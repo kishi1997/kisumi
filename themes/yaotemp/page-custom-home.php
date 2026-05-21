@@ -189,7 +189,7 @@ get_header(); ?>
     <!-- イベント情報 -->
     <section class="inner-section">
         <div class="inner-section__inner">
-            <div class="c-section-head" style="margin-bottom:40px;">
+            <div class="c-section-head custom-home-event-head">
                 <p class="section-title-en">Event</p>
                 <h2 class="section-title-ja">イベント情報</h2>
             </div>
