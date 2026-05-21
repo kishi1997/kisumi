@@ -4132,3 +4132,37 @@ main {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+
+/* ─── page-custom-home: 03 award row section ─────── */
+
+#page-custom-home .custom-home-award-row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(16px, 2vw, 28px);
+  margin-top: clamp(32px, 3vw, 48px);
+}
+
+#page-custom-home .custom-home-award-item {
+  display: flex;
+  flex-direction: column;
+}
+
+#page-custom-home .custom-home-award-item__label {
+  margin: 12px 0 0;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 1.5;
+  color: var(--color-text-subtle);
+}
+
+@media screen and (max-width: 768px) {
+  #page-custom-home .custom-home-award-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 560px) {
+  #page-custom-home .custom-home-award-row {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
