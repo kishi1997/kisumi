@@ -25,7 +25,7 @@ get_header(); ?>
                         家づくりは、箱をつくることではありません。朝、窓から差し込む光の角度や、素足で触れたときの無垢材の心地よさ、そして家族の笑い声が響く距離感。私たちは、そんな目に見えない「空気感」を大切に設計を進めます。<br><br>
                         土地探しから資金計画、そして一級建築士による緻密な設計まで。お客様のこだわりを丁寧に紐解き、住むほどに愛着が深まり、数十年後にはヴィンテージとしての価値を纏うような、世界にたったひとつの住まいをゼロから共に創り上げます。
                     </p>
-                    <p style="margin-top:32px;">
+                    <p class="custom-home-intro-more">
                         <a class="top-more-btn" href="<?php bloginfo('url'); ?>/contact/">
                             お問い合わせ
                             <span class="top-more-btn__arrow">→</span>
@@ -34,7 +34,7 @@ get_header(); ?>
                 </div>
                 <div class="inner-2col__img">
                     <div class="img-ph-wrapper" style="padding-top:75%;">
-                        <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                        <div class="img-ph"></div>
                     </div>
                 </div>
             </div>
@@ -52,25 +52,25 @@ get_header(); ?>
             <div class="custom-home-spec-grid">
                 <div class="custom-home-spec-item">
                     <div class="img-ph-wrapper" style="padding-top:75%;">
-                        <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                        <div class="img-ph"></div>
                     </div>
                     <p class="custom-home-spec-item__label">キッチン</p>
                 </div>
                 <div class="custom-home-spec-item">
                     <div class="img-ph-wrapper" style="padding-top:75%;">
-                        <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                        <div class="img-ph"></div>
                     </div>
                     <p class="custom-home-spec-item__label">洗面・クロゼット</p>
                 </div>
                 <div class="custom-home-spec-item">
                     <div class="img-ph-wrapper" style="padding-top:75%;">
-                        <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                        <div class="img-ph"></div>
                     </div>
                     <p class="custom-home-spec-item__label">カルプ・フェノール</p>
                 </div>
                 <div class="custom-home-spec-item">
                     <div class="img-ph-wrapper" style="padding-top:75%;">
-                        <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                        <div class="img-ph"></div>
                     </div>
                     <p class="custom-home-spec-item__label">構造材・特注</p>
                 </div>
@@ -89,19 +89,19 @@ get_header(); ?>
             <div class="custom-home-award-row">
                 <div class="custom-home-award-item">
                     <div class="img-ph-wrapper" style="padding-top:75%;">
-                        <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                        <div class="img-ph"></div>
                     </div>
                     <p class="custom-home-award-item__label">賞名が入ります</p>
                 </div>
                 <div class="custom-home-award-item">
                     <div class="img-ph-wrapper" style="padding-top:75%;">
-                        <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                        <div class="img-ph"></div>
                     </div>
                     <p class="custom-home-award-item__label">賞名が入ります</p>
                 </div>
                 <div class="custom-home-award-item">
                     <div class="img-ph-wrapper" style="padding-top:75%;">
-                        <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                        <div class="img-ph"></div>
                     </div>
                     <p class="custom-home-award-item__label">賞名が入ります</p>
                 </div>
@@ -126,7 +126,7 @@ get_header(); ?>
                 </div>
                 <div class="inner-2col__img">
                     <div class="img-ph-wrapper" style="padding-top:65%;">
-                        <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                        <div class="img-ph"></div>
                     </div>
                 </div>
             </div>
@@ -179,7 +179,7 @@ get_header(); ?>
                 </div>
                 <div>
                     <div class="img-ph-wrapper" style="padding-top:120%;">
-                        <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                        <div class="img-ph"></div>
                     </div>
                 </div>
             </div>
@@ -198,7 +198,7 @@ get_header(); ?>
                 <article class="inner-card">
                     <div class="inner-card__img-wrap">
                         <div class="img-ph-wrapper" style="padding-top:66.67%;">
-                            <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                            <div class="img-ph"></div>
                         </div>
                     </div>
                     <div class="inner-card__body">
@@ -216,7 +216,7 @@ get_header(); ?>
     <div class="inner-banner-pair">
         <a class="inner-banner" href="<?php bloginfo('url'); ?>/voice/">
             <div class="img-ph-wrapper" style="padding-top:50%;">
-                <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                <div class="img-ph"></div>
             </div>
             <div class="inner-banner__overlay">
                 <p class="inner-banner__en">Portfolio</p>
@@ -225,7 +225,7 @@ get_header(); ?>
         </a>
         <a class="inner-banner" href="<?php bloginfo('url'); ?>/support/">
             <div class="img-ph-wrapper" style="padding-top:50%;">
-                <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                <div class="img-ph"></div>
             </div>
             <div class="inner-banner__overlay">
                 <p class="inner-banner__en">Support</p>
