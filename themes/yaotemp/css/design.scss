@@ -3879,3 +3879,56 @@ main {
   letter-spacing: 0.08em;
   margin: 0 0 20px;
 }
+
+/* ─── page-about: feature section ───────────────── */
+
+#page-about .about-feature-list {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(40px, 5vw, 72px);
+}
+
+#page-about .about-feature-item {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
+  gap: clamp(24px, 4vw, 56px);
+  align-items: center;
+}
+
+#page-about .about-feature-item__img {
+  min-width: 0;
+  overflow: hidden;
+}
+
+#page-about .about-feature-item__text {
+  min-width: 0;
+}
+
+#page-about .about-feature-item__num {
+  margin: 0 0 12px;
+  font-size: 1.3rem;
+  font-family: var(--font-en);
+  letter-spacing: 0.12em;
+  color: var(--color-text-muted);
+}
+
+#page-about .about-feature-item__title {
+  margin: 0 0 16px;
+  font-size: clamp(1.8rem, 2vw, 2.2rem);
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.08em;
+}
+
+#page-about .about-feature-item__body {
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 2.1;
+  color: var(--color-text-subtle);
+}
+
+@media screen and (max-width: 1000px) {
+  #page-about .about-feature-item {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

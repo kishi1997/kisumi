@@ -44,7 +44,7 @@ get_header(); ?>
                 <div class="about-feature-item">
                     <div class="about-feature-item__img">
                         <div class="img-ph-wrapper" style="padding-top:75%;">
-                            <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                            <div class="img-ph"></div>
                         </div>
                     </div>
                     <div class="about-feature-item__text">
@@ -58,7 +58,7 @@ get_header(); ?>
                 <div class="about-feature-item">
                     <div class="about-feature-item__img">
                         <div class="img-ph-wrapper" style="padding-top:75%;">
-                            <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                            <div class="img-ph"></div>
                         </div>
                     </div>
                     <div class="about-feature-item__text">
@@ -72,7 +72,7 @@ get_header(); ?>
                 <div class="about-feature-item">
                     <div class="about-feature-item__img">
                         <div class="img-ph-wrapper" style="padding-top:75%;">
-                            <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                            <div class="img-ph"></div>
                         </div>
                     </div>
                     <div class="about-feature-item__text">
