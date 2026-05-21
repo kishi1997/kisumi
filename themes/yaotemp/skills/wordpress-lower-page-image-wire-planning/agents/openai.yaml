@@ -1,0 +1,4 @@
+interface:
+  display_name: "WordPress Lower Page Image Wire Planning"
+  short_description: "Plan lower pages from wireframe images and placeholder images."
+  default_prompt: "Use this skill to turn kisumi lower-page wireframe images into page-plan, image-plan, and content-notes before coding."
