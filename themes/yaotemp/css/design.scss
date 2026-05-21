@@ -4166,3 +4166,74 @@ main {
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
+/* ─── page-custom-home: 04 trust/flow section ────── */
+
+#page-custom-home .custom-home-warranty-row {
+  margin-bottom: 56px;
+}
+
+#page-custom-home .custom-home-subsection-title {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0 0 16px;
+  letter-spacing: 0.06em;
+}
+
+#page-custom-home .custom-home-flow {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  gap: clamp(32px, 4vw, 64px);
+  align-items: start;
+}
+
+#page-custom-home .custom-home-flow__steps {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#page-custom-home .custom-home-flow__heading {
+  font-size: 2.2rem;
+  font-weight: 400;
+  margin: 0 0 8px;
+  letter-spacing: 0.06em;
+}
+
+#page-custom-home .custom-home-flow__step {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--color-border-light);
+}
+
+#page-custom-home .custom-home-flow__step-num {
+  flex: 0 0 auto;
+  font-size: 2.4rem;
+  font-family: var(--font-en);
+  font-weight: 400;
+  color: var(--color-primary);
+  line-height: 1;
+  padding-top: 4px;
+}
+
+#page-custom-home .custom-home-flow__step-title {
+  margin: 0 0 6px;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+#page-custom-home .custom-home-flow__step-text {
+  margin: 0;
+  font-size: 1.4rem;
+  color: var(--color-text-muted);
+  line-height: 1.8;
+}
+
+@media screen and (max-width: 1000px) {
+  #page-custom-home .custom-home-flow {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

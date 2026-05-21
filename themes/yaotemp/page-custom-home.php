@@ -119,9 +119,9 @@ get_header(); ?>
             </div>
 
             <!-- かし保証 -->
-            <div class="inner-2col" style="margin-bottom:56px;">
+            <div class="inner-2col custom-home-warranty-row">
                 <div class="inner-2col__text">
-                    <h3 style="font-size:2.0rem;font-weight:400;margin:0 0 16px;">かし保証</h3>
+                    <h3 class="custom-home-subsection-title">かし保証</h3>
                     <p class="inner-section__lead">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
                 </div>
                 <div class="inner-2col__img">
@@ -134,7 +134,7 @@ get_header(); ?>
             <!-- 家づくりの流れ -->
             <div class="custom-home-flow">
                 <div class="custom-home-flow__steps">
-                    <h3 style="font-size:2.2rem;font-weight:400;margin:0 0 24px;grid-column:1/-1;">家づくりの流れ</h3>
+                    <h3 class="custom-home-flow__heading">家づくりの流れ</h3>
                     <div class="custom-home-flow__step">
                         <span class="custom-home-flow__step-num">01</span>
                         <div>
