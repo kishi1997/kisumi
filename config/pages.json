@@ -1,5 +1,21 @@
 [
   {
+    "slug": "about",
+    "title": "初めての方へ"
+  },
+  {
+    "slug": "custom-home",
+    "title": "注文住宅（自由設計）"
+  },
+  {
+    "slug": "renovation",
+    "title": "リフォーム・リノベーション"
+  },
+  {
+    "slug": "support",
+    "title": "保証・アフターサポート"
+  },
+  {
     "slug": "company",
     "title": "会社概要"
   },
@@ -10,6 +26,14 @@
   {
     "slug": "faq",
     "title": "よくある質問"
+  },
+  {
+    "slug": "recruit",
+    "title": "採用情報"
+  },
+  {
+    "slug": "line",
+    "title": "LINE相談"
   },
   {
     "slug": "contact",
