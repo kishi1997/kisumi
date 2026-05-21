@@ -1,6 +1,6 @@
 ---
 name: wordpress-lower-page-image-wire-planning
-description: Plan kisumi yaotemp lower pages from image-shared wireframes before coding. Use when wireframes are PNG/JPG files, text must not be invented, images are placeholders, and Codex should create page-plan, image-plan, and content-notes while mapping the layout to existing theme tone and common components.
+description: Plan kisumi yaotemp lower pages from image-shared wireframes before coding. Use when wireframes are PNG/JPG files, text must not be invented, images are placeholders, and Codex should create a single plan.md (section layout, image slots, unresolved text) while mapping the layout to existing theme tone and common components.
 ---
 
 # WordPress Lower Page Image Wire Planning
@@ -48,44 +48,28 @@ Images are placeholders unless the user explicitly says they are final.
    - destination in `img/`
    - alt text guidance
    - final replacement note
-8. Create or update:
-   - `.ai-work/lower/{slug}/page-plan.md`
-   - `.ai-work/lower/{slug}/image-plan.md`
-   - `.ai-work/lower/{slug}/content-notes.md`
+8. Create or update a single file: `.ai-work/lower/{slug}/plan.md`
+   Do not create separate `image-plan.md` or `content-notes.md` files.
 9. Stop before coding and report unresolved questions.
 
-## `page-plan.md` must include
+## `plan.md` must include
 
+**Section layout**
 - Page slug and target template filename.
 - Wireframe image path(s).
-- Page title, breadcrumb label, and `h1`.
-- Locked section order.
-- Section-by-section layout notes.
-- Existing theme tone/components to reuse.
+- Page title and `h1`.
+- Locked section order table (class / background / content summary).
+- Section-by-section layout notes and page-scoped class names.
 - Common classes to create or reuse.
-- UI Pattern Library references, only when the shape matches.
-- Placeholder image slots.
-- Unresolved questions.
-- Implementation order.
-- Acceptance criteria.
 
-## `image-plan.md` must include
+**Image slots** (table)
+- Slot name / PHP location / ratio / placeholder source / renamed filename / alt guidance.
+- Note that all images are placeholders and may be replaced later.
 
-- Image slot.
-- Placeholder source filename.
-- Renamed theme filename.
-- Destination path, usually `img/`.
-- Alt text guidance.
-- Crop/ratio notes.
-- Note that the image is placeholder and may be replaced later.
-
-## `content-notes.md` must include
-
-- Exact readable text from the wireframe image.
+**Unresolved text**
+- Exact readable text from the wireframe.
 - Unreadable or uncertain text, marked as questions.
-- Button/link labels.
-- Link destinations, if visible or supplied.
-- Admin page title and breadcrumb label if known.
+- Button/link labels and destinations.
 
 ## Output rules
 

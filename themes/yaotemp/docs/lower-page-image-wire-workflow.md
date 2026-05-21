@@ -51,14 +51,11 @@ flowchart TD
   E --> F["読めないテキストを質問化"]
   F --> G["トップページのトンマナと共通パーツ候補を確認"]
   G --> H["UI Pattern Library Gate"]
-  H --> I["page-plan / image-plan / content-notes 作成"]
+  H --> I["plan.md 1本作成"]
   I --> J["Claude Codeがワイヤー改変なしを確認"]
   J --> K["ユーザー確認 Gate"]
-  K --> L["共通パーツ実装"]
-  L --> M["セクション単位で実装"]
-  M --> N["プレースホルダー画像をリネームして配置"]
-  N --> O["レスポンシブ確認"]
-  O --> P["タスク単位でコミット"]
+  K --> L["共通パーツ実装（初回のみ）"]
+  L --> M["ページ全体を1回で実装・コミット"]
 ```
 
 <h2 style="color:#f2994a;">Step 1: Wire Image Intake</h2>
@@ -117,15 +114,20 @@ flowchart TD
 
 ワイヤー画像の形に合う場合だけ使う。パターンに合わせてワイヤーを変えない。
 
-<h2 style="color:#f2994a;">Step 4: Planning Outputs</h2>
+<h2 style="color:#f2994a;">Step 4: Planning Output</h2>
 
-実装前に以下を作る。
+実装前に以下を**1本**作る。
 
-- `.ai-work/lower/{slug}/page-plan.md`
-- `.ai-work/lower/{slug}/image-plan.md`
-- `.ai-work/lower/{slug}/content-notes.md`
+- `.ai-work/lower/{slug}/plan.md`
 
-Claude Codeは、これらを見て以下を確認する。
+`plan.md` に含める内容:
+
+- セクション構成テーブル（ワイヤー通りの順）
+- ページ固有クラス設計
+- 画像スロット表（ソース候補・比率・リネーム後ファイル名・alt方針）
+- 未確定テキスト（要確認事項）
+
+Claude Codeは、これを見て以下を確認する。
 
 - ワイヤー画像の内容を勝手に変えていない
 - 読めないテキストを推測していない
@@ -137,12 +139,19 @@ Claude Codeは、これらを見て以下を確認する。
 
 良いタスク粒度:
 
-- 1ページ分の `page-plan.md` / `image-plan.md` / `content-notes.md` を作る
-- 共通見出しを作る
-- 繰り返し2カラムを共通クラス化する
-- 1セクションだけHTML/CSSを実装する
-- プレースホルダー画像のリネームと配置だけ行う
-- 1440px / 390pxで対象ページを確認する
+- 1ページ分の `plan.md` を作る
+- 共通パーツ（初回のみ）を実装・コミットする
+- ページ全体のSCSS + 最小限PHPクラス追加を**1回の Codex 派遣**で実装・コミットする
+
+Codex 派遣プロンプトテンプレ:
+
+```
+作業: themes/yaotemp/.ai-work/lower/<slug>/plan.md に沿って
+themes/yaotemp/css/design.scss に <slug> 用のページスコープSCSSを追加。
+ルールは rules/.codingrules-scss.md と rules/.clauderules-lower.md を参照。
+PHPは page-<slug>.php に必要最小限のclass追加のみ。
+完了後 git add → commit（タイトル: style(<slug>): apply design）。
+```
 
 悪いタスク粒度:
 
@@ -162,8 +171,8 @@ Claude Codeは、これらを見て以下を確認する。
 - 共通化できるレイアウトが共通クラス化されている
 - プレースホルダー画像が意味のある英語名で `img/` に置かれている
 - alt方針がある
-- 1440px / 390pxで崩れていない
-- 必要に応じて 1000px / 768px / 560pxを確認している
+- `plan.md` に 1000px / 768px / 560px のブレークポイント対応が SCSS で記述されている
+- `git diff` でページスコープ以外への副作用がないことを確認している
 
 <h2 style="color:#f2994a;">Claude Code Start Prompt</h2>
 
@@ -196,12 +205,11 @@ Claude CodeをPM、Codexをworkerとして、kisumiの下層ページ制作を�
 Codexに依頼する内容:
 - skills/wordpress-lower-page-image-wire-planning/SKILL.md を参照する
 - 対象ワイヤー画像から、読めるテキスト、セクション順、見出し階層、基本レイアウト、画像枠、ボタン/リンク位置を抽出する
-- 読めないテキストは推測せず、content-notes.md に要確認として記録する
-- Obsidian UI Pattern Library を確認する
+- 読めないテキストは推測せず、plan.md の「未確定テキスト」セクションに要確認として記録する
 - トップページと既存下層ページのトンマナから流用候補を整理する
 - セクションタイトルは共通パーツ化を前提にする
 - 同じ形のレイアウトは共通クラス化候補として整理する
-- page-plan.md / image-plan.md / content-notes.md を作成する
+- .ai-work/lower/{slug}/plan.md を1本作成する（image-plan / content-notes は別ファイルにしない）
 - 実装にはまだ入らない
 
 重要:
