@@ -147,14 +147,14 @@ get_header(); ?>
     <!-- 地域のよりどころ -->
     <section class="inner-section inner-section--neutral">
         <div class="inner-section__inner">
-            <div class="c-section-head" style="margin-bottom:40px;">
+            <div class="c-section-head about-region-head">
                 <p class="section-title-en">Region</p>
                 <h2 class="section-title-ja">地域のよりどころ</h2>
             </div>
             <div class="about-region">
                 <div class="about-region-item">
                     <div class="img-ph-wrapper" style="padding-top:60%;">
-                        <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                        <div class="img-ph"></div>
                     </div>
                     <div class="about-region-item__overlay">
                         <h3 class="about-region-item__title">いつでも集まる</h3>
@@ -163,7 +163,7 @@ get_header(); ?>
                 </div>
                 <div class="about-region-item">
                     <div class="img-ph-wrapper" style="padding-top:60%;">
-                        <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                        <div class="img-ph"></div>
                     </div>
                     <div class="about-region-item__overlay">
                         <h3 class="about-region-item__title">みんなで参加・入り出自由</h3>
