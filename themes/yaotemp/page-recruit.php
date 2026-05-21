@@ -179,9 +179,9 @@ get_header(); ?>
         </div>
         <?php endfor; ?>
         <div class="recruit-staff-card__more">
-            <a class="top-more-btn" href="<?php bloginfo('url'); ?>/staff/">
+            <a class="c-more-btn" href="<?php bloginfo('url'); ?>/staff/">
                 もっと見る
-                <span class="top-more-btn__arrow">→</span>
+                <span class="c-more-btn__arrow">→</span>
             </a>
         </div>
     </div>

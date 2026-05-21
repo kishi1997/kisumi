@@ -3626,10 +3626,9 @@ main {
   letter-spacing: 0.08em;
 }
 
-/* ─── lower-page: top-more-btn (global) ─────────── */
+/* ─── lower-page: c-more-btn ────────────────────── */
 
-.page-about .top-more-btn,
-.page-custom-home .top-more-btn {
+.c-more-btn {
   display: inline-flex;
   align-items: center;
   gap: 14px;
@@ -3639,14 +3638,13 @@ main {
   color: var(--color-text);
 }
 
-.page-about .top-more-btn .top-more-btn__arrow,
-.page-custom-home .top-more-btn .top-more-btn__arrow {
+.c-more-btn__arrow {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 48px;
   height: 30px;
-  color: #fff;
+  color: var(--color-bg);
   font-size: 1.6rem;
   line-height: 1;
   background-color: var(--color-primary);
@@ -4249,7 +4247,7 @@ main {
   }
 
   .section-title-ja {
-    font-size: clamp(2.0rem, 2.2vw, 2.8rem);
+    font-size: clamp(2rem, 2.2vw, 2.8rem);
     font-weight: 400;
     margin-top: 4px;
   }
@@ -4283,7 +4281,7 @@ main {
 
   .renovation-reason-item__num {
     font-family: var(--font-en);
-    font-size: 2.0rem;
+    font-size: 2rem;
     font-weight: 400;
     color: var(--color-primary);
     margin-bottom: 8px;
@@ -4314,7 +4312,6 @@ main {
     padding: 24px 0;
     border-bottom: 1px solid var(--color-border, #e8e4df);
   }
-
   .renovation-type-item__num {
     flex: 0 0 auto;
     font-family: var(--font-en);

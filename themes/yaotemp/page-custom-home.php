@@ -26,9 +26,9 @@ get_header(); ?>
                         土地探しから資金計画、そして一級建築士による緻密な設計まで。お客様のこだわりを丁寧に紐解き、住むほどに愛着が深まり、数十年後にはヴィンテージとしての価値を纏うような、世界にたったひとつの住まいをゼロから共に創り上げます。
                     </p>
                     <p class="custom-home-intro-more">
-                        <a class="top-more-btn" href="<?php bloginfo('url'); ?>/contact/">
+                        <a class="c-more-btn" href="<?php bloginfo('url'); ?>/contact/">
                             お問い合わせ
-                            <span class="top-more-btn__arrow">→</span>
+                            <span class="c-more-btn__arrow">→</span>
                         </a>
                     </p>
                 </div>
@@ -171,9 +171,9 @@ get_header(); ?>
                         </div>
                     </div>
                     <p>
-                        <a class="top-more-btn" href="<?php bloginfo('url'); ?>/about/">
+                        <a class="c-more-btn" href="<?php bloginfo('url'); ?>/about/">
                             家づくりの流れを見る
-                            <span class="top-more-btn__arrow">→</span>
+                            <span class="c-more-btn__arrow">→</span>
                         </a>
                     </p>
                 </div>

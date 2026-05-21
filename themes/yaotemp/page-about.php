@@ -104,9 +104,9 @@ get_header(); ?>
                     <div class="about-service-card__body">
                         <h3 class="about-service-card__title">新しい家づくり</h3>
                         <p class="about-service-card__text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                        <a class="top-more-btn" href="<?php bloginfo('url'); ?>/custom-home/">
+                        <a class="c-more-btn" href="<?php bloginfo('url'); ?>/custom-home/">
                             詳しくみる
-                            <span class="top-more-btn__arrow">→</span>
+                            <span class="c-more-btn__arrow">→</span>
                         </a>
                     </div>
                 </div>
@@ -119,9 +119,9 @@ get_header(); ?>
                     <div class="about-service-card__body">
                         <h3 class="about-service-card__title">見越し</h3>
                         <p class="about-service-card__text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                        <a class="top-more-btn" href="<?php bloginfo('url'); ?>/renovation/">
+                        <a class="c-more-btn" href="<?php bloginfo('url'); ?>/renovation/">
                             詳しくみる
-                            <span class="top-more-btn__arrow">→</span>
+                            <span class="c-more-btn__arrow">→</span>
                         </a>
                     </div>
                 </div>
@@ -134,9 +134,9 @@ get_header(); ?>
                     <div class="about-service-card__body">
                         <h3 class="about-service-card__title">見越し</h3>
                         <p class="about-service-card__text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                        <a class="top-more-btn" href="<?php bloginfo('url'); ?>/renovation/">
+                        <a class="c-more-btn" href="<?php bloginfo('url'); ?>/renovation/">
                             詳しくみる
-                            <span class="top-more-btn__arrow">→</span>
+                            <span class="c-more-btn__arrow">→</span>
                         </a>
                     </div>
                 </div>
@@ -197,9 +197,9 @@ get_header(); ?>
                 <?php endfor; ?>
             </div>
             <p class="about-column-more">
-                <a class="top-more-btn" href="<?php bloginfo('url'); ?>/column/">
+                <a class="c-more-btn" href="<?php bloginfo('url'); ?>/column/">
                     もっとみる
-                    <span class="top-more-btn__arrow">→</span>
+                    <span class="c-more-btn__arrow">→</span>
                 </a>
             </p>
         </div>

@@ -107,9 +107,9 @@ get_header(); ?>
                 <p class="support-care__text">
                     テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
                 </p>
-                <a class="top-more-btn" href="<?php bloginfo('url'); ?>/column/">
+                <a class="c-more-btn" href="<?php bloginfo('url'); ?>/column/">
                     コラムを見る
-                    <span class="top-more-btn__arrow">→</span>
+                    <span class="c-more-btn__arrow">→</span>
                 </a>
             </div>
             <div class="support-care__img">

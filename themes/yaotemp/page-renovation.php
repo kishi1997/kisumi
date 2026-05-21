@@ -25,9 +25,9 @@ get_header(); ?>
                         季住デザインのリノベーションは、単なる設備の更新に留まりません。受け継いだ柱や梁を意匠として活かし、断熱や耐震といった見えない性能を底上げすることで、思い出を継承しながらも驚くほど新しい暮らしを実現します。
                     </p>
                     <p class="inner-section__more">
-                        <a class="top-more-btn" href="<?php bloginfo('url'); ?>/contact/">
+                        <a class="c-more-btn" href="<?php bloginfo('url'); ?>/contact/">
                             お問い合わせ
-                            <span class="top-more-btn__arrow">→</span>
+                            <span class="c-more-btn__arrow">→</span>
                         </a>
                     </p>
                 </div>
