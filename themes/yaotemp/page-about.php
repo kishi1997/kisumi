@@ -90,7 +90,7 @@ get_header(); ?>
     <!-- どんな形の「家づくり」も相談窓口で -->
     <section class="inner-section">
         <div class="inner-section__inner">
-            <div class="inner-section__head" style="text-align:center;">
+            <div class="inner-section__head about-service-head">
                 <h2 class="inner-section__title">どんな形の「家づくり」も<br>相談窓口で</h2>
                 <p class="inner-section__lead">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
             </div>
@@ -98,7 +98,7 @@ get_header(); ?>
                 <div class="about-service-card">
                     <div class="about-service-card__img">
                         <div class="img-ph-wrapper" style="padding-top:70%;">
-                            <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                            <div class="img-ph"></div>
                         </div>
                     </div>
                     <div class="about-service-card__body">
@@ -113,7 +113,7 @@ get_header(); ?>
                 <div class="about-service-card">
                     <div class="about-service-card__img">
                         <div class="img-ph-wrapper" style="padding-top:70%;">
-                            <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                            <div class="img-ph"></div>
                         </div>
                     </div>
                     <div class="about-service-card__body">
@@ -128,7 +128,7 @@ get_header(); ?>
                 <div class="about-service-card">
                     <div class="about-service-card__img">
                         <div class="img-ph-wrapper" style="padding-top:70%;">
-                            <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                            <div class="img-ph"></div>
                         </div>
                     </div>
                     <div class="about-service-card__body">

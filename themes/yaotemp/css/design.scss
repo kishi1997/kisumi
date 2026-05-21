@@ -3932,3 +3932,61 @@ main {
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
+/* ─── page-about: service grid section ──────────── */
+
+#page-about .about-service-head {
+  text-align: center;
+  margin-bottom: clamp(40px, 4vw, 60px);
+}
+
+#page-about .about-service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(16px, 2vw, 28px);
+}
+
+#page-about .about-service-card {
+  display: flex;
+  flex-direction: column;
+}
+
+#page-about .about-service-card__img {
+  overflow: hidden;
+}
+
+#page-about .about-service-card__body {
+  padding: 16px 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#page-about .about-service-card__title {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.06em;
+}
+
+#page-about .about-service-card__text {
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 2;
+  color: var(--color-text-subtle);
+  flex: 1;
+}
+
+@media screen and (max-width: 768px) {
+  #page-about .about-service-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 560px) {
+  #page-about .about-service-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
