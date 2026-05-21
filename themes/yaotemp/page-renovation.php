@@ -24,7 +24,7 @@ get_header(); ?>
                         「古いから壊す」のではなく、積み重ねてきた時間に敬意を払い、現代のライフスタイルに合わせた快適さを吹き込みます。<br><br>
                         季住デザインのリノベーションは、単なる設備の更新に留まりません。受け継いだ柱や梁を意匠として活かし、断熱や耐震といった見えない性能を底上げすることで、思い出を継承しながらも驚くほど新しい暮らしを実現します。
                     </p>
-                    <p style="margin-top:32px;">
+                    <p class="inner-section__more">
                         <a class="top-more-btn" href="<?php bloginfo('url'); ?>/contact/">
                             お問い合わせ
                             <span class="top-more-btn__arrow">→</span>
@@ -33,7 +33,7 @@ get_header(); ?>
                 </div>
                 <div class="inner-2col__img">
                     <div class="img-ph-wrapper" style="padding-top:80%;">
-                        <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                        <div class="img-ph"></div>
                     </div>
                 </div>
             </div>
@@ -53,7 +53,7 @@ get_header(); ?>
                 <div class="renovation-reason-item">
                     <div class="renovation-reason-item__img">
                         <div class="img-ph-wrapper" style="padding-top:100%;">
-                            <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                            <div class="img-ph"></div>
                         </div>
                     </div>
                     <div class="renovation-reason-item__body">
@@ -65,7 +65,7 @@ get_header(); ?>
                 <div class="renovation-reason-item">
                     <div class="renovation-reason-item__img">
                         <div class="img-ph-wrapper" style="padding-top:100%;">
-                            <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                            <div class="img-ph"></div>
                         </div>
                     </div>
                     <div class="renovation-reason-item__body">
@@ -77,7 +77,7 @@ get_header(); ?>
                 <div class="renovation-reason-item">
                     <div class="renovation-reason-item__img">
                         <div class="img-ph-wrapper" style="padding-top:100%;">
-                            <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                            <div class="img-ph"></div>
                         </div>
                     </div>
                     <div class="renovation-reason-item__body">
@@ -140,7 +140,7 @@ get_header(); ?>
     <!-- 施工の信頼 (スタッフ) -->
     <section class="inner-section inner-section--neutral">
         <div class="inner-section__inner">
-            <div class="c-section-head" style="margin-bottom:40px;">
+            <div class="c-section-head">
                 <p class="section-title-en">Staff</p>
                 <h2 class="section-title-ja">スタッフ紹介</h2>
             </div>
@@ -149,7 +149,7 @@ get_header(); ?>
                 <div class="inner-card">
                     <div class="inner-card__img-wrap">
                         <div class="img-ph-wrapper" style="padding-top:80%;">
-                            <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                            <div class="img-ph"></div>
                         </div>
                     </div>
                     <div class="inner-card__body">
@@ -166,7 +166,7 @@ get_header(); ?>
     <!-- イベント情報 -->
     <section class="inner-section">
         <div class="inner-section__inner">
-            <div class="c-section-head" style="margin-bottom:40px;">
+            <div class="c-section-head">
                 <p class="section-title-en">Event</p>
                 <h2 class="section-title-ja">イベント情報</h2>
             </div>
@@ -175,7 +175,7 @@ get_header(); ?>
                 <article class="inner-card">
                     <div class="inner-card__img-wrap">
                         <div class="img-ph-wrapper" style="padding-top:66.67%;">
-                            <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                            <div class="img-ph"></div>
                         </div>
                     </div>
                     <div class="inner-card__body">
@@ -193,7 +193,7 @@ get_header(); ?>
     <div class="inner-banner-pair">
         <a class="inner-banner" href="<?php bloginfo('url'); ?>/voice/">
             <div class="img-ph-wrapper" style="padding-top:50%;">
-                <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                <div class="img-ph"></div>
             </div>
             <div class="inner-banner__overlay">
                 <p class="inner-banner__en">Portfolio</p>
@@ -202,7 +202,7 @@ get_header(); ?>
         </a>
         <a class="inner-banner" href="<?php bloginfo('url'); ?>/support/">
             <div class="img-ph-wrapper" style="padding-top:50%;">
-                <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                <div class="img-ph"></div>
             </div>
             <div class="inner-banner__overlay">
                 <p class="inner-banner__en">Support</p>
