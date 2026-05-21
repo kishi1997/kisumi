@@ -3865,3 +3865,17 @@ main {
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
+/* ─── page-about: concept/intro section ─────────── */
+
+#page-about .about-concept-head {
+  margin-bottom: 24px;
+}
+
+#page-about .inner-section__title {
+  font-size: clamp(2rem, 2.5vw, 2.8rem);
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 0.08em;
+  margin: 0 0 20px;
+}

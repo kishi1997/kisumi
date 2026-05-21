@@ -19,7 +19,7 @@ get_header(); ?>
         <div class="inner-section__inner">
             <div class="inner-2col">
                 <div class="inner-2col__text">
-                    <div class="c-section-head" style="margin-bottom:24px;">
+                    <div class="c-section-head about-concept-head">
                         <p class="section-title-en">Concept</p>
                     </div>
                     <h2 class="inner-section__title">季節を住まう。<br>時を愛でる。</h2>
@@ -30,7 +30,7 @@ get_header(); ?>
                 </div>
                 <div class="inner-2col__img">
                     <div class="img-ph-wrapper" style="padding-top:80%;">
-                        <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                        <div class="img-ph"></div>
                     </div>
                 </div>
             </div>
