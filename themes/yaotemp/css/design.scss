@@ -4105,3 +4105,30 @@ main {
 #page-custom-home .custom-home-intro-more {
   margin-top: 32px;
 }
+
+/* ─── page-custom-home: 02 spec grid section ─────── */
+
+#page-custom-home .custom-home-spec-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: clamp(12px, 1.5vw, 20px);
+  margin-top: clamp(32px, 3vw, 48px);
+}
+
+#page-custom-home .custom-home-spec-item {
+  display: flex;
+  flex-direction: column;
+}
+
+#page-custom-home .custom-home-spec-item__label {
+  margin: 12px 0 0;
+  font-size: 1.4rem;
+  text-align: center;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+  #page-custom-home .custom-home-spec-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
