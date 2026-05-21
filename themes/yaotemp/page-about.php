@@ -177,7 +177,7 @@ get_header(); ?>
     <!-- コラム -->
     <section class="inner-section">
         <div class="inner-section__inner">
-            <div class="c-section-head" style="margin-bottom:40px;">
+            <div class="c-section-head about-column-head">
                 <p class="section-title-en">Column</p>
                 <h2 class="section-title-ja">コラム</h2>
             </div>
@@ -186,7 +186,7 @@ get_header(); ?>
                 <article class="about-column-card">
                     <div class="about-column-card__img">
                         <div class="img-ph-wrapper" style="padding-top:66.67%;">
-                            <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                            <div class="img-ph"></div>
                         </div>
                     </div>
                     <div class="about-column-card__body">
@@ -196,7 +196,7 @@ get_header(); ?>
                 </article>
                 <?php endfor; ?>
             </div>
-            <p style="text-align:center;margin-top:40px;">
+            <p class="about-column-more">
                 <a class="top-more-btn" href="<?php bloginfo('url'); ?>/column/">
                     もっとみる
                     <span class="top-more-btn__arrow">→</span>
