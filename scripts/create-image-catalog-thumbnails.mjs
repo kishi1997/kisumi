@@ -14,6 +14,7 @@ const catalogPath = path.resolve(rootDir, options.catalog ?? '.ai-work/image-cat
 const maxSize = String(options.size ?? 512);
 
 await ensureSips();
+await rm(outputDir, { recursive: true, force: true });
 await mkdir(outputDir, { recursive: true });
 await mkdir(path.dirname(catalogPath), { recursive: true });
 
@@ -28,9 +29,10 @@ if (files.length === 0) {
 const rows = [];
 
 for (const [index, file] of files.entries()) {
+  const id = `img-${String(index + 1).padStart(3, '0')}`;
   const relativeSource = path.relative(sourceDir, file);
   const stem = relativeSource.slice(0, relativeSource.length - path.extname(relativeSource).length);
-  const thumbName = `${stem}__thumb.jpg`;
+  const thumbName = `${id}__${stem}__thumb.jpg`;
   const thumbPath = path.join(outputDir, sanitizeThumbName(thumbName));
   const info = await readImageInfo(file);
 
@@ -47,7 +49,7 @@ for (const [index, file] of files.entries()) {
   ]);
 
   rows.push({
-    id: `img-${String(index + 1).padStart(3, '0')}`,
+    id,
     thumb: toPosix(path.relative(rootDir, thumbPath)),
     original: toPosix(path.relative(rootDir, file)),
     size: info.size,
