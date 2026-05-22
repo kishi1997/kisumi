@@ -9,9 +9,12 @@
     "wp": "wp-env run cli wp",
     "setup": "node scripts/setup-wp-env.mjs",
     "images:catalog": "node scripts/create-image-catalog-thumbnails.mjs",
-    "reset": "wp-env clean all && wp-env start --update && node scripts/setup-wp-env.mjs"
+    "reset": "wp-env clean all && wp-env start --update && node scripts/setup-wp-env.mjs",
+    "compress:theme-images": "node scripts/compress-theme-images.mjs"
   },
   "devDependencies": {
-    "@wordpress/env": "latest"
+    "@wordpress/env": "latest",
+    "glob": "^13.0.6",
+    "sharp": "^0.34.5"
   }
 }

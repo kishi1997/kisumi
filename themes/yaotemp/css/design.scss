@@ -4349,7 +4349,7 @@ main {
   .line-lead__text {
     margin: 0;
     font-size: 1.6rem;
-    line-height: 2.0;
+    line-height: 2;
     color: var(--color-text-subtle);
   }
 
@@ -4388,13 +4388,13 @@ main {
     justify-content: center;
     width: 48px;
     height: 48px;
-    background-color: #06C755;
+    background-color: #06c755;
     border-radius: 12px;
     margin-bottom: 16px;
   }
 
   .line-logo__text {
-    font-size: 1.0rem;
+    font-size: 1rem;
     font-weight: 700;
     color: #fff;
     letter-spacing: 0.02em;
@@ -4455,7 +4455,7 @@ main {
     font-size: 1.5rem;
     font-weight: 400;
     color: #fff;
-    background-color: #06C755;
+    background-color: #06c755;
     border-radius: 4px;
     text-decoration: none;
   }
@@ -4473,7 +4473,7 @@ main {
     padding: 0 0 0 1.5em;
     font-size: 1.4rem;
     color: var(--color-text-subtle);
-    line-height: 2.0;
+    line-height: 2;
   }
 
   .line-step__img {
@@ -4564,7 +4564,8 @@ main {
     font-size: 1.4rem;
   }
 
-  th, td {
+  th,
+  td {
     padding: 14px 0;
     border-bottom: 1px solid var(--color-border-light);
     text-align: left;
@@ -4794,7 +4795,8 @@ main {
     border-collapse: collapse;
     font-size: 1.3rem;
 
-    th, td {
+    th,
+    td {
       padding: 10px 12px;
       border: 1px solid var(--color-border-light);
       text-align: left;
@@ -4815,7 +4817,8 @@ main {
     @media screen and (max-width: 640px) {
       font-size: 1.1rem;
 
-      th, td {
+      th,
+      td {
         padding: 8px 6px;
       }
     }
@@ -4887,7 +4890,8 @@ main {
     border-collapse: collapse;
     font-size: 1.4rem;
 
-    th, td {
+    th,
+    td {
       padding: 16px 20px;
       border-bottom: 1px solid var(--color-border-light);
       text-align: left;
@@ -4904,7 +4908,8 @@ main {
     }
 
     @media screen and (max-width: 640px) {
-      th, td {
+      th,
+      td {
         display: block;
         width: 100%;
         padding: 10px 0;
