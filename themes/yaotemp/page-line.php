@@ -8,7 +8,7 @@ get_header(); ?>
 
     <!-- ページヒーロー -->
     <section class="page-hero">
-        <div class="img-ph img-ph--wide" role="img" aria-label="LINE相談イメージ"></div>
+        <img class="img-ph img-ph--wide" src="<?php bloginfo('template_url');?>/img/line-hero.jpg" alt="窓辺のやわらかな暮らしのひとこま" style="object-fit:cover;">
         <div class="page-hero__overlay">
             <h1 class="page-hero__title">LINE相談</h1>
         </div>
@@ -49,7 +49,7 @@ get_header(); ?>
             </div>
             <div class="line-step__img">
                 <div class="img-ph-wrapper" style="padding-top:80%;">
-                    <div class="img-ph"></div>
+                    <img class="img-ph" src="<?php bloginfo('template_url');?>/img/line-step01-exterior.jpg" alt="清潔感のある季住デザインの外観" style="object-fit:cover;">
                 </div>
             </div>
         </div>
@@ -58,7 +58,7 @@ get_header(); ?>
         <div class="line-step">
             <div class="line-step__img">
                 <div class="img-ph-wrapper" style="padding-top:80%;">
-                    <div class="img-ph"></div>
+                    <img class="img-ph" src="<?php bloginfo('template_url');?>/img/line-step02-staff.jpg" alt="お客様に丁寧に対応するスタッフ" style="object-fit:cover;">
                 </div>
             </div>
             <div>

@@ -8,7 +8,7 @@ get_header(); ?>
 
     <!-- ページヒーロー -->
     <section class="page-hero">
-        <div class="img-ph img-ph--wide" role="img" aria-label="リフォーム・リノベーションイメージ"></div>
+        <img class="img-ph img-ph--wide" src="<?php bloginfo('template_url');?>/img/renovation-hero.jpg" alt="陽光差し込むリノベーション後のリビング" style="object-fit:cover;">
         <div class="page-hero__overlay">
             <h1 class="page-hero__title">リフォーム・リノベーション</h1>
         </div>
@@ -33,7 +33,7 @@ get_header(); ?>
                 </div>
                 <div class="inner-2col__img">
                     <div class="img-ph-wrapper" style="padding-top:80%;">
-                        <div class="img-ph"></div>
+                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/renovation-intro-kitchen.jpg" alt="ペンダントライトのあるリノベーションキッチン" style="object-fit:cover;">
                     </div>
                 </div>
             </div>
@@ -53,7 +53,7 @@ get_header(); ?>
                 <div class="renovation-reason-item">
                     <div class="renovation-reason-item__img">
                         <div class="img-ph-wrapper" style="padding-top:100%;">
-                            <div class="img-ph"></div>
+                            <img class="img-ph" src="<?php bloginfo('template_url');?>/img/renovation-reason-01-kitchen.jpg" alt="タイルのバックスプラッシュと木の天井のキッチン" style="object-fit:cover;">
                         </div>
                     </div>
                     <div class="renovation-reason-item__body">
@@ -65,7 +65,7 @@ get_header(); ?>
                 <div class="renovation-reason-item">
                     <div class="renovation-reason-item__img">
                         <div class="img-ph-wrapper" style="padding-top:100%;">
-                            <div class="img-ph"></div>
+                            <img class="img-ph" src="<?php bloginfo('template_url');?>/img/renovation-reason-02-interior.jpg" alt="リノベーション後の明るい室内" style="object-fit:cover;">
                         </div>
                     </div>
                     <div class="renovation-reason-item__body">
@@ -77,7 +77,7 @@ get_header(); ?>
                 <div class="renovation-reason-item">
                     <div class="renovation-reason-item__img">
                         <div class="img-ph-wrapper" style="padding-top:100%;">
-                            <div class="img-ph"></div>
+                            <img class="img-ph" src="<?php bloginfo('template_url');?>/img/renovation-reason-03-niche.jpg" alt="アーチ窓が特徴的なリノベーション空間" style="object-fit:cover;">
                         </div>
                     </div>
                     <div class="renovation-reason-item__body">
@@ -149,7 +149,7 @@ get_header(); ?>
                 <div class="inner-card">
                     <div class="inner-card__img-wrap">
                         <div class="img-ph-wrapper" style="padding-top:80%;">
-                            <div class="img-ph"></div>
+                            <img class="img-ph" src="<?php bloginfo('template_url');?>/img/renovation-staff-photo.jpg" alt="スタッフ紹介" style="object-fit:cover;">
                         </div>
                     </div>
                     <div class="inner-card__body">
@@ -175,7 +175,7 @@ get_header(); ?>
                 <article class="inner-card">
                     <div class="inner-card__img-wrap">
                         <div class="img-ph-wrapper" style="padding-top:66.67%;">
-                            <div class="img-ph"></div>
+                            <img class="img-ph" src="<?php bloginfo('template_url');?>/img/renovation-event-consultation.jpg" alt="リノベーション相談会のイメージ" style="object-fit:cover;">
                         </div>
                     </div>
                     <div class="inner-card__body">
@@ -193,7 +193,7 @@ get_header(); ?>
     <div class="inner-banner-pair">
         <a class="inner-banner" href="<?php bloginfo('url'); ?>/voice/">
             <div class="img-ph-wrapper" style="padding-top:50%;">
-                <div class="img-ph"></div>
+                <img class="img-ph" src="<?php bloginfo('template_url');?>/img/renovation-banner-portfolio.jpg" alt="施工事例イメージ" style="object-fit:cover;">
             </div>
             <div class="inner-banner__overlay">
                 <p class="inner-banner__en">Portfolio</p>
@@ -202,7 +202,7 @@ get_header(); ?>
         </a>
         <a class="inner-banner" href="<?php bloginfo('url'); ?>/support/">
             <div class="img-ph-wrapper" style="padding-top:50%;">
-                <div class="img-ph"></div>
+                <img class="img-ph" src="<?php bloginfo('template_url');?>/img/renovation-banner-support.jpg" alt="保証・アフターサポートイメージ" style="object-fit:cover;">
             </div>
             <div class="inner-banner__overlay">
                 <p class="inner-banner__en">Support</p>

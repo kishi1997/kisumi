@@ -8,7 +8,7 @@ get_header(); ?>
 
     <!-- ページヒーロー -->
     <section class="page-hero">
-        <div class="img-ph img-ph--wide" role="img" aria-label="保証・アフターサポートイメージ"></div>
+        <img class="img-ph img-ph--wide" src="<?php bloginfo('template_url');?>/img/support-hero.jpg" alt="木の天井とアイランドキッチン" style="object-fit:cover;">
         <div class="page-hero__overlay">
             <h1 class="page-hero__title">保証・アフターサポート</h1>
         </div>
@@ -81,7 +81,7 @@ get_header(); ?>
         <div class="support-inspection">
             <div class="support-inspection__img">
                 <div class="img-ph-wrapper" style="padding-top:70%;">
-                    <div class="img-ph"></div>
+                    <img class="img-ph" src="<?php bloginfo('template_url');?>/img/support-inspection-living.jpg" alt="無垢材の床とやわらかな光のリビング" style="object-fit:cover;">
                 </div>
             </div>
             <div class="support-inspection__body">
@@ -114,7 +114,7 @@ get_header(); ?>
             </div>
             <div class="support-care__img">
                 <div class="img-ph-wrapper" style="padding-top:80%;">
-                    <div class="img-ph"></div>
+                    <img class="img-ph" src="<?php bloginfo('template_url');?>/img/support-care-staircase.jpg" alt="自然光が差し込む階段の光と影" style="object-fit:cover;">
                 </div>
             </div>
         </div>

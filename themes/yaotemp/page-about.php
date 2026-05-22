@@ -8,7 +8,7 @@ get_header(); ?>
 
     <!-- ページヒーロー -->
     <section class="page-hero">
-        <div class="img-ph img-ph--wide" role="img" aria-label="初めての方へイメージ"></div>
+        <img class="img-ph img-ph--wide" src="<?php bloginfo('template_url');?>/img/about-hero.jpg" alt="木のぬくもりを感じる住まいの室内" style="object-fit:cover;">
         <div class="page-hero__overlay">
             <h1 class="page-hero__title">初めての方へ</h1>
         </div>
@@ -30,7 +30,7 @@ get_header(); ?>
                 </div>
                 <div class="inner-2col__img">
                     <div class="img-ph-wrapper" style="padding-top:80%;">
-                        <div class="img-ph"></div>
+                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/about-concept-window.jpg" alt="窓辺に並ぶ木の小物" style="object-fit:cover;">
                     </div>
                 </div>
             </div>
@@ -44,7 +44,7 @@ get_header(); ?>
                 <div class="about-feature-item">
                     <div class="about-feature-item__img">
                         <div class="img-ph-wrapper" style="padding-top:75%;">
-                            <div class="img-ph"></div>
+                            <img class="img-ph" src="<?php bloginfo('template_url');?>/img/about-feature-01-living.jpg" alt="無垢材の床と緑のある暮らし" style="object-fit:cover;">
                         </div>
                     </div>
                     <div class="about-feature-item__text">
@@ -58,7 +58,7 @@ get_header(); ?>
                 <div class="about-feature-item">
                     <div class="about-feature-item__img">
                         <div class="img-ph-wrapper" style="padding-top:75%;">
-                            <div class="img-ph"></div>
+                            <img class="img-ph" src="<?php bloginfo('template_url');?>/img/about-feature-02-kitchen-living.jpg" alt="木の梁が印象的なキッチンとリビング" style="object-fit:cover;">
                         </div>
                     </div>
                     <div class="about-feature-item__text">
@@ -72,7 +72,7 @@ get_header(); ?>
                 <div class="about-feature-item">
                     <div class="about-feature-item__img">
                         <div class="img-ph-wrapper" style="padding-top:75%;">
-                            <div class="img-ph"></div>
+                            <img class="img-ph" src="<?php bloginfo('template_url');?>/img/about-feature-03-study-desk.jpg" alt="窓に面した作業スペース" style="object-fit:cover;">
                         </div>
                     </div>
                     <div class="about-feature-item__text">
@@ -98,7 +98,7 @@ get_header(); ?>
                 <div class="about-service-card">
                     <div class="about-service-card__img">
                         <div class="img-ph-wrapper" style="padding-top:70%;">
-                            <div class="img-ph"></div>
+                            <img class="img-ph" src="<?php bloginfo('template_url');?>/img/about-service-custom-home.jpg" alt="アイランドキッチンを持つ注文住宅" style="object-fit:cover;">
                         </div>
                     </div>
                     <div class="about-service-card__body">
@@ -113,7 +113,7 @@ get_header(); ?>
                 <div class="about-service-card">
                     <div class="about-service-card__img">
                         <div class="img-ph-wrapper" style="padding-top:70%;">
-                            <div class="img-ph"></div>
+                            <img class="img-ph" src="<?php bloginfo('template_url');?>/img/about-service-renovation-01.jpg" alt="リノベーション後の明るいリビング" style="object-fit:cover;">
                         </div>
                     </div>
                     <div class="about-service-card__body">
@@ -128,7 +128,7 @@ get_header(); ?>
                 <div class="about-service-card">
                     <div class="about-service-card__img">
                         <div class="img-ph-wrapper" style="padding-top:70%;">
-                            <div class="img-ph"></div>
+                            <img class="img-ph" src="<?php bloginfo('template_url');?>/img/about-service-renovation-01.jpg" alt="リノベーション後の明るいリビング" style="object-fit:cover;">
                         </div>
                     </div>
                     <div class="about-service-card__body">
@@ -154,7 +154,7 @@ get_header(); ?>
             <div class="about-region">
                 <div class="about-region-item">
                     <div class="img-ph-wrapper" style="padding-top:60%;">
-                        <div class="img-ph"></div>
+                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/about-region-gathering.jpg" alt="店舗前に集まるスタッフたち" style="object-fit:cover;">
                     </div>
                     <div class="about-region-item__overlay">
                         <h3 class="about-region-item__title">いつでも集まる</h3>
@@ -163,7 +163,7 @@ get_header(); ?>
                 </div>
                 <div class="about-region-item">
                     <div class="img-ph-wrapper" style="padding-top:60%;">
-                        <div class="img-ph"></div>
+                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/about-region-house-exterior.jpg" alt="白い外壁の新築住宅外観" style="object-fit:cover;">
                     </div>
                     <div class="about-region-item__overlay">
                         <h3 class="about-region-item__title">みんなで参加・入り出自由</h3>
@@ -186,7 +186,7 @@ get_header(); ?>
                 <article class="about-column-card">
                     <div class="about-column-card__img">
                         <div class="img-ph-wrapper" style="padding-top:66.67%;">
-                            <div class="img-ph"></div>
+                            <img class="img-ph" src="<?php bloginfo('template_url');?>/img/about-column-placeholder.jpg" alt="住まいのコラムイメージ" style="object-fit:cover;">
                         </div>
                     </div>
                     <div class="about-column-card__body">

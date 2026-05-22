@@ -8,7 +8,7 @@ get_header(); ?>
 
     <!-- ページヒーロー -->
     <section class="page-hero">
-        <div class="img-ph img-ph--wide" role="img" aria-label="採用情報イメージ"></div>
+        <img class="img-ph img-ph--wide" src="<?php bloginfo('template_url');?>/img/recruit-hero.jpg" alt="季住デザインのスタッフ集合写真" style="object-fit:cover;">
         <div class="page-hero__overlay">
             <h1 class="page-hero__title">採用情報</h1>
         </div>
@@ -39,7 +39,7 @@ get_header(); ?>
         <?php for ($i = 1; $i <= 3; $i++) : ?>
         <div class="recruit-staff-circle">
             <div class="recruit-staff-circle__img-wrap">
-                <div class="img-ph"></div>
+                <img class="img-ph" src="<?php bloginfo('template_url');?>/img/recruit-staff-portrait.jpg" alt="スタッフ写真" style="object-fit:cover;">
             </div>
             <p class="recruit-staff-circle__role">役職名</p>
             <p class="recruit-staff-circle__name">お名前</p>
@@ -60,7 +60,7 @@ get_header(); ?>
         </div>
         <div class="recruit-culture__img">
             <div class="img-ph-wrapper" style="padding-top:75%;">
-                <div class="img-ph"></div>
+                <img class="img-ph" src="<?php bloginfo('template_url');?>/img/recruit-culture-workspace.jpg" alt="木の香りのあるワークスペース" style="object-fit:cover;">
             </div>
         </div>
     </section>
@@ -69,7 +69,7 @@ get_header(); ?>
     <section class="recruit-ideal">
         <div class="recruit-ideal__img">
             <div class="img-ph-wrapper" style="padding-top:75%;">
-                <div class="img-ph"></div>
+                <img class="img-ph" src="<?php bloginfo('template_url');?>/img/recruit-ideal-staircase.jpg" alt="吹き抜けの開放的な住まいの階段" style="object-fit:cover;">
             </div>
         </div>
         <div class="recruit-ideal__body">
@@ -161,7 +161,7 @@ get_header(); ?>
             </div>
             <div class="recruit-schedule__img">
                 <div class="img-ph-wrapper" style="padding-top:100%;">
-                    <div class="img-ph"></div>
+                    <img class="img-ph" src="<?php bloginfo('template_url');?>/img/recruit-schedule-room.jpg" alt="木の梁が印象的な居室" style="object-fit:cover;">
                 </div>
             </div>
         </div>
@@ -172,7 +172,7 @@ get_header(); ?>
         <?php for ($i = 1; $i <= 4; $i++) : ?>
         <div class="recruit-staff-card">
             <div class="recruit-staff-card__img-wrap">
-                <div class="img-ph"></div>
+                <img class="img-ph" src="<?php bloginfo('template_url');?>/img/recruit-staff-portrait.jpg" alt="スタッフ写真" style="object-fit:cover;">
             </div>
             <p class="recruit-staff-card__role">役職名・役職名</p>
             <p class="recruit-staff-card__name">お名前　お名前</p>

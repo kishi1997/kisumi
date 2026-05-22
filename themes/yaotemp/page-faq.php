@@ -8,7 +8,7 @@ get_header(); ?>
 
     <!-- ページヒーロー -->
     <section class="page-hero">
-        <div class="img-ph img-ph--wide" role="img" aria-label="よくある質問イメージ"></div>
+        <img class="img-ph img-ph--wide" src="<?php bloginfo('template_url');?>/img/faq-hero.jpg" alt="清潔感のある新築住宅外観" style="object-fit:cover;">
         <div class="page-hero__overlay">
             <h1 class="page-hero__title">よくある質問</h1>
         </div>
