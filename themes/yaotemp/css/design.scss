@@ -4333,6 +4333,124 @@ main {
   }
 }
 
+/* ─── page-faq ─────────────────────────────────── */
+
+#page-faq {
+  .faq-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: clamp(32px, 4vw, 56px);
+  }
+
+  .faq-filter__btn {
+    padding: 8px 20px;
+    font-size: 1.3rem;
+    line-height: 1.4;
+    color: var(--color-text);
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border-light);
+    cursor: pointer;
+  }
+
+  .faq-filter__btn.is-active {
+    color: var(--color-bg);
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+  }
+
+  .faq-category {
+    margin-bottom: clamp(40px, 5vw, 64px);
+  }
+
+  .faq-category__title {
+    margin: 0 0 0;
+    padding-bottom: 14px;
+    font-size: clamp(1.6rem, 1.8vw, 2rem);
+    font-weight: 400;
+    border-bottom: 1px solid var(--color-border-light);
+  }
+
+  .faq-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .faq-item {
+    border-bottom: 1px solid var(--color-border-light);
+  }
+
+  .faq-item__q {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 20px 0;
+    cursor: pointer;
+  }
+
+  .faq-item__mark {
+    flex-shrink: 0;
+    font-family: var(--font-en);
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--color-primary);
+    line-height: 1.4;
+  }
+
+  .faq-item__mark--a {
+    color: var(--color-text-subtle);
+  }
+
+  .faq-item__text {
+    flex: 1;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.7;
+  }
+
+  .faq-item__q-arrow {
+    flex-shrink: 0;
+    margin-top: 4px;
+    font-size: 1.1rem;
+    color: var(--color-text-subtle);
+    transition: transform 0.2s ease;
+  }
+
+  .faq-item.is-open {
+    .faq-item__q-arrow {
+      transform: rotate(180deg);
+    }
+  }
+
+  .faq-item__a {
+    display: none;
+  }
+
+  .faq-item.is-open {
+    .faq-item__a {
+      display: block;
+    }
+  }
+
+  .faq-item__a-inner {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 16px;
+    background-color: var(--color-surface-soft);
+    margin-bottom: 0;
+  }
+
+  .faq-item__a-text {
+    flex: 1;
+    margin: 0;
+    font-size: 1.4rem;
+    line-height: 1.9;
+    color: var(--color-text-subtle);
+  }
+}
+
 /* ─── page-support ──────────────────────────────── */
 
 #page-support {
