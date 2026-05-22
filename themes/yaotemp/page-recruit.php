@@ -17,7 +17,7 @@ get_header(); ?>
     <!-- 初年度契約 -->
     <section class="inner-section">
         <div class="inner-section__inner">
-            <div class="c-section-head" style="margin-bottom:40px;text-align:center;">
+            <div class="c-section-head">
                 <p class="section-title-en">First Year</p>
                 <h2 class="section-title-ja">初年度契約</h2>
             </div>
@@ -39,7 +39,7 @@ get_header(); ?>
         <?php for ($i = 1; $i <= 3; $i++) : ?>
         <div class="recruit-staff-circle">
             <div class="recruit-staff-circle__img-wrap">
-                <div class="img-ph" style="width:100%;height:100%;"></div>
+                <div class="img-ph"></div>
             </div>
             <p class="recruit-staff-circle__role">役職名</p>
             <p class="recruit-staff-circle__name">お名前</p>
@@ -50,7 +50,7 @@ get_header(); ?>
     <!-- 風土 -->
     <section class="recruit-culture">
         <div class="recruit-culture__body">
-            <div class="c-section-head" style="margin-bottom:20px;">
+            <div class="c-section-head">
                 <p class="section-title-en">Culture</p>
             </div>
             <h2 class="recruit-culture__title">風土</h2>
@@ -60,20 +60,20 @@ get_header(); ?>
         </div>
         <div class="recruit-culture__img">
             <div class="img-ph-wrapper" style="padding-top:75%;">
-                <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                <div class="img-ph"></div>
             </div>
         </div>
     </section>
 
     <!-- 求める人 -->
     <section class="recruit-ideal">
-        <div>
+        <div class="recruit-ideal__img">
             <div class="img-ph-wrapper" style="padding-top:75%;">
-                <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                <div class="img-ph"></div>
             </div>
         </div>
-        <div>
-            <div class="c-section-head" style="margin-bottom:20px;">
+        <div class="recruit-ideal__body">
+            <div class="c-section-head">
                 <p class="section-title-en">Person</p>
             </div>
             <h2 class="recruit-culture__title">求める人</h2>
@@ -86,7 +86,7 @@ get_header(); ?>
     <!-- 一日の流れ（1週間） -->
     <section class="recruit-schedule">
         <div class="recruit-schedule__inner">
-            <div>
+            <div class="recruit-schedule__body">
                 <h2 class="recruit-schedule__title">一日の流れ（1週間）</h2>
                 <table class="recruit-schedule-table">
                     <thead>
@@ -159,9 +159,9 @@ get_header(); ?>
                     </tbody>
                 </table>
             </div>
-            <div>
+            <div class="recruit-schedule__img">
                 <div class="img-ph-wrapper" style="padding-top:100%;">
-                    <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                    <div class="img-ph"></div>
                 </div>
             </div>
         </div>
@@ -172,7 +172,7 @@ get_header(); ?>
         <?php for ($i = 1; $i <= 4; $i++) : ?>
         <div class="recruit-staff-card">
             <div class="recruit-staff-card__img-wrap">
-                <div class="img-ph" style="position:absolute;inset:0;width:100%;height:100%;"></div>
+                <div class="img-ph"></div>
             </div>
             <p class="recruit-staff-card__role">役職名・役職名</p>
             <p class="recruit-staff-card__name">お名前　お名前</p>
@@ -189,7 +189,7 @@ get_header(); ?>
     <!-- 募集職種・募集要項 -->
     <section class="recruit-jobs">
         <div class="recruit-jobs__inner">
-            <div class="c-section-head" style="margin-bottom:16px;">
+            <div class="c-section-head">
                 <p class="section-title-en">Recruitment</p>
                 <h2 class="section-title-ja">募集職種・募集要項</h2>
             </div>
