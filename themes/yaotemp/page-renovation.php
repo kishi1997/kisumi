@@ -8,7 +8,7 @@ get_header(); ?>
 
     <!-- ページヒーロー -->
     <section class="page-hero">
-        <img class="img-ph img-ph--wide" src="<?php bloginfo('template_url');?>/img/renovation-hero.jpg" alt="陽光差し込むリノベーション後のリビング" style="object-fit:cover;">
+        <img class="img-ph img-ph--wide" src="<?php bloginfo('template_url');?>/img/renovation-hero.jpg" alt="木のフローリングに緑のソファが映えるリノベ後のリビング" style="object-fit:cover;">
         <div class="page-hero__overlay">
             <h1 class="page-hero__title">リフォーム・リノベーション</h1>
         </div>
@@ -33,7 +33,7 @@ get_header(); ?>
                 </div>
                 <div class="inner-2col__img">
                     <div class="img-ph-wrapper" style="padding-top:80%;">
-                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/renovation-intro-kitchen.jpg" alt="ペンダントライトのあるリノベーションキッチン" style="object-fit:cover;">
+                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/renovation-intro-kitchen.jpg" alt="モカブラウンの壁と木の温もりのリノベキッチン" style="object-fit:cover;">
                     </div>
                 </div>
             </div>
