@@ -15,9 +15,9 @@ get_header(); ?>
     </section>
 
     <!-- リード -->
-    <section style="padding:56px 20px 0;text-align:center;">
-        <div style="max-width:640px;margin:0 auto;">
-            <p style="font-size:1.6rem;line-height:2.0;color:var(--color-text-muted);">
+    <section class="line-lead">
+        <div class="line-lead__inner">
+            <p class="line-lead__text">
                 LINEでのご相談・ご予約を承っております。<br>
                 以下の手順でお気軽にご連絡ください。
             </p>
@@ -40,7 +40,7 @@ get_header(); ?>
                 </p>
                 <div class="line-step__action">
                     <div class="line-step__qr">
-                        <div class="img-ph" style="position:absolute;inset:0;width:100%;height:100%;border-radius:4px;"></div>
+                        <div class="img-ph"></div>
                     </div>
                     <a class="line-step__btn-add" href="#" target="_blank" rel="noopener noreferrer">
                         友だち追加
@@ -49,7 +49,7 @@ get_header(); ?>
             </div>
             <div class="line-step__img">
                 <div class="img-ph-wrapper" style="padding-top:80%;">
-                    <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                    <div class="img-ph"></div>
                 </div>
             </div>
         </div>
@@ -58,7 +58,7 @@ get_header(); ?>
         <div class="line-step">
             <div class="line-step__img">
                 <div class="img-ph-wrapper" style="padding-top:80%;">
-                    <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                    <div class="img-ph"></div>
                 </div>
             </div>
             <div>
@@ -68,7 +68,7 @@ get_header(); ?>
                     公式LINEを友だち追加後、メッセージ送信後の返信テンプレートで<br>
                     お客様情報のご送信をお願いします。
                 </p>
-                <p style="font-size:1.5rem;font-weight:400;margin:0 0 8px;color:var(--color-text);">【お客様情報】</p>
+                <p class="line-step__info-label">【お客様情報】</p>
                 <ul class="line-step__list">
                     <li>お名前</li>
                     <li>ご住所</li>
