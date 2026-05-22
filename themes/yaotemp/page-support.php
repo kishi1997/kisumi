@@ -78,14 +78,14 @@ get_header(); ?>
 
     <!-- 定期点検 -->
     <section class="inner-section--neutral">
-        <div class="support-inspection" style="max-width:1080px;margin:0 auto;">
+        <div class="support-inspection">
             <div class="support-inspection__img">
                 <div class="img-ph-wrapper" style="padding-top:70%;">
-                    <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                    <div class="img-ph"></div>
                 </div>
             </div>
-            <div>
-                <div class="c-section-head" style="margin-bottom:20px;">
+            <div class="support-inspection__body">
+                <div class="c-section-head">
                     <p class="section-title-en">Inspection</p>
                 </div>
                 <h2 class="support-inspection__title">定期点検</h2>
@@ -99,8 +99,8 @@ get_header(); ?>
     <!-- お手入れ方法 -->
     <section class="support-care">
         <div class="support-care__inner">
-            <div>
-                <div class="c-section-head" style="margin-bottom:20px;">
+            <div class="support-care__body">
+                <div class="c-section-head">
                     <p class="section-title-en">Care</p>
                 </div>
                 <h2 class="support-care__title">お手入れ方法</h2>
@@ -114,7 +114,7 @@ get_header(); ?>
             </div>
             <div class="support-care__img">
                 <div class="img-ph-wrapper" style="padding-top:80%;">
-                    <div class="img-ph" style="position:absolute;inset:0;padding-top:0;"></div>
+                    <div class="img-ph"></div>
                 </div>
             </div>
         </div>
