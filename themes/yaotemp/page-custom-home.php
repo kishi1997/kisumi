@@ -8,7 +8,8 @@ get_header(); ?>
 
     <!-- ページヒーロー -->
     <section class="page-hero">
-        <img class="img-ph img-ph--wide" src="<?php bloginfo('template_url');?>/img/custom-home-hero.jpg" alt="木の梁と眺望が美しい注文住宅のLDK" style="object-fit:cover;">
+        <img class="img-ph img-ph--wide" src="<?php bloginfo('template_url');?>/img/custom-home-hero.jpg"
+            alt="木の梁と眺望が美しい注文住宅のLDK" style="object-fit:cover;">
         <div class="page-hero__overlay">
             <h1 class="page-hero__title">注文住宅（自由設計）</h1>
         </div>
@@ -19,11 +20,15 @@ get_header(); ?>
         <div class="inner-section__inner">
             <div class="inner-2col">
                 <div class="inner-2col__text">
-                    <p class="inner-section__num">01</p>
-                    <h2 class="inner-section__title">何もしない贅沢を、<br>ゼロから形にする。</h2>
+                    <h2 class="section-title-ja">時とともに育つ、<br>漆喰と無垢の家</h2>
                     <p class="inner-section__lead">
-                        家づくりは、箱をつくることではありません。朝、窓から差し込む光の角度や、素足で触れたときの無垢材の心地よさ、そして家族の笑い声が響く距離感。私たちは、そんな目に見えない「空気感」を大切に設計を進めます。<br><br>
-                        土地探しから資金計画、そして一級建築士による緻密な設計まで。お客様のこだわりを丁寧に紐解き、住むほどに愛着が深まり、数十年後にはヴィンテージとしての価値を纏うような、世界にたったひとつの住まいをゼロから共に創り上げます。
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                    </p>
+                    <h3 class="inner-section__subtitle">土地探しから〜</h3>
+                    <p class="inner-section__lead">
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
                     </p>
                     <p class="custom-home-intro-more">
                         <a class="c-more-btn" href="<?php bloginfo('url'); ?>/contact/">
@@ -34,152 +39,292 @@ get_header(); ?>
                 </div>
                 <div class="inner-2col__img">
                     <div class="img-ph-wrapper" style="padding-top:75%;">
-                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-intro-living.jpg" alt="薪ストーブのあるリビング" style="object-fit:cover;">
+                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-intro-living.jpg"
+                            alt="薪ストーブのあるリビング" style="object-fit:cover;">
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 02 標準仕様 -->
+    <!-- 漆喰 / 無垢 -->
     <section class="inner-section inner-section--gray">
         <div class="inner-section__inner">
-            <div class="inner-section__head">
+            <div class="c-section-head">
+                <p class="inner-section__num">01</p>
+                <h2 class="section-title-ja">素材</h2>
+            </div>
+            <div class="renovation-type-list">
+                <div class="renovation-type-item">
+                    <div class="renovation-type-item__img">
+                        <div class="img-ph-wrapper" style="padding-top:66%;">
+                            <img class="img-ph"
+                                src="<?php bloginfo('template_url');?>/img/custom-home-spec-washroom.jpg" alt="漆喰の壁"
+                                style="object-fit:cover;position:absolute;inset:0;width:100%;height:100%;">
+                        </div>
+                    </div>
+                    <div class="renovation-type-item__body">
+                        <h3 class="renovation-type-item__title">漆喰</h3>
+                        <p class="renovation-type-item__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                    </div>
+                </div>
+                <div class="renovation-type-item renovation-type-item--reverse">
+                    <div class="renovation-type-item__img">
+                        <div class="img-ph-wrapper" style="padding-top:66%;">
+                            <img class="img-ph"
+                                src="<?php bloginfo('template_url');?>/img/custom-home-spec-wood-floor.jpg" alt="無垢材の床"
+                                style="object-fit:cover;position:absolute;inset:0;width:100%;height:100%;">
+                        </div>
+                    </div>
+                    <div class="renovation-type-item__body">
+                        <h3 class="renovation-type-item__title">無垢</h3>
+                        <p class="renovation-type-item__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 02 こだわりの標準仕様 -->
+    <section class="inner-section">
+        <div class="inner-section__inner">
+            <div class="c-section-head">
                 <p class="inner-section__num">02</p>
-                <h2 class="inner-section__title">これだけの標準仕様</h2>
-                <p class="inner-section__lead">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                <h2 class="section-title-ja">こだわりの標準仕様</h2>
             </div>
             <div class="custom-home-spec-grid">
                 <div class="custom-home-spec-item">
                     <div class="img-ph-wrapper" style="padding-top:75%;">
-                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-spec-kitchen.jpg" alt="ダークトーンのアイランドキッチン" style="object-fit:cover;">
+                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-spec-kitchen.jpg"
+                            alt="ダークトーンのアイランドキッチン" style="object-fit:cover;">
                     </div>
                     <p class="custom-home-spec-item__label">キッチン</p>
+                    <p class="custom-home-spec-item__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキストテキストテキスト</p>
                 </div>
                 <div class="custom-home-spec-item">
                     <div class="img-ph-wrapper" style="padding-top:75%;">
-                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-spec-washroom.jpg" alt="コンクリートカウンターのシンプルな洗面室" style="object-fit:cover;">
+                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-spec-bathroom.jpg"
+                            alt="真鍮の照明が映えるインテリア" style="object-fit:cover;">
                     </div>
-                    <p class="custom-home-spec-item__label">洗面・クロゼット</p>
+                    <p class="custom-home-spec-item__label">照明・アクセサリー</p>
+                    <p class="custom-home-spec-item__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキストテキストテキスト</p>
                 </div>
                 <div class="custom-home-spec-item">
                     <div class="img-ph-wrapper" style="padding-top:75%;">
-                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-spec-bathroom.jpg" alt="真鍮の照明が映えるコンクリート洗面" style="object-fit:cover;">
+                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-spec-washroom.jpg"
+                            alt="外壁・外装仕上げ" style="object-fit:cover;">
                     </div>
-                    <p class="custom-home-spec-item__label">カルプ・フェノール</p>
+                    <p class="custom-home-spec-item__label">ガルバ・ジョリパ・漆喰</p>
+                    <p class="custom-home-spec-item__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキストテキストテキスト</p>
                 </div>
                 <div class="custom-home-spec-item">
                     <div class="img-ph-wrapper" style="padding-top:75%;">
-                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-spec-wood-floor.jpg" alt="光が射し込む無垢材の床" style="object-fit:cover;">
+                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-spec-wood-floor.jpg"
+                            alt="建具・収納" style="object-fit:cover;">
                     </div>
-                    <p class="custom-home-spec-item__label">構造材・特注</p>
+                    <p class="custom-home-spec-item__label">建具(神谷)</p>
+                    <p class="custom-home-spec-item__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキストテキストテキスト</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 03 入賞 -->
-    <section class="inner-section">
+    <!-- 03 性能 -->
+    <section class="inner-section inner-section--gray">
         <div class="inner-section__inner">
-            <div class="inner-section__head">
+            <div class="c-section-head">
                 <p class="inner-section__num">03</p>
-                <h2 class="inner-section__title">入賞</h2>
-                <p class="inner-section__lead">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                <h2 class="section-title-ja">性能</h2>
             </div>
-            <div class="custom-home-award-row">
-                <div class="custom-home-award-item">
-                    <div class="img-ph-wrapper" style="padding-top:75%;">
-                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-award-exterior-01.jpg" alt="シンプルな白い外壁の新築住宅外観" style="object-fit:cover;">
+            <div class="inner-card-grid inner-card-grid--4">
+                <div class="inner-card">
+                    <div class="inner-card__body">
+                        <h3 class="inner-card__title">耐震 3</h3>
+                        <p class="inner-card__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキストテキストテキスト</p>
                     </div>
-                    <p class="custom-home-award-item__label">賞名が入ります</p>
                 </div>
-                <div class="custom-home-award-item">
-                    <div class="img-ph-wrapper" style="padding-top:75%;">
-                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-award-exterior-02.png" alt="春の桜と白いモダン住宅の外観" style="object-fit:cover;">
+                <div class="inner-card">
+                    <div class="inner-card__body">
+                        <h3 class="inner-card__title">気密</h3>
+                        <p class="inner-card__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキストテキストテキスト</p>
                     </div>
-                    <p class="custom-home-award-item__label">賞名が入ります</p>
                 </div>
-                <div class="custom-home-award-item">
-                    <div class="img-ph-wrapper" style="padding-top:75%;">
-                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-award-kitchen.jpg" alt="木のアイランドキッチンとリビング" style="object-fit:cover;">
+                <div class="inner-card">
+                    <div class="inner-card__body">
+                        <h3 class="inner-card__title">断熱</h3>
+                        <p class="inner-card__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキストテキストテキスト</p>
                     </div>
-                    <p class="custom-home-award-item__label">賞名が入ります</p>
+                </div>
+                <div class="inner-card">
+                    <div class="inner-card__body">
+                        <h3 class="inner-card__title">一種換気・熱交換</h3>
+                        <p class="inner-card__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 04 施工の信用 -->
+    <!-- 04 職人の技術 -->
     <section class="inner-section inner-section--neutral">
         <div class="inner-section__inner">
-            <div class="inner-section__head">
+            <div class="c-section-head">
                 <p class="inner-section__num">04</p>
-                <h2 class="inner-section__title">施工の信用</h2>
-                <p class="inner-section__lead">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                <h2 class="section-title-ja">職人の技術</h2>
             </div>
-
-            <!-- かし保証 -->
-            <div class="inner-2col custom-home-warranty-row">
-                <div class="inner-2col__text">
-                    <h3 class="custom-home-subsection-title">かし保証</h3>
-                    <p class="inner-section__lead">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                </div>
-                <div class="inner-2col__img">
-                    <div class="img-ph-wrapper" style="padding-top:65%;">
-                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-warranty-window.jpg" alt="大きな窓から自然を望む部屋" style="object-fit:cover;">
+            <div class="custom-home-feature-grid">
+                <div class="custom-home-feature-item">
+                    <div class="img-ph-wrapper" style="padding-top:75%;">
+                        <img class="img-ph"
+                            src="<?php bloginfo('template_url');?>/img/custom-home-feature-01-construction.jpg"
+                            alt="左官の職人技術" style="object-fit:cover;position:absolute;inset:0;width:100%;height:100%;">
                     </div>
+                    <h3 class="custom-home-feature-item__title">左官</h3>
+                    <p class="custom-home-feature-item__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                </div>
+                <div class="custom-home-feature-item">
+                    <div class="img-ph-wrapper" style="padding-top:75%;">
+                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-feature-03-team.jpg"
+                            alt="大工・建具の造作" style="object-fit:cover;position:absolute;inset:0;width:100%;height:100%;">
+                    </div>
+                    <h3 class="custom-home-feature-item__title">造作(大工・建具)</h3>
+                    <p class="custom-home-feature-item__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキストテキストテキスト</p>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <!-- 家づくりの流れ -->
+    <!-- 家づくりの流れ -->
+    <section class="inner-section">
+        <div class="inner-section__inner">
             <div class="custom-home-flow">
                 <div class="custom-home-flow__steps">
                     <h3 class="custom-home-flow__heading">家づくりの流れ</h3>
                     <div class="custom-home-flow__step">
-                        <span class="custom-home-flow__step-num">01</span>
+                        <span class="custom-home-flow__step-num">1</span>
                         <div>
-                            <p class="custom-home-flow__step-title">ご相談・ヒアリング</p>
-                            <p class="custom-home-flow__step-text">テキストテキストテキストテキストテキストテキストテキスト</p>
+                            <p class="custom-home-flow__step-title">お問い合わせ</p>
+                            <p class="custom-home-flow__step-text">家づくり、さて、何から始めよう。そんなふうに迷われたときこそ、まずはプロに相談してみてください。<br>
+                                どんなふうに進めればあなたの思い描いた暮らしが実現するのか、間取りや土地のこと、予算のことまで、どんな小さなことでも大丈夫です。「理想の住まい」というまだかたちのない想いを、少しずつ現実に近づけるお手伝いをします。<br>
+                                どうぞお気軽にご相談ください。<br>
+                                キズナデザインのお家づくりへの想いもご紹介いたします。</p>
+                            <p><a class="c-more-btn" href="<?php bloginfo('url'); ?>/contact/">資料請求<span
+                                        class="c-more-btn__arrow">→</span></a></p>
                         </div>
                     </div>
                     <div class="custom-home-flow__step">
-                        <span class="custom-home-flow__step-num">02</span>
+                        <span class="custom-home-flow__step-num">2</span>
                         <div>
-                            <p class="custom-home-flow__step-title">土地・資金計画</p>
-                            <p class="custom-home-flow__step-text">テキストテキストテキストテキストテキストテキストテキスト</p>
+                            <p class="custom-home-flow__step-title">資金計画</p>
+                            <p class="custom-home-flow__step-text">進め方についての霧が晴れたらいよいよ住まいづくりへ。<br>
+                                …その前に少しだけ立ち止まって、<br>
+                                「どのくらいの価格で、どんな暮らしができるのか？」<br>
+                                を一緒に考えてみませんか。<br>
+                                将来のライフプランを見据えた家づくりのためにファイナンシャルプランナーが丁寧にサポートいたします。</p>
                         </div>
                     </div>
                     <div class="custom-home-flow__step">
-                        <span class="custom-home-flow__step-num">03</span>
+                        <span class="custom-home-flow__step-num">3</span>
                         <div>
-                            <p class="custom-home-flow__step-title">設計・プランニング</p>
-                            <p class="custom-home-flow__step-text">テキストテキストテキストテキストテキストテキストテキスト</p>
+                            <p class="custom-home-flow__step-title">ヒアリング</p>
+                            <p class="custom-home-flow__step-text">夢と価格のバランスが見えてきたところでもう一度、じっくりとあなたのお話を聞かせてください。<br>
+                                2階建てか、平屋にしようか。<br>
+                                お庭のある暮らしも素敵です。<br>
+                                あるいは、新築だけでなくリノベーションという選択肢がしっくりくる方もいるかもしれません。<br>
+                                これからどんな住まいに、どんなふうに歩んでいくのか。<br>
+                                次の一歩を一緒に見つけていきましょう。</p>
                         </div>
                     </div>
                     <div class="custom-home-flow__step">
-                        <span class="custom-home-flow__step-num">04</span>
+                        <span class="custom-home-flow__step-num">4</span>
                         <div>
-                            <p class="custom-home-flow__step-title">着工・施工管理</p>
-                            <p class="custom-home-flow__step-text">テキストテキストテキストテキストテキストテキストテキスト</p>
+                            <p class="custom-home-flow__step-title">土地探し</p>
+                            <p class="custom-home-flow__step-text">あなたの夢を乗せて、土地探しの旅へようやく出航です。<br>
+                                同じ大阪・北摂でも町ごとに流れる空気や風景はさまざま。<br>
+                                だからこそあなたにぴったりの場所を見つけるために担当スタッフが寄り添い、誠心誠意お手伝いします。</p>
                         </div>
                     </div>
                     <div class="custom-home-flow__step">
-                        <span class="custom-home-flow__step-num">05</span>
+                        <span class="custom-home-flow__step-num">5</span>
                         <div>
-                            <p class="custom-home-flow__step-title">お引き渡し・アフターサポート</p>
-                            <p class="custom-home-flow__step-text">テキストテキストテキストテキストテキストテキストテキスト</p>
+                            <p class="custom-home-flow__step-title">土地契約・工事請負契約</p>
+                            <p class="custom-home-flow__step-text">土地が見つかれば、まずはその土地とのご縁を結ぶ「土地契約」へ。<br>
+                                それとほぼ同じタイミングで、私たちとの「工事請負契約」も取り交わします。<br>
+                                ご契約をきっかけに、住まいのカタチがより一層くっきりと浮かび上がってきます。<br>
+                                ここから、具体的なプランづくりが本格的に始まります。</p>
                         </div>
                     </div>
-                    <p>
-                        <a class="c-more-btn" href="<?php bloginfo('url'); ?>/about/">
-                            家づくりの流れを見る
-                            <span class="c-more-btn__arrow">→</span>
-                        </a>
-                    </p>
+                    <div class="custom-home-flow__step">
+                        <span class="custom-home-flow__step-num">6</span>
+                        <div>
+                            <p class="custom-home-flow__step-title">プラン・内装決定</p>
+                            <p class="custom-home-flow__step-text">あなたの理想の住まいがついにカタチになっていきます。<br>
+                                設計士との打ち合わせでは、間取りはもちろん窓の1つに至るまで。<br>
+                                インテリアコーディネーターとはキッチンや洗面台などの設備、収納の使い方やカラーリングも一緒に考えていきます。<br>
+                                「好き」や「こうしたい」の気持ちをたっぷり詰め込んでいきましょう。</p>
+                        </div>
+                    </div>
+                    <div class="custom-home-flow__step">
+                        <span class="custom-home-flow__step-num">7</span>
+                        <div>
+                            <p class="custom-home-flow__step-title">工事</p>
+                            <p class="custom-home-flow__step-text">これまでたくさんの打ち合わせを重ねてきましたね。<br>
+                                いよいよ、夢の住まいがかたちになる工事が始まります。<br>
+                                ここからは現場監督と親方の出番。<br>
+                                工事の節目ごとに現場監督が丁寧に施工状況を確認しながら、安心・安全に進めていきます。</p>
+                        </div>
+                    </div>
+                    <div class="custom-home-flow__step">
+                        <span class="custom-home-flow__step-num">8</span>
+                        <div>
+                            <p class="custom-home-flow__step-title">お引渡し</p>
+                            <p class="custom-home-flow__step-text">あなただけの住まいがついに完成しました。<br>
+                                でも、私たちはここが「ゴール」ではなく「はじまり」だと考えています。<br>
+                                この場所で日々の暮らしを重ね、時を育てていく ——<br>
+                                これからの物語にも私たちはそっと寄り添い続けます。</p>
+                        </div>
+                    </div>
                 </div>
                 <div>
                     <div class="img-ph-wrapper" style="padding-top:120%;">
-                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-flow-staircase.jpg" alt="植物が飾られた吹き抜けの階段" style="object-fit:cover;">
+                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-flow-staircase.jpg"
+                            alt="植物が飾られた吹き抜けの階段" style="object-fit:cover;">
                     </div>
                 </div>
             </div>
@@ -187,36 +332,76 @@ get_header(); ?>
     </section>
 
     <!-- イベント情報 -->
-    <section class="inner-section">
+    <section class="inner-section inner-section--gray">
         <div class="inner-section__inner">
             <div class="c-section-head custom-home-event-head">
-                <p class="section-title-en">Event</p>
                 <h2 class="section-title-ja">イベント情報</h2>
             </div>
             <div class="inner-card-grid inner-card-grid--3">
-                <?php for ($i = 1; $i <= 3; $i++) : ?>
                 <article class="inner-card">
                     <div class="inner-card__img-wrap">
                         <div class="img-ph-wrapper" style="padding-top:66.67%;">
-                            <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-event-consultation.jpg" alt="家づくり相談会のイメージ" style="object-fit:cover;">
+                            <img class="img-ph"
+                                src="<?php bloginfo('template_url');?>/img/custom-home-event-consultation.jpg"
+                                alt="家づくり相談会のイメージ" style="object-fit:cover;">
                         </div>
                     </div>
                     <div class="inner-card__body">
-                        <p class="inner-card__label">相談会</p>
-                        <h3 class="inner-card__title">家づくり相談会</h3>
-                        <p class="inner-card__text">開催日時　2026.00.00　-　2026.00.00</p>
+                        <p class="inner-card__status">募集中</p>
+                        <p class="inner-card__label">カテゴリ名</p>
+                        <h3 class="inner-card__title">タイトルタイトルタイトルタイトル</h3>
+                        <p class="inner-card__text">開催日時　2024.00.00 〜 2024.00.00</p>
+                        <p class="inner-card__text">開催場所　住所テキスト住所テキスト住所テキスト</p>
                     </div>
                 </article>
-                <?php endfor; ?>
+                <article class="inner-card">
+                    <div class="inner-card__img-wrap">
+                        <div class="img-ph-wrapper" style="padding-top:66.67%;">
+                            <img class="img-ph"
+                                src="<?php bloginfo('template_url');?>/img/custom-home-event-consultation.jpg"
+                                alt="家づくり相談会のイメージ" style="object-fit:cover;">
+                        </div>
+                    </div>
+                    <div class="inner-card__body">
+                        <p class="inner-card__status">募集中</p>
+                        <p class="inner-card__label">カテゴリ名</p>
+                        <h3 class="inner-card__title">タイトルタイトルタイトルタイトル</h3>
+                        <p class="inner-card__text">開催日時　2024.00.00 〜 2024.00.00</p>
+                        <p class="inner-card__text">開催場所　住所テキスト住所テキスト住所テキスト</p>
+                    </div>
+                </article>
+                <article class="inner-card">
+                    <div class="inner-card__img-wrap">
+                        <div class="img-ph-wrapper" style="padding-top:66.67%;">
+                            <img class="img-ph"
+                                src="<?php bloginfo('template_url');?>/img/custom-home-event-consultation.jpg"
+                                alt="家づくり相談会のイメージ" style="object-fit:cover;">
+                        </div>
+                    </div>
+                    <div class="inner-card__body">
+                        <p class="inner-card__status">開催終了</p>
+                        <p class="inner-card__label">カテゴリ名</p>
+                        <h3 class="inner-card__title">タイトルタイトルタイトルタイトル</h3>
+                        <p class="inner-card__text">開催日時　2024.00.00 〜 2024.00.00</p>
+                        <p class="inner-card__text">開催場所　住所テキスト住所テキスト住所テキスト</p>
+                    </div>
+                </article>
             </div>
+            <p class="inner-section__more">
+                <a class="c-more-btn" href="#">
+                    もっと見る
+                    <span class="c-more-btn__arrow">→</span>
+                </a>
+            </p>
         </div>
     </section>
 
-    <!-- 施工事例 / 保証バナー -->
+    <!-- 施工事例 / 保障バナー -->
     <div class="inner-banner-pair">
         <a class="inner-banner" href="<?php bloginfo('url'); ?>/voice/">
             <div class="img-ph-wrapper" style="padding-top:50%;">
-                <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-banner-portfolio.jpg" alt="施工事例イメージ" style="object-fit:cover;">
+                <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-banner-portfolio.jpg"
+                    alt="施工事例イメージ" style="object-fit:cover;">
             </div>
             <div class="inner-banner__overlay">
                 <p class="inner-banner__en">Portfolio</p>
@@ -225,11 +410,12 @@ get_header(); ?>
         </a>
         <a class="inner-banner" href="<?php bloginfo('url'); ?>/support/">
             <div class="img-ph-wrapper" style="padding-top:50%;">
-                <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-banner-support.jpg" alt="保証・アフターサポートイメージ" style="object-fit:cover;">
+                <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-banner-support.jpg"
+                    alt="保障・アフターサポートイメージ" style="object-fit:cover;">
             </div>
             <div class="inner-banner__overlay">
                 <p class="inner-banner__en">Support</p>
-                <p class="inner-banner__title">保証・アフターサポート</p>
+                <p class="inner-banner__title">保障・アフターサポート</p>
             </div>
         </a>
     </div>

@@ -17,35 +17,57 @@ get_header(); ?>
     <!-- 初年度契約 -->
     <section class="inner-section">
         <div class="inner-section__inner">
-            <div class="c-section-head">
-                <p class="section-title-en">First Year</p>
-                <h2 class="section-title-ja">初年度契約</h2>
-            </div>
-            <div class="recruit-stats">
-                <div class="recruit-stat">
-                    <p class="recruit-stat__label">新築契約</p>
-                    <p class="recruit-stat__num">0<span class="recruit-stat__unit">件</span></p>
+            <div class="recruit-firstyear">
+                <div class="recruit-firstyear__text">
+                    <div class="c-section-head">
+                        <p class="section-title-en">First Year</p>
+                        <h2 class="section-title-ja">初年度契約</h2>
+                    </div>
                 </div>
-                <div class="recruit-stat">
-                    <p class="recruit-stat__label">リノベーション</p>
-                    <p class="recruit-stat__num">0<span class="recruit-stat__unit">件</span></p>
+                <div class="recruit-firstyear__right">
+                    <div class="img-ph-wrapper" style="padding-top:70%;">
+                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/recruit-firstyear-interior.jpg" alt="木の天井と梁が美しい新築LDK" style="object-fit:cover;position:absolute;inset:0;width:100%;height:100%;">
+                    </div>
+                    <div class="recruit-stats">
+                        <div class="recruit-stat">
+                            <p class="recruit-stat__label">新築契約</p>
+                            <p class="recruit-stat__num">〇<span class="recruit-stat__unit">件</span></p>
+                        </div>
+                        <div class="recruit-stat">
+                            <p class="recruit-stat__label">リノベーション</p>
+                            <p class="recruit-stat__num">〇<span class="recruit-stat__unit">件</span></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- スタッフ 3名（丸写真） -->
-    <div class="recruit-staff-circles">
-        <?php for ($i = 1; $i <= 3; $i++) : ?>
-        <div class="recruit-staff-circle">
-            <div class="recruit-staff-circle__img-wrap">
-                <img class="img-ph" src="<?php bloginfo('template_url');?>/img/recruit-staff-portrait.jpg" alt="スタッフ写真" style="object-fit:cover;">
+    <!-- 円グラフ -->
+    <section class="inner-section inner-section--gray">
+        <div class="inner-section__inner">
+            <div class="inner-card-grid inner-card-grid--3">
+                <div class="inner-card">
+                    <div class="inner-card__body" style="display:flex;flex-direction:column;align-items:center;">
+                        <div style="width:160px;height:160px;border-radius:50%;background:#d9d0c4;margin:0 auto 1rem;"></div>
+                        <p class="inner-card__label" style="text-align:center;">円グラフ</p>
+                    </div>
+                </div>
+                <div class="inner-card">
+                    <div class="inner-card__body" style="display:flex;flex-direction:column;align-items:center;">
+                        <div style="width:160px;height:160px;border-radius:50%;background:#d9d0c4;margin:0 auto 1rem;"></div>
+                        <p class="inner-card__label" style="text-align:center;">円グラフ</p>
+                    </div>
+                </div>
+                <div class="inner-card">
+                    <div class="inner-card__body" style="display:flex;flex-direction:column;align-items:center;">
+                        <div style="width:160px;height:160px;border-radius:50%;background:#d9d0c4;margin:0 auto 1rem;"></div>
+                        <p class="inner-card__label" style="text-align:center;">円グラフ</p>
+                    </div>
+                </div>
             </div>
-            <p class="recruit-staff-circle__role">役職名</p>
-            <p class="recruit-staff-circle__name">お名前</p>
         </div>
-        <?php endfor; ?>
-    </div>
+    </section>
 
     <!-- 風土 -->
     <section class="recruit-culture">
@@ -55,7 +77,10 @@ get_header(); ?>
             </div>
             <h2 class="recruit-culture__title">風土</h2>
             <p class="recruit-culture__text">
-                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                テキストテキストテキストテキストテキスト
+テキストテキストテキストテキストテキスト
+テキストテキストテキストテキストテキスト
+テキストテキストテキスト
             </p>
         </div>
         <div class="recruit-culture__img">
@@ -78,7 +103,10 @@ get_header(); ?>
             </div>
             <h2 class="recruit-culture__title">求める人</h2>
             <p class="recruit-culture__text">
-                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                テキストテキストテキストテキストテキスト
+テキストテキストテキストテキストテキスト
+テキストテキストテキストテキストテキスト
+テキストテキストテキスト
             </p>
         </div>
     </section>
@@ -168,23 +196,30 @@ get_header(); ?>
     </section>
 
     <!-- スタッフ紹介（4名） -->
-    <div class="recruit-staff-grid">
-        <?php for ($i = 1; $i <= 4; $i++) : ?>
-        <div class="recruit-staff-card">
-            <div class="recruit-staff-card__img-wrap">
-                <img class="img-ph" src="<?php bloginfo('template_url');?>/img/recruit-staff-portrait.jpg" alt="スタッフ写真" style="object-fit:cover;">
+    <section class="inner-section">
+        <div class="inner-section__inner">
+            <div class="c-section-head">
+                <h2 class="section-title-ja">スタッフ紹介</h2>
             </div>
-            <p class="recruit-staff-card__role">役職名・役職名</p>
-            <p class="recruit-staff-card__name">お名前　お名前</p>
+            <div class="recruit-staff-grid">
+                <?php for ($i = 1; $i <= 4; $i++) : ?>
+                <div class="recruit-staff-card">
+                    <div class="recruit-staff-card__img-wrap">
+                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/recruit-staff-portrait.jpg" alt="スタッフ写真" style="object-fit:cover;">
+                    </div>
+                    <p class="recruit-staff-card__role">役職役職役職</p>
+                    <p class="recruit-staff-card__name">お名前　お名前</p>
+                </div>
+                <?php endfor; ?>
+            </div>
+            <div class="recruit-staff-card__more">
+                <a class="c-more-btn" href="<?php bloginfo('url'); ?>/staff/">
+                    もっと見る
+                    <span class="c-more-btn__arrow">→</span>
+                </a>
+            </div>
         </div>
-        <?php endfor; ?>
-        <div class="recruit-staff-card__more">
-            <a class="c-more-btn" href="<?php bloginfo('url'); ?>/staff/">
-                もっと見る
-                <span class="c-more-btn__arrow">→</span>
-            </a>
-        </div>
-    </div>
+    </section>
 
     <!-- 募集職種・募集要項 -->
     <section class="recruit-jobs">
@@ -196,61 +231,35 @@ get_header(); ?>
             <table class="recruit-jobs-table">
                 <tbody>
                     <tr>
-                        <th>職種</th>
+                        <th>テキスト</th>
                         <td>テキスト</td>
                     </tr>
                     <tr>
-                        <th>雇用形態</th>
+                        <th>テキスト</th>
                         <td>テキスト</td>
                     </tr>
                     <tr>
-                        <th>給与</th>
+                        <th>テキスト</th>
                         <td>テキスト</td>
                     </tr>
                     <tr>
-                        <th>勤務地</th>
+                        <th>テキスト</th>
                         <td>テキスト</td>
                     </tr>
                     <tr>
-                        <th>勤務時間</th>
+                        <th>テキスト</th>
                         <td>テキスト</td>
                     </tr>
                     <tr>
-                        <th>休日・休暇</th>
+                        <th>テキスト</th>
                         <td>テキスト</td>
                     </tr>
                     <tr>
-                        <th>福利厚生</th>
-                        <td>テキスト</td>
-                    </tr>
-                    <tr>
-                        <th>応募資格</th>
+                        <th>テキスト</th>
                         <td>テキスト</td>
                     </tr>
                 </tbody>
             </table>
-        </div>
-    </section>
-
-    <!-- コンタクトCTA -->
-    <section class="page-contact-cta">
-        <div class="page-contact-cta__inner">
-            <p class="page-contact-cta__en">CONTACT US</p>
-            <h2 class="page-contact-cta__title">お問い合わせ</h2>
-            <div class="page-contact-cta__actions">
-                <a class="page-contact-cta__btn-mail" href="<?php bloginfo('url'); ?>/contact/">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="2,4 12,13 22,4"/></svg>
-                    メールでのお問い合わせ
-                </a>
-                <div class="page-contact-cta__tel">
-                    <p class="page-contact-cta__tel-label">お電話でのお問い合わせ</p>
-                    <a class="page-contact-cta__tel-num" href="tel:0000000000">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8a19.79 19.79 0 01-3.07-8.68A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92v2z"/></svg>
-                        000-000-0000
-                    </a>
-                    <p class="page-contact-cta__tel-note">営業時間 10:00〜18:00（火・水定休）</p>
-                </div>
-            </div>
         </div>
     </section>
 

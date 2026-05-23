@@ -21,11 +21,12 @@ get_header(); ?>
                 <div class="inner-2col__text">
                     <div class="c-section-head about-concept-head">
                         <p class="section-title-en">Concept</p>
+                        <h2 class="section-title-ja">季節を住まう、<br>時を愛でる</h2>
                     </div>
-                    <h2 class="inner-section__title">季節を住まう。<br>時を愛でる。</h2>
                     <p class="inner-section__lead">
-                        家は、完成した時がゴールではありません。無垢の木や壁を愛で、家族の記憶が刻まれ、味わいを増していく。私たちは、スペックや間取りの前に、あなたの「感情」を大切にします。<br><br>
-                        どこでコーヒーを飲み、どんな風に光を感じたいか。そんな、ささやかでかけがえのない日常の解像度を上げる家づくりを。
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
                     </p>
                 </div>
                 <div class="inner-2col__img">
@@ -49,9 +50,16 @@ get_header(); ?>
                     </div>
                     <div class="about-feature-item__text">
                         <p class="about-feature-item__num">Feature 01</p>
-                        <h2 class="about-feature-item__title">家から始まる暮らし</h2>
+                        <h2 class="about-feature-item__title">家は完成した時が〜</h2>
                         <p class="about-feature-item__body">
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+テキストテキストテキストテキストテキストテキスト<br><br>
+                            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+テキストテキストテキストテキストテキストテキスト
                         </p>
                     </div>
                 </div>
@@ -63,9 +71,16 @@ get_header(); ?>
                     </div>
                     <div class="about-feature-item__text">
                         <p class="about-feature-item__num">Feature 02</p>
-                        <h2 class="about-feature-item__title">了解済/初期からー</h2>
+                        <h2 class="about-feature-item__title">丁寧な対話から〜</h2>
                         <p class="about-feature-item__body">
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+テキストテキストテキストテキストテキストテキスト<br><br>
+                            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+テキストテキストテキストテキストテキストテキスト
                         </p>
                     </div>
                 </div>
@@ -77,9 +92,16 @@ get_header(); ?>
                     </div>
                     <div class="about-feature-item__text">
                         <p class="about-feature-item__num">Feature 03</p>
-                        <h2 class="about-feature-item__title">横でなしー</h2>
+                        <h2 class="about-feature-item__title">建物ではなく〜</h2>
                         <p class="about-feature-item__body">
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+テキストテキストテキストテキストテキストテキスト<br><br>
+                            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+テキストテキストテキストテキストテキストテキスト
                         </p>
                     </div>
                 </div>
@@ -87,12 +109,16 @@ get_header(); ?>
         </div>
     </section>
 
-    <!-- どんな形の「家づくり」も相談窓口で -->
+    <!-- どんな形の「家づくり」も同じ窓口で -->
     <section class="inner-section">
         <div class="inner-section__inner">
-            <div class="inner-section__head about-service-head">
-                <h2 class="inner-section__title">どんな形の「家づくり」も<br>相談窓口で</h2>
-                <p class="inner-section__lead">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            <div class="c-section-head about-service-head">
+                <h2 class="section-title-ja">どんな形の「家づくり」も<br>同じ窓口で</h2>
+                <p class="inner-section__lead">
+                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                </p>
             </div>
             <div class="about-service-grid">
                 <div class="about-service-card">
@@ -102,10 +128,13 @@ get_header(); ?>
                         </div>
                     </div>
                     <div class="about-service-card__body">
-                        <h3 class="about-service-card__title">新しい家づくり</h3>
-                        <p class="about-service-card__text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        <h3 class="about-service-card__title">見出し見出し見出し見出し</h3>
+                        <p class="about-service-card__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+テキストテキストテキスト</p>
                         <a class="c-more-btn" href="<?php bloginfo('url'); ?>/custom-home/">
-                            詳しくみる
+                            注文住宅はこちら
                             <span class="c-more-btn__arrow">→</span>
                         </a>
                     </div>
@@ -117,25 +146,13 @@ get_header(); ?>
                         </div>
                     </div>
                     <div class="about-service-card__body">
-                        <h3 class="about-service-card__title">見越し</h3>
-                        <p class="about-service-card__text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        <h3 class="about-service-card__title">見出し見出し見出し見出し</h3>
+                        <p class="about-service-card__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+テキストテキストテキスト</p>
                         <a class="c-more-btn" href="<?php bloginfo('url'); ?>/renovation/">
-                            詳しくみる
-                            <span class="c-more-btn__arrow">→</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="about-service-card">
-                    <div class="about-service-card__img">
-                        <div class="img-ph-wrapper" style="padding-top:70%;">
-                            <img class="img-ph" src="<?php bloginfo('template_url');?>/img/about-service-renovation-01.jpg" alt="リノベーション後の明るいリビング" style="object-fit:cover;">
-                        </div>
-                    </div>
-                    <div class="about-service-card__body">
-                        <h3 class="about-service-card__title">見越し</h3>
-                        <p class="about-service-card__text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                        <a class="c-more-btn" href="<?php bloginfo('url'); ?>/renovation/">
-                            詳しくみる
+                            リノベーションはこちら
                             <span class="c-more-btn__arrow">→</span>
                         </a>
                     </div>
@@ -154,20 +171,38 @@ get_header(); ?>
             <div class="about-region">
                 <div class="about-region-item">
                     <div class="img-ph-wrapper" style="padding-top:60%;">
-                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/about-region-gathering.jpg" alt="店舗前に集まるスタッフたち" style="object-fit:cover;">
+                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/about-region-gathering.jpg" alt="北摂の暮らし" style="object-fit:cover;">
                     </div>
                     <div class="about-region-item__overlay">
-                        <h3 class="about-region-item__title">いつでも集まる</h3>
-                        <p class="about-region-item__text">テキストテキストテキストテキストテキストテキストテキスト</p>
+                        <h3 class="about-region-item__title">北摂の"暮らす価値"を次世代へ</h3>
+                        <p class="about-region-item__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+テキストテキストテキスト</p>
                     </div>
                 </div>
                 <div class="about-region-item">
                     <div class="img-ph-wrapper" style="padding-top:60%;">
-                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/about-region-house-exterior.jpg" alt="白い外壁の新築住宅外観" style="object-fit:cover;">
+                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/about-region-house-exterior.jpg" alt="安心できる場所" style="object-fit:cover;">
                     </div>
                     <div class="about-region-item__overlay">
-                        <h3 class="about-region-item__title">みんなで参加・入り出自由</h3>
-                        <p class="about-region-item__text">テキストテキストテキストテキストテキストテキストテキスト</p>
+                        <h3 class="about-region-item__title">いつまでも安心できる、<br>変わらない場所と仲間</h3>
+                        <p class="about-region-item__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+テキストテキストテキスト</p>
+                    </div>
+                </div>
+                <div class="about-region-item">
+                    <div class="img-ph-wrapper" style="padding-top:60%;">
+                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/about-region-gathering.jpg" alt="八方良し" style="object-fit:cover;">
+                    </div>
+                    <div class="about-region-item__overlay">
+                        <h3 class="about-region-item__title">みんなが笑顔になる<br>「八方良し」の精神</h3>
+                        <p class="about-region-item__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+テキストテキストテキスト</p>
                     </div>
                 </div>
             </div>
@@ -182,7 +217,6 @@ get_header(); ?>
                 <h2 class="section-title-ja">コラム</h2>
             </div>
             <div class="about-column-grid">
-                <?php for ($i = 1; $i <= 3; $i++) : ?>
                 <article class="about-column-card">
                     <div class="about-column-card__img">
                         <div class="img-ph-wrapper" style="padding-top:66.67%;">
@@ -190,39 +224,66 @@ get_header(); ?>
                         </div>
                     </div>
                     <div class="about-column-card__body">
-                        <p class="about-column-card__date">2026.00.00</p>
-                        <h3 class="about-column-card__title">コラムタイトルが入ります。コラムタイトルが入ります。</h3>
+                        <p class="about-column-card__label">カテゴリ名</p>
+                        <p class="about-column-card__date">2024.00.00</p>
+                        <h3 class="about-column-card__title">タイトルタイトルタイトルタイトル</h3>
+                        <p class="about-column-card__excerpt">本文引用本文引用本文引用本文引用本文引用本文引用本文引用本文引用本文引用本文引用</p>
                     </div>
                 </article>
-                <?php endfor; ?>
+                <article class="about-column-card">
+                    <div class="about-column-card__img">
+                        <div class="img-ph-wrapper" style="padding-top:66.67%;">
+                            <img class="img-ph" src="<?php bloginfo('template_url');?>/img/about-column-placeholder.jpg" alt="住まいのコラムイメージ" style="object-fit:cover;">
+                        </div>
+                    </div>
+                    <div class="about-column-card__body">
+                        <p class="about-column-card__label">カテゴリ名</p>
+                        <p class="about-column-card__date">2024.00.00</p>
+                        <h3 class="about-column-card__title">タイトルタイトルタイトルタイトル</h3>
+                        <p class="about-column-card__excerpt">本文引用本文引用本文引用本文引用本文引用本文引用本文引用本文引用本文引用本文引用</p>
+                    </div>
+                </article>
+                <article class="about-column-card">
+                    <div class="about-column-card__img">
+                        <div class="img-ph-wrapper" style="padding-top:66.67%;">
+                            <img class="img-ph" src="<?php bloginfo('template_url');?>/img/about-column-placeholder.jpg" alt="住まいのコラムイメージ" style="object-fit:cover;">
+                        </div>
+                    </div>
+                    <div class="about-column-card__body">
+                        <p class="about-column-card__label">カテゴリ名</p>
+                        <p class="about-column-card__date">2024.00.00</p>
+                        <h3 class="about-column-card__title">タイトルタイトルタイトルタイトル</h3>
+                        <p class="about-column-card__excerpt">本文引用本文引用本文引用本文引用本文引用本文引用本文引用本文引用本文引用本文引用</p>
+                    </div>
+                </article>
             </div>
             <p class="about-column-more">
                 <a class="c-more-btn" href="<?php bloginfo('url'); ?>/column/">
-                    もっとみる
+                    もっと見る
                     <span class="c-more-btn__arrow">→</span>
                 </a>
             </p>
         </div>
     </section>
 
-    <!-- コンタクトCTA -->
-    <section class="page-contact-cta">
-        <div class="page-contact-cta__inner">
-            <p class="page-contact-cta__en">CONTACT US</p>
-            <h2 class="page-contact-cta__title">お問い合わせ</h2>
-            <div class="page-contact-cta__actions">
-                <a class="page-contact-cta__btn-mail" href="<?php bloginfo('url'); ?>/contact/">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="2,4 12,13 22,4"/></svg>
-                    メールでのお問い合わせ
+    <!-- 相談CTA -->
+    <section class="about-consult-cta">
+        <div class="about-consult-cta__inner">
+            <h2 class="about-consult-cta__title">まずは「暮らしをつくる時間」を<br>ご一緒に</h2>
+            <p class="about-consult-cta__lead">
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                テキストテキストテキストテキスト
+            </p>
+            <div class="about-consult-cta__actions">
+                <a class="top-more-btn about-consult-cta__btn" href="<?php bloginfo('url'); ?>/event/">
+                    最新のイベント情報を見る
+                    <span class="top-more-btn__arrow">→</span>
                 </a>
-                <div class="page-contact-cta__tel">
-                    <p class="page-contact-cta__tel-label">お電話でのお問い合わせ</p>
-                    <a class="page-contact-cta__tel-num" href="tel:0000000000">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8a19.79 19.79 0 01-3.07-8.68A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92v2z"/></svg>
-                        000-000-0000
-                    </a>
-                    <p class="page-contact-cta__tel-note">営業時間 10:00〜18:00（火・水定休）</p>
-                </div>
+                <a class="top-more-btn about-consult-cta__btn" href="<?php bloginfo('url'); ?>/contact/">
+                    相談会を予約する
+                    <span class="top-more-btn__arrow">→</span>
+                </a>
             </div>
         </div>
     </section>

@@ -9,3 +9,4 @@ themes/yaotemp/img/draft
 # AI temporary workspace / image selection thumbnails
 .ai-work/
 themes/yaotemp/img/catalog/
+.agents
