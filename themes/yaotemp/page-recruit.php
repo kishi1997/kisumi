@@ -8,8 +8,8 @@ get_header(); ?>
 
     <!-- ページヒーロー -->
     <section class="page-hero">
-        <img class="img-ph img-ph--wide" src="<?php bloginfo('template_url');?>/img/recruit-hero.jpg" alt="季住デザインのスタッフ集合写真" style="object-fit:cover;">
-        <div class="page-hero__overlay">
+        <div class="page-hero__text">
+            <p class="page-hero__en">Recruit</p>
             <h1 class="page-hero__title">採用情報</h1>
         </div>
     </section>
@@ -19,7 +19,7 @@ get_header(); ?>
         <div class="inner-section__inner">
             <div class="recruit-firstyear">
                 <div class="recruit-firstyear__text">
-                    <div class="c-section-head">
+                    <div class="c-lower-sec-head">
                         <p class="section-title-en">First Year</p>
                         <h2 class="section-title-ja">初年度契約</h2>
                     </div>
@@ -44,26 +44,33 @@ get_header(); ?>
     </section>
 
     <!-- 円グラフ -->
-    <section class="inner-section inner-section--gray">
+    <section class="inner-section inner-section--gray recruit-data-section">
         <div class="inner-section__inner">
-            <div class="inner-card-grid inner-card-grid--3">
-                <div class="inner-card">
-                    <div class="inner-card__body" style="display:flex;flex-direction:column;align-items:center;">
-                        <div style="width:160px;height:160px;border-radius:50%;background:#d9d0c4;margin:0 auto 1rem;"></div>
-                        <p class="inner-card__label" style="text-align:center;">円グラフ</p>
+            <div class="c-lower-sec-head">
+                <p class="section-title-en">Data</p>
+                <h2 class="section-title-ja">数字で見る季住</h2>
+            </div>
+            <div class="recruit-data-grid">
+                <div class="recruit-data-card">
+                    <div class="recruit-data-card__img">
+                        <img src="<?php bloginfo('template_url');?>/img/recruit-culture-workspace.jpg" alt="働く環境">
                     </div>
+                    <p class="recruit-data-card__num">〇<span>件</span></p>
+                    <p class="recruit-data-card__label">円グラフ</p>
                 </div>
-                <div class="inner-card">
-                    <div class="inner-card__body" style="display:flex;flex-direction:column;align-items:center;">
-                        <div style="width:160px;height:160px;border-radius:50%;background:#d9d0c4;margin:0 auto 1rem;"></div>
-                        <p class="inner-card__label" style="text-align:center;">円グラフ</p>
+                <div class="recruit-data-card">
+                    <div class="recruit-data-card__img">
+                        <img src="<?php bloginfo('template_url');?>/img/recruit-schedule-room.jpg" alt="一日の仕事の場">
                     </div>
+                    <p class="recruit-data-card__num">〇<span>%</span></p>
+                    <p class="recruit-data-card__label">円グラフ</p>
                 </div>
-                <div class="inner-card">
-                    <div class="inner-card__body" style="display:flex;flex-direction:column;align-items:center;">
-                        <div style="width:160px;height:160px;border-radius:50%;background:#d9d0c4;margin:0 auto 1rem;"></div>
-                        <p class="inner-card__label" style="text-align:center;">円グラフ</p>
+                <div class="recruit-data-card">
+                    <div class="recruit-data-card__img">
+                        <img src="<?php bloginfo('template_url');?>/img/recruit-staff-portrait.jpg" alt="季住デザインのスタッフ">
                     </div>
+                    <p class="recruit-data-card__num">〇<span>名</span></p>
+                    <p class="recruit-data-card__label">円グラフ</p>
                 </div>
             </div>
         </div>
@@ -72,10 +79,10 @@ get_header(); ?>
     <!-- 風土 -->
     <section class="recruit-culture">
         <div class="recruit-culture__body">
-            <div class="c-section-head">
+            <div class="c-lower-sec-head">
                 <p class="section-title-en">Culture</p>
+                <h2 class="section-title-ja">風土</h2>
             </div>
-            <h2 class="recruit-culture__title">風土</h2>
             <p class="recruit-culture__text">
                 テキストテキストテキストテキストテキスト
 テキストテキストテキストテキストテキスト
@@ -98,10 +105,10 @@ get_header(); ?>
             </div>
         </div>
         <div class="recruit-ideal__body">
-            <div class="c-section-head">
+            <div class="c-lower-sec-head">
                 <p class="section-title-en">Person</p>
+                <h2 class="section-title-ja">求める人</h2>
             </div>
-            <h2 class="recruit-culture__title">求める人</h2>
             <p class="recruit-culture__text">
                 テキストテキストテキストテキストテキスト
 テキストテキストテキストテキストテキスト
@@ -115,7 +122,10 @@ get_header(); ?>
     <section class="recruit-schedule">
         <div class="recruit-schedule__inner">
             <div class="recruit-schedule__body">
-                <h2 class="recruit-schedule__title">一日の流れ（1週間）</h2>
+                <div class="c-lower-sec-head">
+                    <p class="section-title-en">Schedule</p>
+                    <h2 class="section-title-ja">一日の流れ（1週間）</h2>
+                </div>
                 <table class="recruit-schedule-table">
                     <thead>
                         <tr>
@@ -198,7 +208,8 @@ get_header(); ?>
     <!-- スタッフ紹介（4名） -->
     <section class="inner-section">
         <div class="inner-section__inner">
-            <div class="c-section-head">
+            <div class="c-lower-sec-head">
+                <p class="section-title-en">Staff</p>
                 <h2 class="section-title-ja">スタッフ紹介</h2>
             </div>
             <div class="recruit-staff-grid">
@@ -224,7 +235,7 @@ get_header(); ?>
     <!-- 募集職種・募集要項 -->
     <section class="recruit-jobs">
         <div class="recruit-jobs__inner">
-            <div class="c-section-head">
+            <div class="c-lower-sec-head">
                 <p class="section-title-en">Recruitment</p>
                 <h2 class="section-title-ja">募集職種・募集要項</h2>
             </div>

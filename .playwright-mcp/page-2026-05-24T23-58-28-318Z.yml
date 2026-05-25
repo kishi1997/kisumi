@@ -1,0 +1,175 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "季住 -kisumi design-" [ref=e6] [cursor=pointer]:
+        - /url: http://localhost:2000
+        - img "季住 -kisumi design-" [ref=e7]
+      - navigation "ヘッダーメニュー" [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "初めての方へ" [ref=e11] [cursor=pointer]:
+              - /url: http://localhost:2000/about/
+          - listitem [ref=e12]:
+            - paragraph [ref=e13]: サービス
+          - listitem [ref=e14]:
+            - link "施工事例・お客様の声" [ref=e15] [cursor=pointer]:
+              - /url: http://localhost:2000/voice/
+          - listitem [ref=e16]:
+            - link "ギャラリー" [ref=e17] [cursor=pointer]:
+              - /url: http://localhost:2000/gallery/
+          - listitem [ref=e18]:
+            - link "よくある質問" [ref=e19] [cursor=pointer]:
+              - /url: http://localhost:2000/faq/
+          - listitem [ref=e20]:
+            - link "会社概要" [ref=e21] [cursor=pointer]:
+              - /url: http://localhost:2000/company/
+          - listitem [ref=e22]:
+            - link "資料請求" [ref=e23] [cursor=pointer]:
+              - /url: http://localhost:2000/request/
+          - listitem [ref=e24]:
+            - link "お問い合わせ" [ref=e25] [cursor=pointer]:
+              - /url: http://localhost:2000/contact/
+  - list [ref=e27]:
+    - listitem [ref=e28]:
+      - link "MENU" [ref=e29] [cursor=pointer]:
+        - /url: http://localhost:2000/#
+        - img [ref=e30]
+        - paragraph [ref=e31]: MENU
+    - listitem [ref=e32]:
+      - link "CONTACT" [ref=e33] [cursor=pointer]:
+        - /url: http://localhost:2000/contact/
+        - paragraph [ref=e35]: CONTACT
+    - listitem [ref=e36]:
+      - link "TEL" [ref=e37] [cursor=pointer]:
+        - /url: tel:0120-000-000
+        - img [ref=e38]
+        - paragraph [ref=e39]: TEL
+    - listitem [ref=e40]:
+      - link "LINE" [ref=e41] [cursor=pointer]:
+        - /url: http://localhost:2000/line/
+        - paragraph [ref=e43]: LINE
+  - main [ref=e44]:
+    - generic [ref=e45]:
+      - generic [ref=e46]:
+        - paragraph [ref=e47]: LINE
+        - heading "相談" [level=1] [ref=e48]
+      - img "木枠の窓辺にならぶ小物" [ref=e50]
+    - paragraph [ref=e53]:
+      - text: LINEでの相談・ご予約も受け付けしております。
+      - text: 以下の手順でお問い合わせください。
+    - generic [ref=e54]:
+      - generic [ref=e55]:
+        - img "LINE相談前に見ておきたい住まいの外観" [ref=e57]
+        - generic [ref=e58]:
+          - paragraph [ref=e59]: STEP. 01
+          - heading "LINE友だち追加" [level=2] [ref=e60]
+          - paragraph [ref=e61]: 公式LINEを下記QR・ボタンより友だち追加してください。
+          - link "友だち追加" [ref=e65] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e66]:
+        - img "お客様に丁寧に対応するスタッフ" [ref=e68]
+        - generic [ref=e69]:
+          - paragraph [ref=e70]: STEP. 02
+          - heading "お客様情報を送信" [level=2] [ref=e71]
+          - paragraph [ref=e72]:
+            - text: 公式LINEを友だち追加し、メッセージ受信後
+            - text: お客様情報の送信をお願いします。
+          - paragraph [ref=e73]: 【お客様情報】
+          - list [ref=e74]:
+            - listitem [ref=e75]: — お名前
+            - listitem [ref=e76]: — ご住所
+            - listitem [ref=e77]: — 電話番号
+            - listitem [ref=e78]: — メールアドレス
+      - generic [ref=e79]:
+        - img "相談後の打ち合わせイメージ" [ref=e81]
+        - generic [ref=e82]:
+          - paragraph [ref=e83]: STEP. 03
+          - heading "ご相談・ご予約の日程調整" [level=2] [ref=e84]
+          - paragraph [ref=e85]:
+            - text: お客様情報の確認後、弊社の担当者より返信させていただきます。
+            - text: ご相談内容をお聞かせください。ご予約の日程調整もさせていただきます。
+  - region "お問い合わせ導線" [ref=e86]:
+    - generic [ref=e87]:
+      - link "資料請求 Request Info →" [ref=e88] [cursor=pointer]:
+        - /url: http://localhost:2000/request/
+        - paragraph [ref=e90]:
+          - generic [ref=e91]: 資料請求
+          - generic [ref=e92]: Request Info
+        - generic [ref=e93]: →
+      - link "お問い合わせ Contact Info →" [ref=e94] [cursor=pointer]:
+        - /url: http://localhost:2000/contact/
+        - paragraph [ref=e96]:
+          - generic [ref=e97]: お問い合わせ
+          - generic [ref=e98]: Contact Info
+        - generic [ref=e99]: →
+      - link "お電話 Tel Info →" [ref=e100] [cursor=pointer]:
+        - /url: tel:0120-000-000
+        - paragraph [ref=e102]:
+          - generic [ref=e103]: お電話
+          - generic [ref=e104]: Tel Info
+        - generic [ref=e105]: →
+      - link "LINE相談 LINE →" [ref=e106] [cursor=pointer]:
+        - /url: http://localhost:2000/line/
+        - paragraph [ref=e108]:
+          - generic [ref=e109]: LINE相談
+          - generic [ref=e110]: LINE
+        - generic [ref=e111]: →
+  - contentinfo [ref=e112]:
+    - generic [ref=e113]:
+      - generic [ref=e114]:
+        - link "季住 -kisumi design-" [ref=e115] [cursor=pointer]:
+          - /url: http://localhost:2000
+          - img "季住 -kisumi design-" [ref=e116]
+        - paragraph [ref=e117]:
+          - generic [ref=e118]: 季住 -kisumi design-
+          - generic [ref=e119]: キスミデザイン
+          - generic [ref=e120]:
+            - text: 〒562-0033 大阪府箕面市今宮3丁目9-24
+            - text: 営業時間10:00〜18:00
+            - text: （定休日火曜・水曜・GW・夏季・年末年始）
+        - list [ref=e121]:
+          - listitem [ref=e122]:
+            - link "Instagram" [ref=e123] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=e124]:
+          - generic [ref=e125]:
+            - link "トップページ" [ref=e126] [cursor=pointer]:
+              - /url: http://localhost:2000
+            - link "初めての方へ" [ref=e127] [cursor=pointer]:
+              - /url: http://localhost:2000/about/
+            - link "サービスメニュー" [ref=e128] [cursor=pointer]:
+              - /url: http://localhost:2000/services/
+            - generic [ref=e129]:
+              - link "注文住宅(自由設計)" [ref=e130] [cursor=pointer]:
+                - /url: http://localhost:2000/custom-home/
+              - link "リフォーム・リノベーション" [ref=e131] [cursor=pointer]:
+                - /url: http://localhost:2000/renovation/
+            - link "保証・アフターサポート" [ref=e132] [cursor=pointer]:
+              - /url: http://localhost:2000/support/
+          - generic [ref=e133]:
+            - link "施工事例＆お客様の声" [ref=e134] [cursor=pointer]:
+              - /url: http://localhost:2000/voice/
+            - link "ギャラリー" [ref=e135] [cursor=pointer]:
+              - /url: http://localhost:2000/gallery/
+            - link "イベント" [ref=e136] [cursor=pointer]:
+              - /url: http://localhost:2000/events/
+          - generic [ref=e137]:
+            - link "よくある質問" [ref=e138] [cursor=pointer]:
+              - /url: http://localhost:2000/faq/
+            - link "ブログ" [ref=e139] [cursor=pointer]:
+              - /url: http://localhost:2000/blog/
+            - generic [ref=e140]:
+              - link "お知らせ" [ref=e141] [cursor=pointer]:
+                - /url: http://localhost:2000/news/
+              - link "スタッフブログ" [ref=e142] [cursor=pointer]:
+                - /url: http://localhost:2000/blog/
+              - link "コラム" [ref=e143] [cursor=pointer]:
+                - /url: http://localhost:2000/column/
+          - generic [ref=e144]:
+            - link "会社概要" [ref=e145] [cursor=pointer]:
+              - /url: http://localhost:2000/company/
+            - link "採用情報" [ref=e146] [cursor=pointer]:
+              - /url: http://localhost:2000/recruit/
+            - link "LINE相談" [ref=e147] [cursor=pointer]:
+              - /url: http://localhost:2000/line/
+      - paragraph [ref=e148]: Copyright (c) KISUMI Design Co., Ltd. All Rights Reserved.

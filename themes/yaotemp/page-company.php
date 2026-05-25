@@ -8,16 +8,24 @@ get_header(); ?>
 
     <!-- ページヒーロー -->
     <section class="page-hero">
-        <img class="img-ph img-ph--wide" src="<?php bloginfo('template_url');?>/img/company-hero.jpg" alt="季住デザイン 会社概要" style="object-fit:cover;">
-        <div class="page-hero__overlay">
+        <div class="page-hero__text">
+            <p class="page-hero__en">Company</p>
             <h1 class="page-hero__title">会社概要</h1>
         </div>
     </section>
 
+    <div class="breadcrumb" vocab="http://schema.org/" typeof="BreadcrumbList">
+        <div class="container">
+            <?php if(function_exists('bcn_display'))
+        {
+        bcn_display();
+        }?>
+        </div>
+    </div>
     <!-- 会社概要 -->
     <section class="inner-section">
         <div class="inner-section__inner">
-            <div class="c-section-head">
+            <div class="c-lower-sec-head">
                 <p class="section-title-en">Company Profile</p>
                 <h2 class="section-title-ja">会社概要</h2>
             </div>
@@ -94,12 +102,15 @@ get_header(); ?>
     <!-- 所在地 -->
     <section class="inner-section inner-section--gray">
         <div class="inner-section__inner">
-            <div class="c-section-head">
+            <div class="c-lower-sec-head">
                 <p class="section-title-en">Location</p>
                 <h2 class="section-title-ja">所在地</h2>
             </div>
             <div class="company-map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.192903179718!2d135.4925906752169!3d34.67508058458795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e704fb4fbad3%3A0x4325595a5c98505!5e0!3m2!1sja!2sjp!4v1718759883911!5m2!1sja!2sjp" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6549.778140438152!2d135.4997458!3d34.8338815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000fba4db0211bb%3A0x2a749d0513635b7b!2z5pel5pys44CB44CSNTYyLTAwMzMg5aSn6Ziq5bqc566V6Z2i5biC5LuK5a6u77yT5LiB55uu77yZ4oiS77yS77yU!5e0!3m2!1sja!2sca!4v1779612814486!5m2!1sja!2sca"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <table class="company-profile-table">
                 <tbody>

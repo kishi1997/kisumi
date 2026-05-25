@@ -8,8 +8,8 @@ get_header(); ?>
 
     <!-- ページヒーロー -->
     <section class="page-hero">
-        <img class="img-ph img-ph--wide" src="<?php bloginfo('template_url');?>/img/support-hero.jpg" alt="木の天井とアイランドキッチン" style="object-fit:cover;">
-        <div class="page-hero__overlay">
+        <div class="page-hero__text">
+            <p class="page-hero__en">Support</p>
             <h1 class="page-hero__title">保証・アフターサポート</h1>
         </div>
     </section>
@@ -19,6 +19,9 @@ get_header(); ?>
         <div class="inner-section__inner">
             <div class="support-guarantee-list">
                 <div class="support-guarantee-item">
+                    <div class="support-guarantee-item__img">
+                        <img src="<?php bloginfo('template_url');?>/img/support-inspection-living.jpg" alt="保証対象となる住まいのリビング">
+                    </div>
                     <div class="support-guarantee-item__head">
                         <span class="support-guarantee-item__num">01.</span>
                         <h2 class="support-guarantee-item__title">かし保険</h2>
@@ -28,6 +31,9 @@ get_header(); ?>
                     </p>
                 </div>
                 <div class="support-guarantee-item">
+                    <div class="support-guarantee-item__img">
+                        <img src="<?php bloginfo('template_url');?>/img/custom-home-feature-01-construction.jpg" alt="地盤と構造を確認する施工現場">
+                    </div>
                     <div class="support-guarantee-item__head">
                         <span class="support-guarantee-item__num">02.</span>
                         <h2 class="support-guarantee-item__title">地盤</h2>
@@ -37,6 +43,9 @@ get_header(); ?>
                     </p>
                 </div>
                 <div class="support-guarantee-item">
+                    <div class="support-guarantee-item__img">
+                        <img src="<?php bloginfo('template_url');?>/img/custom-home-warranty-window.jpg" alt="短期保証で確認する窓まわり">
+                    </div>
                     <div class="support-guarantee-item__head">
                         <span class="support-guarantee-item__num">03.</span>
                         <h2 class="support-guarantee-item__title">短期保証</h2>
@@ -46,6 +55,9 @@ get_header(); ?>
                     </p>
                 </div>
                 <div class="support-guarantee-item">
+                    <div class="support-guarantee-item__img">
+                        <img src="<?php bloginfo('template_url');?>/img/custom-home-spec-wood-floor.jpg" alt="シロアリ対策に関わる木の床材">
+                    </div>
                     <div class="support-guarantee-item__head">
                         <span class="support-guarantee-item__num">04.</span>
                         <h2 class="support-guarantee-item__title">シロアリ</h2>
@@ -55,6 +67,9 @@ get_header(); ?>
                     </p>
                 </div>
                 <div class="support-guarantee-item">
+                    <div class="support-guarantee-item__img">
+                        <img src="<?php bloginfo('template_url');?>/img/support-care-staircase.jpg" alt="駆けつけ対応を支える住まいの点検">
+                    </div>
                     <div class="support-guarantee-item__head">
                         <span class="support-guarantee-item__num">05.</span>
                         <h2 class="support-guarantee-item__title">駆けつけ</h2>
@@ -64,6 +79,9 @@ get_header(); ?>
                     </p>
                 </div>
                 <div class="support-guarantee-item">
+                    <div class="support-guarantee-item__img">
+                        <img src="<?php bloginfo('template_url');?>/img/custom-home-spec-kitchen.jpg" alt="住宅設備保証の対象となるキッチン">
+                    </div>
                     <div class="support-guarantee-item__head">
                         <span class="support-guarantee-item__num">06.</span>
                         <h2 class="support-guarantee-item__title">住宅設備（オプション）</h2>
@@ -85,10 +103,10 @@ get_header(); ?>
                 </div>
             </div>
             <div class="support-inspection__body">
-                <div class="c-section-head">
+                <div class="c-lower-sec-head">
                     <p class="section-title-en">Inspection</p>
+                    <h2 class="section-title-ja">定期点検</h2>
                 </div>
-                <h2 class="support-inspection__title">定期点検</h2>
                 <p class="support-inspection__text">
                     テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
                 </p>
@@ -100,10 +118,10 @@ get_header(); ?>
     <section class="support-care">
         <div class="support-care__inner">
             <div class="support-care__body">
-                <div class="c-section-head">
+                <div class="c-lower-sec-head">
                     <p class="section-title-en">Care</p>
+                    <h2 class="section-title-ja">お手入れ方法</h2>
                 </div>
-                <h2 class="support-care__title">お手入れ方法</h2>
                 <p class="support-care__text">
                     テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
                 </p>

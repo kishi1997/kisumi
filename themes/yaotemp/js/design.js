@@ -93,14 +93,17 @@ $(function () {
   });
 });
 
-// トップページ Event (560px以下でスライダー)
+// Event sliders
 $(function () {
-  if (!$.fn.slick || !$(".js-top-event-slider").length) {
+  if (!$.fn.slick) {
     return;
   }
   var $eventSlider = $(".js-top-event-slider");
 
   function initEventSlider() {
+    if (!$eventSlider.length) {
+      return;
+    }
     if (window.innerWidth <= 560) {
       if (!$eventSlider.hasClass("slick-initialized")) {
         $eventSlider.slick({
@@ -123,6 +126,42 @@ $(function () {
 
   initEventSlider();
   $(window).on("resize", initEventSlider);
+
+  $(".js-lower-event-slider").each(function () {
+    var $lowerEventSlider = $(this);
+    if ($lowerEventSlider.hasClass("slick-initialized")) {
+      return;
+    }
+    $lowerEventSlider.slick({
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      infinite: true,
+      arrows: true,
+      dots: true,
+      speed: 500,
+      cssEase: "ease",
+      swipeToSlide: true,
+      prevArrow:
+        '<button class="lower-event-slider__arrow lower-event-slider__arrow--prev" type="button" aria-label="前のイベント">←</button>',
+      nextArrow:
+        '<button class="lower-event-slider__arrow lower-event-slider__arrow--next" type="button" aria-label="次のイベント">→</button>',
+      responsive: [
+        {
+          breakpoint: 1000,
+          settings: {
+            slidesToShow: 2,
+          },
+        },
+        {
+          breakpoint: 641,
+          settings: {
+            slidesToShow: 1,
+            arrows: false,
+          },
+        },
+      ],
+    });
+  });
 });
 
 // トップページ Voice

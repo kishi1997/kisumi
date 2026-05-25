@@ -6,18 +6,22 @@ get_header(); ?>
 
 <main id="page-line" class="page-line">
 
-    <!-- ページヒーロー（分割レイアウト） -->
-    <section class="line-hero">
-        <div class="line-hero__text">
-            <h1 class="line-hero__title">LINE相談</h1>
-        </div>
-        <div class="line-hero__img">
-            <div class="img-ph-wrapper" style="padding-top:60%;">
-                <img class="img-ph" src="<?php bloginfo('template_url');?>/img/line-hero-window.jpg" alt="木枠の窓辺にならぶ小物" style="object-fit:cover;position:absolute;inset:0;width:100%;height:100%;">
-            </div>
+    <!-- ページヒーロー -->
+    <section class="page-hero">
+        <div class="page-hero__text">
+            <p class="page-hero__en">LINE Consultation</p>
+            <h1 class="page-hero__title">LINE相談</h1>
         </div>
     </section>
 
+    <div class="breadcrumb" vocab="http://schema.org/" typeof="BreadcrumbList">
+        <div class="container">
+            <?php if(function_exists('bcn_display'))
+        {
+        bcn_display();
+        }?>
+        </div>
+    </div>
     <!-- リード -->
     <section class="line-lead">
         <div class="line-lead__inner">
@@ -31,13 +35,13 @@ get_header(); ?>
     <!-- STEPリスト -->
     <div class="line-steps">
 
-        <!-- STEP 1 -->
-        <div class="line-step line-step--single">
-            <div class="line-logo" aria-label="LINE">
-                <span class="line-logo__text">LINE</span>
+        <!-- STEP 01 -->
+        <div class="line-step">
+            <div class="line-step__img">
+                <img src="<?php bloginfo('template_url');?>/img/line-step01-exterior.jpg" alt="LINE相談前に見ておきたい住まいの外観">
             </div>
             <div class="line-step__content">
-                <p class="line-step__num">STEP. 1</p>
+                <p class="line-step__num">STEP. 01</p>
                 <h2 class="line-step__title">LINE友だち追加</h2>
                 <p class="line-step__text">
                     公式LINEを下記QR・ボタンより友だち追加してください。
@@ -53,15 +57,13 @@ get_header(); ?>
             </div>
         </div>
 
-        <!-- STEP 2 -->
+        <!-- STEP 02 -->
         <div class="line-step">
             <div class="line-step__img">
-                <div class="img-ph-wrapper" style="padding-top:80%;">
-                    <img class="img-ph" src="<?php bloginfo('template_url');?>/img/line-step02-staff.jpg" alt="お客様に丁寧に対応するスタッフ" style="object-fit:cover;">
-                </div>
+                <img src="<?php bloginfo('template_url');?>/img/line-step02-staff.jpg" alt="お客様に丁寧に対応するスタッフ">
             </div>
-            <div>
-                <p class="line-step__num">STEP. 2</p>
+            <div class="line-step__content">
+                <p class="line-step__num">STEP. 02</p>
                 <h2 class="line-step__title">お客様情報を送信</h2>
                 <p class="line-step__text">
                     公式LINEを友だち追加し、メッセージ受信後<br>
@@ -77,10 +79,13 @@ get_header(); ?>
             </div>
         </div>
 
-        <!-- STEP 3 -->
-        <div class="line-step line-step--single">
-            <div>
-                <p class="line-step__num">STEP. 3</p>
+        <!-- STEP 03 -->
+        <div class="line-step">
+            <div class="line-step__img">
+                <img src="<?php bloginfo('template_url');?>/img/line-hero.jpg" alt="相談後の打ち合わせイメージ">
+            </div>
+            <div class="line-step__content">
+                <p class="line-step__num">STEP. 03</p>
                 <h2 class="line-step__title">ご相談・ご予約の日程調整</h2>
                 <p class="line-step__text">
                     お客様情報の確認後、弊社の担当者より返信させていただきます。<br>
@@ -90,7 +95,6 @@ get_header(); ?>
         </div>
 
     </div>
-
 
 </main>
 

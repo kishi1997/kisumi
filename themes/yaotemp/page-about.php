@@ -8,8 +8,8 @@ get_header(); ?>
 
     <!-- ページヒーロー -->
     <section class="page-hero">
-        <img class="img-ph img-ph--wide" src="<?php bloginfo('template_url');?>/img/about-hero.jpg" alt="木のぬくもりを感じる住まいの室内" style="object-fit:cover;">
-        <div class="page-hero__overlay">
+        <div class="page-hero__text">
+            <p class="page-hero__en">About</p>
             <h1 class="page-hero__title">初めての方へ</h1>
         </div>
     </section>
@@ -19,7 +19,7 @@ get_header(); ?>
         <div class="inner-section__inner">
             <div class="inner-2col">
                 <div class="inner-2col__text">
-                    <div class="c-section-head about-concept-head">
+                    <div class="c-lower-sec-head about-concept-head">
                         <p class="section-title-en">Concept</p>
                         <h2 class="section-title-ja">季節を住まう、<br>時を愛でる</h2>
                     </div>
@@ -112,14 +112,15 @@ get_header(); ?>
     <!-- どんな形の「家づくり」も同じ窓口で -->
     <section class="inner-section">
         <div class="inner-section__inner">
-            <div class="c-section-head about-service-head">
+            <div class="c-lower-sec-head about-service-head">
+                <p class="section-title-en">Service</p>
                 <h2 class="section-title-ja">どんな形の「家づくり」も<br>同じ窓口で</h2>
-                <p class="inner-section__lead">
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                </p>
             </div>
+            <p class="inner-section__lead">
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            </p>
             <div class="about-service-grid">
                 <div class="about-service-card">
                     <div class="about-service-card__img">
@@ -164,7 +165,7 @@ get_header(); ?>
     <!-- 地域のよりどころ -->
     <section class="inner-section inner-section--neutral">
         <div class="inner-section__inner">
-            <div class="c-section-head about-region-head">
+            <div class="c-lower-sec-head about-region-head">
                 <p class="section-title-en">Region</p>
                 <h2 class="section-title-ja">地域のよりどころ</h2>
             </div>
@@ -195,7 +196,7 @@ get_header(); ?>
                 </div>
                 <div class="about-region-item">
                     <div class="img-ph-wrapper" style="padding-top:60%;">
-                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/about-region-gathering.jpg" alt="八方良し" style="object-fit:cover;">
+                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/top-link-region.jpg" alt="八方良し" style="object-fit:cover;">
                     </div>
                     <div class="about-region-item__overlay">
                         <h3 class="about-region-item__title">みんなが笑顔になる<br>「八方良し」の精神</h3>
@@ -212,7 +213,7 @@ get_header(); ?>
     <!-- コラム -->
     <section class="inner-section">
         <div class="inner-section__inner">
-            <div class="c-section-head about-column-head">
+            <div class="c-lower-sec-head about-column-head">
                 <p class="section-title-en">Column</p>
                 <h2 class="section-title-ja">コラム</h2>
             </div>

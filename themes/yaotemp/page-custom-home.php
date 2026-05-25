@@ -15,12 +15,23 @@ get_header(); ?>
         </div>
     </section>
 
+    <div class="breadcrumb" vocab="http://schema.org/" typeof="BreadcrumbList">
+        <div class="container">
+            <?php if(function_exists('bcn_display'))
+        {
+        bcn_display();
+        }?>
+        </div>
+    </div>
     <!-- 01 イントロ -->
     <section class="inner-section">
         <div class="inner-section__inner">
             <div class="inner-2col">
                 <div class="inner-2col__text">
-                    <h2 class="section-title-ja">時とともに育つ、<br>漆喰と無垢の家</h2>
+                    <div class="c-lower-sec-head">
+                        <p class="section-title-en">Our Concept</p>
+                        <h2 class="section-title-ja">時とともに育つ、<br>漆喰と無垢の家</h2>
+                    </div>
                     <p class="inner-section__lead">
                         テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
                         テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
@@ -29,12 +40,6 @@ get_header(); ?>
                     <h3 class="inner-section__subtitle">土地探しから〜</h3>
                     <p class="inner-section__lead">
                         テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                    </p>
-                    <p class="custom-home-intro-more">
-                        <a class="c-more-btn" href="<?php bloginfo('url'); ?>/contact/">
-                            お問い合わせ
-                            <span class="c-more-btn__arrow">→</span>
-                        </a>
                     </p>
                 </div>
                 <div class="inner-2col__img">
@@ -50,8 +55,8 @@ get_header(); ?>
     <!-- 漆喰 / 無垢 -->
     <section class="inner-section inner-section--gray">
         <div class="inner-section__inner">
-            <div class="c-section-head">
-                <p class="inner-section__num">01</p>
+            <div class="c-lower-sec-head">
+                <p class="section-title-en">Materials</p>
                 <h2 class="section-title-ja">素材</h2>
             </div>
             <div class="renovation-type-list">
@@ -94,8 +99,8 @@ get_header(); ?>
     <!-- 02 こだわりの標準仕様 -->
     <section class="inner-section">
         <div class="inner-section__inner">
-            <div class="c-section-head">
-                <p class="inner-section__num">02</p>
+            <div class="c-lower-sec-head">
+                <p class="section-title-en">Standard Spec</p>
                 <h2 class="section-title-ja">こだわりの標準仕様</h2>
             </div>
             <div class="custom-home-spec-grid">
@@ -150,12 +155,20 @@ get_header(); ?>
     <!-- 03 性能 -->
     <section class="inner-section inner-section--gray">
         <div class="inner-section__inner">
-            <div class="c-section-head">
-                <p class="inner-section__num">03</p>
+            <div class="c-lower-sec-head">
+                <p class="section-title-en">Performance</p>
                 <h2 class="section-title-ja">性能</h2>
             </div>
-            <div class="inner-card-grid inner-card-grid--4">
+            <div class="inner-card-grid inner-card-grid--4 custom-home-performance-grid">
                 <div class="inner-card">
+                    <div class="inner-card__img-wrap custom-home-performance-card__img">
+                        <div class="img-ph-wrapper" style="padding-top:70%;">
+                            <img class="img-ph"
+                                src="<?php bloginfo('template_url');?>/img/custom-home-feature-01-construction.jpg"
+                                alt="構造と施工品質を確認する現場"
+                                style="object-fit:cover;position:absolute;inset:0;width:100%;height:100%;">
+                        </div>
+                    </div>
                     <div class="inner-card__body">
                         <h3 class="inner-card__title">耐震 3</h3>
                         <p class="inner-card__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
@@ -165,6 +178,14 @@ get_header(); ?>
                     </div>
                 </div>
                 <div class="inner-card">
+                    <div class="inner-card__img-wrap custom-home-performance-card__img">
+                        <div class="img-ph-wrapper" style="padding-top:70%;">
+                            <img class="img-ph"
+                                src="<?php bloginfo('template_url');?>/img/custom-home-warranty-window.jpg"
+                                alt="気密性を高めた室内の窓まわり"
+                                style="object-fit:cover;position:absolute;inset:0;width:100%;height:100%;">
+                        </div>
+                    </div>
                     <div class="inner-card__body">
                         <h3 class="inner-card__title">気密</h3>
                         <p class="inner-card__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
@@ -174,6 +195,14 @@ get_header(); ?>
                     </div>
                 </div>
                 <div class="inner-card">
+                    <div class="inner-card__img-wrap custom-home-performance-card__img">
+                        <div class="img-ph-wrapper" style="padding-top:70%;">
+                            <img class="img-ph"
+                                src="<?php bloginfo('template_url');?>/img/custom-home-feature-02-energy.jpg"
+                                alt="断熱性能を意識した明るい住まい"
+                                style="object-fit:cover;position:absolute;inset:0;width:100%;height:100%;">
+                        </div>
+                    </div>
                     <div class="inner-card__body">
                         <h3 class="inner-card__title">断熱</h3>
                         <p class="inner-card__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
@@ -183,6 +212,14 @@ get_header(); ?>
                     </div>
                 </div>
                 <div class="inner-card">
+                    <div class="inner-card__img-wrap custom-home-performance-card__img">
+                        <div class="img-ph-wrapper" style="padding-top:70%;">
+                            <img class="img-ph"
+                                src="<?php bloginfo('template_url');?>/img/support-inspection-living.jpg"
+                                alt="換気と熱交換に配慮したリビング空間"
+                                style="object-fit:cover;position:absolute;inset:0;width:100%;height:100%;">
+                        </div>
+                    </div>
                     <div class="inner-card__body">
                         <h3 class="inner-card__title">一種換気・熱交換</h3>
                         <p class="inner-card__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
@@ -198,8 +235,8 @@ get_header(); ?>
     <!-- 04 職人の技術 -->
     <section class="inner-section inner-section--neutral">
         <div class="inner-section__inner">
-            <div class="c-section-head">
-                <p class="inner-section__num">04</p>
+            <div class="c-lower-sec-head">
+                <p class="section-title-en">Craftsmen</p>
                 <h2 class="section-title-ja">職人の技術</h2>
             </div>
             <div class="custom-home-feature-grid">
@@ -235,7 +272,10 @@ get_header(); ?>
         <div class="inner-section__inner">
             <div class="custom-home-flow">
                 <div class="custom-home-flow__steps">
-                    <h3 class="custom-home-flow__heading">家づくりの流れ</h3>
+                    <div class="c-lower-sec-head">
+                        <p class="section-title-en">Process</p>
+                        <h3 class="section-title-ja">家づくりの流れ</h3>
+                    </div>
                     <div class="custom-home-flow__step">
                         <span class="custom-home-flow__step-num">1</span>
                         <div>
@@ -331,70 +371,7 @@ get_header(); ?>
         </div>
     </section>
 
-    <!-- イベント情報 -->
-    <section class="inner-section inner-section--gray">
-        <div class="inner-section__inner">
-            <div class="c-section-head custom-home-event-head">
-                <h2 class="section-title-ja">イベント情報</h2>
-            </div>
-            <div class="inner-card-grid inner-card-grid--3">
-                <article class="inner-card">
-                    <div class="inner-card__img-wrap">
-                        <div class="img-ph-wrapper" style="padding-top:66.67%;">
-                            <img class="img-ph"
-                                src="<?php bloginfo('template_url');?>/img/custom-home-event-consultation.jpg"
-                                alt="家づくり相談会のイメージ" style="object-fit:cover;">
-                        </div>
-                    </div>
-                    <div class="inner-card__body">
-                        <p class="inner-card__status">募集中</p>
-                        <p class="inner-card__label">カテゴリ名</p>
-                        <h3 class="inner-card__title">タイトルタイトルタイトルタイトル</h3>
-                        <p class="inner-card__text">開催日時　2024.00.00 〜 2024.00.00</p>
-                        <p class="inner-card__text">開催場所　住所テキスト住所テキスト住所テキスト</p>
-                    </div>
-                </article>
-                <article class="inner-card">
-                    <div class="inner-card__img-wrap">
-                        <div class="img-ph-wrapper" style="padding-top:66.67%;">
-                            <img class="img-ph"
-                                src="<?php bloginfo('template_url');?>/img/custom-home-event-consultation.jpg"
-                                alt="家づくり相談会のイメージ" style="object-fit:cover;">
-                        </div>
-                    </div>
-                    <div class="inner-card__body">
-                        <p class="inner-card__status">募集中</p>
-                        <p class="inner-card__label">カテゴリ名</p>
-                        <h3 class="inner-card__title">タイトルタイトルタイトルタイトル</h3>
-                        <p class="inner-card__text">開催日時　2024.00.00 〜 2024.00.00</p>
-                        <p class="inner-card__text">開催場所　住所テキスト住所テキスト住所テキスト</p>
-                    </div>
-                </article>
-                <article class="inner-card">
-                    <div class="inner-card__img-wrap">
-                        <div class="img-ph-wrapper" style="padding-top:66.67%;">
-                            <img class="img-ph"
-                                src="<?php bloginfo('template_url');?>/img/custom-home-event-consultation.jpg"
-                                alt="家づくり相談会のイメージ" style="object-fit:cover;">
-                        </div>
-                    </div>
-                    <div class="inner-card__body">
-                        <p class="inner-card__status">開催終了</p>
-                        <p class="inner-card__label">カテゴリ名</p>
-                        <h3 class="inner-card__title">タイトルタイトルタイトルタイトル</h3>
-                        <p class="inner-card__text">開催日時　2024.00.00 〜 2024.00.00</p>
-                        <p class="inner-card__text">開催場所　住所テキスト住所テキスト住所テキスト</p>
-                    </div>
-                </article>
-            </div>
-            <p class="inner-section__more">
-                <a class="c-more-btn" href="#">
-                    もっと見る
-                    <span class="c-more-btn__arrow">→</span>
-                </a>
-            </p>
-        </div>
-    </section>
+    <?php get_template_part('template-parts/lower-event-section'); ?>
 
     <!-- 施工事例 / 保障バナー -->
     <div class="inner-banner-pair">
