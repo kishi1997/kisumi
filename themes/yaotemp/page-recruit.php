@@ -13,7 +13,14 @@ get_header(); ?>
             <h1 class="page-hero__title">採用情報</h1>
         </div>
     </section>
-
+    <div class="breadcrumb" vocab="http://schema.org/" typeof="BreadcrumbList">
+        <div class="container">
+            <?php if(function_exists('bcn_display'))
+        {
+        bcn_display();
+        }?>
+        </div>
+    </div>
     <!-- 初年度契約 -->
     <section class="inner-section">
         <div class="inner-section__inner">
@@ -23,10 +30,12 @@ get_header(); ?>
                         <p class="section-title-en">First Year</p>
                         <h2 class="section-title-ja">初年度契約</h2>
                     </div>
+                    <p class="recruit-body-text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
                 </div>
                 <div class="recruit-firstyear__right">
-                    <div class="img-ph-wrapper" style="padding-top:70%;">
-                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/recruit-firstyear-interior.jpg" alt="木の天井と梁が美しい新築LDK" style="object-fit:cover;position:absolute;inset:0;width:100%;height:100%;">
+                    <div class="recruit-firstyear__fig">
+                        <img src="<?php bloginfo('template_url');?>/img/recruit-firstyear-interior.jpg"
+                            alt="木の天井と梁が美しい新築LDK">
                     </div>
                     <div class="recruit-stats">
                         <div class="recruit-stat">
@@ -43,7 +52,7 @@ get_header(); ?>
         </div>
     </section>
 
-    <!-- 円グラフ -->
+    <!-- 数字で見る季住 -->
     <section class="inner-section inner-section--gray recruit-data-section">
         <div class="inner-section__inner">
             <div class="c-lower-sec-head">
@@ -52,25 +61,31 @@ get_header(); ?>
             </div>
             <div class="recruit-data-grid">
                 <div class="recruit-data-card">
-                    <div class="recruit-data-card__img">
+                    <div class="recruit-data-card__fig">
                         <img src="<?php bloginfo('template_url');?>/img/recruit-culture-workspace.jpg" alt="働く環境">
                     </div>
-                    <p class="recruit-data-card__num">〇<span>件</span></p>
-                    <p class="recruit-data-card__label">円グラフ</p>
+                    <div class="recruit-data-card__body">
+                        <p class="recruit-data-card__num">〇<span>件</span></p>
+                        <p class="recruit-data-card__label">ラベルテキスト</p>
+                    </div>
                 </div>
                 <div class="recruit-data-card">
-                    <div class="recruit-data-card__img">
+                    <div class="recruit-data-card__fig">
                         <img src="<?php bloginfo('template_url');?>/img/recruit-schedule-room.jpg" alt="一日の仕事の場">
                     </div>
-                    <p class="recruit-data-card__num">〇<span>%</span></p>
-                    <p class="recruit-data-card__label">円グラフ</p>
+                    <div class="recruit-data-card__body">
+                        <p class="recruit-data-card__num">〇<span>%</span></p>
+                        <p class="recruit-data-card__label">ラベルテキスト</p>
+                    </div>
                 </div>
                 <div class="recruit-data-card">
-                    <div class="recruit-data-card__img">
+                    <div class="recruit-data-card__fig">
                         <img src="<?php bloginfo('template_url');?>/img/recruit-staff-portrait.jpg" alt="季住デザインのスタッフ">
                     </div>
-                    <p class="recruit-data-card__num">〇<span>名</span></p>
-                    <p class="recruit-data-card__label">円グラフ</p>
+                    <div class="recruit-data-card__body">
+                        <p class="recruit-data-card__num">〇<span>名</span></p>
+                        <p class="recruit-data-card__label">ラベルテキスト</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -83,50 +98,35 @@ get_header(); ?>
                 <p class="section-title-en">Culture</p>
                 <h2 class="section-title-ja">風土</h2>
             </div>
-            <p class="recruit-culture__text">
-                テキストテキストテキストテキストテキスト
-テキストテキストテキストテキストテキスト
-テキストテキストテキストテキストテキスト
-テキストテキストテキスト
-            </p>
+            <p class="recruit-body-text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
         </div>
         <div class="recruit-culture__img">
-            <div class="img-ph-wrapper" style="padding-top:75%;">
-                <img class="img-ph" src="<?php bloginfo('template_url');?>/img/recruit-culture-workspace.jpg" alt="木の香りのあるワークスペース" style="object-fit:cover;">
-            </div>
+            <img src="<?php bloginfo('template_url');?>/img/recruit-culture-workspace.jpg" alt="木の香りのあるワークスペース">
         </div>
     </section>
 
     <!-- 求める人 -->
     <section class="recruit-ideal">
         <div class="recruit-ideal__img">
-            <div class="img-ph-wrapper" style="padding-top:75%;">
-                <img class="img-ph" src="<?php bloginfo('template_url');?>/img/recruit-ideal-staircase.jpg" alt="吹き抜けの開放的な住まいの階段" style="object-fit:cover;">
-            </div>
+            <img src="<?php bloginfo('template_url');?>/img/recruit-ideal-staircase.jpg" alt="吹き抜けの開放的な住まいの階段">
         </div>
         <div class="recruit-ideal__body">
             <div class="c-lower-sec-head">
                 <p class="section-title-en">Person</p>
                 <h2 class="section-title-ja">求める人</h2>
             </div>
-            <p class="recruit-culture__text">
-                テキストテキストテキストテキストテキスト
-テキストテキストテキストテキストテキスト
-テキストテキストテキストテキストテキスト
-テキストテキストテキスト
-            </p>
+            <p class="recruit-body-text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
         </div>
     </section>
 
     <!-- 一日の流れ（1週間） -->
     <section class="recruit-schedule">
         <div class="recruit-schedule__inner">
-            <div class="recruit-schedule__body">
-                <div class="c-lower-sec-head">
-                    <p class="section-title-en">Schedule</p>
-                    <h2 class="section-title-ja">一日の流れ（1週間）</h2>
-                </div>
-                <table class="recruit-schedule-table">
+            <div class="c-lower-sec-head">
+                <p class="section-title-en">Schedule</p>
+                <h2 class="section-title-ja">一日の流れ（1週間）</h2>
+            </div>
+            <table class="recruit-schedule-table">
                     <thead>
                         <tr>
                             <th>時間</th>
@@ -195,13 +195,7 @@ get_header(); ?>
                             <td>テキスト</td>
                         </tr>
                     </tbody>
-                </table>
-            </div>
-            <div class="recruit-schedule__img">
-                <div class="img-ph-wrapper" style="padding-top:100%;">
-                    <img class="img-ph" src="<?php bloginfo('template_url');?>/img/recruit-schedule-room.jpg" alt="木の梁が印象的な居室" style="object-fit:cover;">
-                </div>
-            </div>
+            </table>
         </div>
     </section>
 
@@ -216,7 +210,7 @@ get_header(); ?>
                 <?php for ($i = 1; $i <= 4; $i++) : ?>
                 <div class="recruit-staff-card">
                     <div class="recruit-staff-card__img-wrap">
-                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/recruit-staff-portrait.jpg" alt="スタッフ写真" style="object-fit:cover;">
+                        <img src="<?php bloginfo('template_url');?>/img/recruit-staff-portrait.jpg" alt="スタッフ写真">
                     </div>
                     <p class="recruit-staff-card__role">役職役職役職</p>
                     <p class="recruit-staff-card__name">お名前　お名前</p>

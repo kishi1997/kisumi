@@ -57,7 +57,10 @@ get_header(); ?>
                 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
                 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
             </p>
-            <p class="renovation-feature-tagline">女性スタッフ2名　／　現場管理まで契約まで無償対応</p>
+            <div class="c-lower-sec-head">
+                <p class="section-title-en">Feature</p>
+                <h2 class="section-title-ja">女性スタッフ2名/現場管理まで契約まで無償対応</h2>
+            </div>
             <div class="renovation-reason-list">
                 <div class="renovation-reason-item">
                     <div class="renovation-reason-item__img">
@@ -141,7 +144,7 @@ get_header(); ?>
                         </dl>
                     </div>
                 </div>
-                <div class="renovation-type-item renovation-type-item--reverse">
+                <div class="renovation-type-item">
                     <div class="renovation-type-item__img">
                         <div class="img-ph-wrapper" style="padding-top:66%;">
                             <img class="img-ph"
@@ -172,76 +175,48 @@ get_header(); ?>
                 <p class="section-title-en">Process</p>
                 <h2 class="section-title-ja">リノベーションの流れ</h2>
             </div>
-            <div class="inner-card-grid inner-card-grid--3">
-                <div class="inner-card">
-                    <div class="inner-card__body">
-                        <p class="inner-card__label">1</p>
-                        <h3 class="inner-card__title">初回相談</h3>
-                        <p class="inner-card__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                    </div>
+            <div class="renovation-flow-list">
+                <div class="renovation-flow-step">
+                    <div class="renovation-flow-step__num">1</div>
+                    <h3 class="renovation-flow-step__title">初回相談</h3>
+                    <p class="renovation-flow-step__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
                 </div>
-                <div class="inner-card">
-                    <div class="inner-card__body">
-                        <p class="inner-card__label">2</p>
-                        <h3 class="inner-card__title">建物診断</h3>
-                        <p class="inner-card__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                    </div>
+                <div class="renovation-flow-step">
+                    <div class="renovation-flow-step__num">2</div>
+                    <h3 class="renovation-flow-step__title">建物診断</h3>
+                    <p class="renovation-flow-step__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
                 </div>
-                <div class="inner-card">
-                    <div class="inner-card__body">
-                        <p class="inner-card__label">3</p>
-                        <h3 class="inner-card__title">プラン提案・資金計画</h3>
-                        <p class="inner-card__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                    </div>
+                <div class="renovation-flow-step">
+                    <div class="renovation-flow-step__num">3</div>
+                    <h3 class="renovation-flow-step__title">プラン提案・資金計画</h3>
+                    <p class="renovation-flow-step__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
                 </div>
-                <div class="inner-card">
-                    <div class="inner-card__body">
-                        <p class="inner-card__label">4</p>
-                        <h3 class="inner-card__title">ご契約</h3>
-                        <p class="inner-card__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                    </div>
+                <div class="renovation-flow-step">
+                    <div class="renovation-flow-step__num">4</div>
+                    <h3 class="renovation-flow-step__title">ご契約</h3>
+                    <p class="renovation-flow-step__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
                 </div>
-                <div class="inner-card">
-                    <div class="inner-card__body">
-                        <p class="inner-card__label">5</p>
-                        <h3 class="inner-card__title">解体・工事</h3>
-                        <p class="inner-card__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                    </div>
+                <div class="renovation-flow-step">
+                    <div class="renovation-flow-step__num">5</div>
+                    <h3 class="renovation-flow-step__title">解体・工事</h3>
+                    <p class="renovation-flow-step__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
                 </div>
-                <div class="inner-card">
-                    <div class="inner-card__body">
-                        <p class="inner-card__label">6</p>
-                        <h3 class="inner-card__title">完成・お引き渡し</h3>
-                        <p class="inner-card__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                    </div>
+                <div class="renovation-flow-step">
+                    <div class="renovation-flow-step__num">6</div>
+                    <h3 class="renovation-flow-step__title">完成・お引き渡し</h3>
+                    <p class="renovation-flow-step__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
                 </div>
-                <div class="inner-card">
-                    <div class="inner-card__body">
-                        <p class="inner-card__label">7</p>
-                        <h3 class="inner-card__title">アフターフォロー</h3>
-                        <p class="inner-card__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                    </div>
+                <div class="renovation-flow-step">
+                    <div class="renovation-flow-step__num">7</div>
+                    <h3 class="renovation-flow-step__title">アフターフォロー</h3>
+                    <p class="renovation-flow-step__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
                 </div>
             </div>
         </div>
@@ -295,7 +270,66 @@ get_header(); ?>
         </div>
     </section>
 
-    <?php get_template_part('template-parts/lower-event-section'); ?>
+    <section class="inner-section inner-section--gray lower-event-section" aria-labelledby="lower-event-title-renovation">
+        <div class="inner-section__inner lower-event-section__inner">
+            <div class="c-lower-sec-head lower-event-section__head">
+                <p class="section-title-en">Event</p>
+                <h2 id="lower-event-title-renovation" class="section-title-ja">イベント情報</h2>
+            </div>
+
+            <div class="lower-event-slider js-lower-event-slider">
+                <article class="lower-event-card">
+                    <a href="<?php bloginfo('url'); ?>/events/">
+                        <figure class="lower-event-card__media">
+                            <img class="lower-event-card__img" src="<?php echo get_template_directory_uri(); ?>/img/top-event-01.jpg" alt="イベント会場の外観">
+                            <span class="lower-event-card__status lower-event-card__status--open">募集中</span>
+                        </figure>
+                        <div class="lower-event-card__body">
+                            <p class="lower-event-card__cat">相談会</p>
+                            <h3 class="lower-event-card__name">家づくり相談会</h3>
+                            <p class="lower-event-card__meta">開催日時　2026.03.15　-　2026.03.15</p>
+                            <p class="lower-event-card__meta">開催場所　季住 kisumi design 本社</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="lower-event-card">
+                    <a href="<?php bloginfo('url'); ?>/events/">
+                        <figure class="lower-event-card__media">
+                            <img class="lower-event-card__img" src="<?php echo get_template_directory_uri(); ?>/img/top-event-02.jpg" alt="イベント会場の内観">
+                            <span class="lower-event-card__status lower-event-card__status--open">募集中</span>
+                        </figure>
+                        <div class="lower-event-card__body">
+                            <p class="lower-event-card__cat">見学会</p>
+                            <h3 class="lower-event-card__name">モデルハウス完成見学会</h3>
+                            <p class="lower-event-card__meta">開催日時　2026.03.15　-　2026.03.15</p>
+                            <p class="lower-event-card__meta">開催場所　季住 kisumi design 本社</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="lower-event-card">
+                    <a href="<?php bloginfo('url'); ?>/events/">
+                        <figure class="lower-event-card__media">
+                            <img class="lower-event-card__img" src="<?php echo get_template_directory_uri(); ?>/img/top-event-03.jpg" alt="イベント会場のキッチン">
+                            <span class="lower-event-card__status lower-event-card__status--closed">開催終了</span>
+                        </figure>
+                        <div class="lower-event-card__body">
+                            <p class="lower-event-card__cat">分譲販売</p>
+                            <h3 class="lower-event-card__name">第3期分譲販売開始</h3>
+                            <p class="lower-event-card__meta">開催日時　2026.03.15　-　2026.03.15</p>
+                            <p class="lower-event-card__meta">開催場所　季住 kisumi design 本社</p>
+                        </div>
+                    </a>
+                </article>
+            </div>
+
+            <p class="lower-event-section__more">
+                <a class="c-more-btn" href="<?php bloginfo('url'); ?>/events/">
+                    もっと見る
+                    <span class="c-more-btn__arrow">→</span>
+                </a>
+            </p>
+        </div>
+    </section>
 
     <!-- バナーペア -->
     <div class="inner-banner-pair">

@@ -1,0 +1,370 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "季住 -kisumi design-" [ref=e6] [cursor=pointer]:
+        - /url: http://localhost:2000
+        - img "季住 -kisumi design-" [ref=e7]
+      - navigation "ヘッダーメニュー" [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "初めての方へ" [ref=e11] [cursor=pointer]:
+              - /url: http://localhost:2000/about/
+          - listitem [ref=e12]:
+            - paragraph [ref=e13]: サービス
+          - listitem [ref=e14]:
+            - link "施工事例・お客様の声" [ref=e15] [cursor=pointer]:
+              - /url: http://localhost:2000/voice/
+          - listitem [ref=e16]:
+            - link "ギャラリー" [ref=e17] [cursor=pointer]:
+              - /url: http://localhost:2000/gallery/
+          - listitem [ref=e18]:
+            - link "よくある質問" [ref=e19] [cursor=pointer]:
+              - /url: http://localhost:2000/faq/
+          - listitem [ref=e20]:
+            - link "会社概要" [ref=e21] [cursor=pointer]:
+              - /url: http://localhost:2000/company/
+          - listitem [ref=e22]:
+            - link "資料請求" [ref=e23] [cursor=pointer]:
+              - /url: http://localhost:2000/request/
+          - listitem [ref=e24]:
+            - link "お問い合わせ" [ref=e25] [cursor=pointer]:
+              - /url: http://localhost:2000/contact/
+  - list [ref=e27]:
+    - listitem [ref=e28]:
+      - link "MENU" [ref=e29] [cursor=pointer]:
+        - /url: http://localhost:2000/#
+        - img [ref=e30]
+        - paragraph [ref=e31]: MENU
+    - listitem [ref=e32]:
+      - link "CONTACT" [ref=e33] [cursor=pointer]:
+        - /url: http://localhost:2000/contact/
+        - paragraph [ref=e35]: CONTACT
+    - listitem [ref=e36]:
+      - link "TEL" [ref=e37] [cursor=pointer]:
+        - /url: tel:0120-000-000
+        - img [ref=e38]
+        - paragraph [ref=e39]: TEL
+    - listitem [ref=e40]:
+      - link "LINE" [ref=e41] [cursor=pointer]:
+        - /url: http://localhost:2000/line/
+        - paragraph [ref=e43]: LINE
+  - main [ref=e44]:
+    - generic [ref=e46]:
+      - paragraph [ref=e47]: Renovation
+      - heading "リフォーム・リノベーション" [level=1] [ref=e48]
+    - generic [ref=e51]:
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - paragraph [ref=e54]: Our Approach
+          - heading "すでにある形に暮らしを 合わせて" [level=2] [ref=e55]:
+            - text: すでにある形に暮らしを
+            - text: 合わせて
+        - paragraph [ref=e56]: テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+        - paragraph [ref=e57]:
+          - link "お問い合わせ →" [ref=e58] [cursor=pointer]:
+            - /url: http://localhost:2000/contact/
+            - text: お問い合わせ
+            - generic [ref=e59]: →
+      - img "モカブラウンの壁と木の温もりのリノベキッチン" [ref=e62]
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - paragraph [ref=e66]: Problem
+        - heading "どこに頼めばいいか 分からない" [level=2] [ref=e67]:
+          - text: どこに頼めばいいか
+          - text: 分からない
+      - paragraph [ref=e68]: テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+      - generic [ref=e69]:
+        - paragraph [ref=e70]: Feature
+        - heading "女性スタッフ2名/現場管理まで契約まで無償対応" [level=2] [ref=e71]
+      - generic [ref=e72]:
+        - generic [ref=e76]:
+          - paragraph [ref=e77]: POINT. 01
+          - heading "パース" [level=3] [ref=e78]
+          - paragraph [ref=e79]: テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+        - generic [ref=e83]:
+          - paragraph [ref=e84]: POINT. 02
+          - heading "図面" [level=3] [ref=e85]
+          - paragraph [ref=e86]: テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+        - generic [ref=e90]:
+          - paragraph [ref=e91]: POINT. 03
+          - heading "現調" [level=3] [ref=e92]
+          - paragraph [ref=e93]: テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+    - generic [ref=e95]:
+      - generic [ref=e96]:
+        - paragraph [ref=e97]: Types
+        - heading "リノベーションの種類" [level=2] [ref=e98]
+      - generic [ref=e99]:
+        - generic [ref=e100]:
+          - img "中古リノベーション" [ref=e103]
+          - generic [ref=e104]:
+            - generic [ref=e105]: POINT. 01
+            - heading "中古＋リノベ" [level=3] [ref=e106]
+            - generic [ref=e107]:
+              - term [ref=e108]: ・物件探し
+              - definition [ref=e109]: テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              - term [ref=e110]: ・FP、資金計画
+              - definition [ref=e111]: テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+        - generic [ref=e112]:
+          - img "持ち家リノベーション" [ref=e115]
+          - generic [ref=e116]:
+            - generic [ref=e117]: POINT. 02
+            - heading "持ち家＋リノベ" [level=3] [ref=e118]
+            - generic [ref=e119]:
+              - term [ref=e120]: ・住宅診断
+              - definition [ref=e121]: テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              - term [ref=e122]: ・戸建て、マンション関わらず
+              - definition [ref=e123]: テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+    - generic [ref=e125]:
+      - generic [ref=e126]:
+        - paragraph [ref=e127]: Process
+        - heading "リノベーションの流れ" [level=2] [ref=e128]
+      - generic [ref=e129]:
+        - generic [ref=e130]:
+          - generic [ref=e131]: "1"
+          - heading "初回相談" [level=3] [ref=e132]
+          - paragraph [ref=e133]: テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+        - generic [ref=e134]:
+          - generic [ref=e135]: "2"
+          - heading "建物診断" [level=3] [ref=e136]
+          - paragraph [ref=e137]: テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+        - generic [ref=e138]:
+          - generic [ref=e139]: "3"
+          - heading "プラン提案・資金計画" [level=3] [ref=e140]
+          - paragraph [ref=e141]: テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+        - generic [ref=e142]:
+          - generic [ref=e143]: "4"
+          - heading "ご契約" [level=3] [ref=e144]
+          - paragraph [ref=e145]: テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+        - generic [ref=e146]:
+          - generic [ref=e147]: "5"
+          - heading "解体・工事" [level=3] [ref=e148]
+          - paragraph [ref=e149]: テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+        - generic [ref=e150]:
+          - generic [ref=e151]: "6"
+          - heading "完成・お引き渡し" [level=3] [ref=e152]
+          - paragraph [ref=e153]: テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+        - generic [ref=e154]:
+          - generic [ref=e155]: "7"
+          - heading "アフターフォロー" [level=3] [ref=e156]
+          - paragraph [ref=e157]: テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+    - generic [ref=e159]:
+      - generic [ref=e160]:
+        - paragraph [ref=e161]: Craftsmen
+        - heading "職人の技術" [level=2] [ref=e162]
+      - generic [ref=e163]:
+        - generic [ref=e165]:
+          - heading "左官" [level=3] [ref=e166]
+          - paragraph [ref=e167]: テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+        - generic [ref=e169]:
+          - heading "大工" [level=3] [ref=e170]
+          - paragraph [ref=e171]: テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+        - generic [ref=e173]:
+          - heading "塗装" [level=3] [ref=e174]
+          - paragraph [ref=e175]: テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+        - generic [ref=e177]:
+          - heading "タイル" [level=3] [ref=e178]
+          - paragraph [ref=e179]: テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+    - region "イベント情報" [ref=e180]:
+      - generic [ref=e181]:
+        - generic [ref=e182]:
+          - paragraph [ref=e183]: Event
+          - heading "イベント情報" [level=2] [ref=e184]
+        - generic [ref=e185]:
+          - button "前のイベント" [ref=e186] [cursor=pointer]: ←
+          - generic [ref=e188]:
+            - article [ref=e189]:
+              - link [ref=e190] [cursor=pointer]:
+                - /url: http://localhost:2000/events/
+                - figure [ref=e191]:
+                  - img [ref=e192]
+                  - generic [ref=e193]: 募集中
+                - generic [ref=e194]:
+                  - paragraph [ref=e195]: 見学会
+                  - heading [level=3] [ref=e196]: モデルハウス完成見学会
+                  - paragraph [ref=e197]: 開催日時 2026.03.15 - 2026.03.15
+                  - paragraph [ref=e198]: 開催場所 季住 kisumi design 本社
+            - article [ref=e199]:
+              - link [ref=e200] [cursor=pointer]:
+                - /url: http://localhost:2000/events/
+                - figure [ref=e201]:
+                  - img [ref=e202]
+                  - generic [ref=e203]: 開催終了
+                - generic [ref=e204]:
+                  - paragraph [ref=e205]: 分譲販売
+                  - heading [level=3] [ref=e206]: 第3期分譲販売開始
+                  - paragraph [ref=e207]: 開催日時 2026.03.15 - 2026.03.15
+                  - paragraph [ref=e208]: 開催場所 季住 kisumi design 本社
+            - tabpanel [ref=e209]:
+              - link "相談会 家づくり相談会 開催日時 2026.03.15 - 2026.03.15 開催場所 季住 kisumi design 本社" [ref=e210] [cursor=pointer]:
+                - /url: http://localhost:2000/events/
+                - figure [ref=e211]:
+                  - img "イベント会場の外観" [ref=e212]
+                  - generic [ref=e213]: 募集中
+                - generic [ref=e214]:
+                  - paragraph [ref=e215]: 相談会
+                  - heading "家づくり相談会" [level=3] [ref=e216]
+                  - paragraph [ref=e217]: 開催日時 2026.03.15 - 2026.03.15
+                  - paragraph [ref=e218]: 開催場所 季住 kisumi design 本社
+            - tabpanel [ref=e219]:
+              - link "見学会 モデルハウス完成見学会 開催日時 2026.03.15 - 2026.03.15 開催場所 季住 kisumi design 本社" [ref=e220] [cursor=pointer]:
+                - /url: http://localhost:2000/events/
+                - figure [ref=e221]:
+                  - img "イベント会場の内観" [ref=e222]
+                  - generic [ref=e223]: 募集中
+                - generic [ref=e224]:
+                  - paragraph [ref=e225]: 見学会
+                  - heading "モデルハウス完成見学会" [level=3] [ref=e226]
+                  - paragraph [ref=e227]: 開催日時 2026.03.15 - 2026.03.15
+                  - paragraph [ref=e228]: 開催場所 季住 kisumi design 本社
+            - tabpanel [ref=e229]:
+              - link [ref=e230] [cursor=pointer]:
+                - /url: http://localhost:2000/events/
+                - figure [ref=e231]:
+                  - img [ref=e232]
+                  - generic [ref=e233]: 開催終了
+                - generic [ref=e234]:
+                  - paragraph [ref=e235]: 分譲販売
+                  - heading [level=3] [ref=e236]: 第3期分譲販売開始
+                  - paragraph [ref=e237]: 開催日時 2026.03.15 - 2026.03.15
+                  - paragraph [ref=e238]: 開催場所 季住 kisumi design 本社
+            - article [ref=e239]:
+              - link [ref=e240] [cursor=pointer]:
+                - /url: http://localhost:2000/events/
+                - figure [ref=e241]:
+                  - img [ref=e242]
+                  - generic [ref=e243]: 募集中
+                - generic [ref=e244]:
+                  - paragraph [ref=e245]: 相談会
+                  - heading [level=3] [ref=e246]: 家づくり相談会
+                  - paragraph [ref=e247]: 開催日時 2026.03.15 - 2026.03.15
+                  - paragraph [ref=e248]: 開催場所 季住 kisumi design 本社
+            - article [ref=e249]:
+              - link [ref=e250] [cursor=pointer]:
+                - /url: http://localhost:2000/events/
+                - figure [ref=e251]:
+                  - img [ref=e252]
+                  - generic [ref=e253]: 募集中
+                - generic [ref=e254]:
+                  - paragraph [ref=e255]: 見学会
+                  - heading [level=3] [ref=e256]: モデルハウス完成見学会
+                  - paragraph [ref=e257]: 開催日時 2026.03.15 - 2026.03.15
+                  - paragraph [ref=e258]: 開催場所 季住 kisumi design 本社
+            - article [ref=e259]:
+              - link [ref=e260] [cursor=pointer]:
+                - /url: http://localhost:2000/events/
+                - figure [ref=e261]:
+                  - img [ref=e262]
+                  - generic [ref=e263]: 開催終了
+                - generic [ref=e264]:
+                  - paragraph [ref=e265]: 分譲販売
+                  - heading [level=3] [ref=e266]: 第3期分譲販売開始
+                  - paragraph [ref=e267]: 開催日時 2026.03.15 - 2026.03.15
+                  - paragraph [ref=e268]: 開催場所 季住 kisumi design 本社
+          - button "次のイベント" [ref=e269] [cursor=pointer]: →
+          - tablist [ref=e270]:
+            - tab "1 of 2" [selected] [ref=e271] [cursor=pointer]: "1"
+            - tab "2 of 2" [ref=e272] [cursor=pointer]: "2"
+            - tab "3 of 2" [ref=e273] [cursor=pointer]: "3"
+        - paragraph [ref=e274]:
+          - link "もっと見る →" [ref=e275] [cursor=pointer]:
+            - /url: http://localhost:2000/events/
+            - text: もっと見る
+            - generic [ref=e276]: →
+    - generic [ref=e277]:
+      - link "施工事例イメージ Portfolio 施工事例" [ref=e278] [cursor=pointer]:
+        - /url: http://localhost:2000/voice/
+        - img "施工事例イメージ" [ref=e280]
+        - generic [ref=e281]:
+          - paragraph [ref=e282]: Portfolio
+          - paragraph [ref=e283]: 施工事例
+      - link "保障・アフターサポートイメージ Support 保障・アフターサポート" [ref=e284] [cursor=pointer]:
+        - /url: http://localhost:2000/support/
+        - img "保障・アフターサポートイメージ" [ref=e286]
+        - generic [ref=e287]:
+          - paragraph [ref=e288]: Support
+          - paragraph [ref=e289]: 保障・アフターサポート
+  - region "お問い合わせ導線" [ref=e290]:
+    - generic [ref=e291]:
+      - link "資料請求 Request Info →" [ref=e292] [cursor=pointer]:
+        - /url: http://localhost:2000/request/
+        - paragraph [ref=e294]:
+          - generic [ref=e295]: 資料請求
+          - generic [ref=e296]: Request Info
+        - generic [ref=e297]: →
+      - link "お問い合わせ Contact Info →" [ref=e298] [cursor=pointer]:
+        - /url: http://localhost:2000/contact/
+        - paragraph [ref=e300]:
+          - generic [ref=e301]: お問い合わせ
+          - generic [ref=e302]: Contact Info
+        - generic [ref=e303]: →
+      - link "お電話 Tel Info →" [ref=e304] [cursor=pointer]:
+        - /url: tel:0120-000-000
+        - paragraph [ref=e306]:
+          - generic [ref=e307]: お電話
+          - generic [ref=e308]: Tel Info
+        - generic [ref=e309]: →
+      - link "LINE相談 LINE →" [ref=e310] [cursor=pointer]:
+        - /url: http://localhost:2000/line/
+        - paragraph [ref=e312]:
+          - generic [ref=e313]: LINE相談
+          - generic [ref=e314]: LINE
+        - generic [ref=e315]: →
+  - contentinfo [ref=e316]:
+    - generic [ref=e317]:
+      - generic [ref=e318]:
+        - link "季住 -kisumi design-" [ref=e319] [cursor=pointer]:
+          - /url: http://localhost:2000
+          - img "季住 -kisumi design-" [ref=e320]
+        - paragraph [ref=e321]:
+          - generic [ref=e322]: 季住 -kisumi design-
+          - generic [ref=e323]: キスミデザイン
+          - generic [ref=e324]:
+            - text: 〒562-0033 大阪府箕面市今宮3丁目9-24
+            - text: 営業時間10:00〜18:00
+            - text: （定休日火曜・水曜・GW・夏季・年末年始）
+        - list [ref=e325]:
+          - listitem [ref=e326]:
+            - link "Instagram" [ref=e327] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=e328]:
+          - generic [ref=e329]:
+            - link "トップページ" [ref=e330] [cursor=pointer]:
+              - /url: http://localhost:2000
+            - link "初めての方へ" [ref=e331] [cursor=pointer]:
+              - /url: http://localhost:2000/about/
+            - link "サービスメニュー" [ref=e332] [cursor=pointer]:
+              - /url: http://localhost:2000/services/
+            - generic [ref=e333]:
+              - link "注文住宅(自由設計)" [ref=e334] [cursor=pointer]:
+                - /url: http://localhost:2000/custom-home/
+              - link "リフォーム・リノベーション" [ref=e335] [cursor=pointer]:
+                - /url: http://localhost:2000/renovation/
+            - link "保証・アフターサポート" [ref=e336] [cursor=pointer]:
+              - /url: http://localhost:2000/support/
+          - generic [ref=e337]:
+            - link "施工事例＆お客様の声" [ref=e338] [cursor=pointer]:
+              - /url: http://localhost:2000/voice/
+            - link "ギャラリー" [ref=e339] [cursor=pointer]:
+              - /url: http://localhost:2000/gallery/
+            - link "イベント" [ref=e340] [cursor=pointer]:
+              - /url: http://localhost:2000/events/
+          - generic [ref=e341]:
+            - link "よくある質問" [ref=e342] [cursor=pointer]:
+              - /url: http://localhost:2000/faq/
+            - link "ブログ" [ref=e343] [cursor=pointer]:
+              - /url: http://localhost:2000/blog/
+            - generic [ref=e344]:
+              - link "お知らせ" [ref=e345] [cursor=pointer]:
+                - /url: http://localhost:2000/news/
+              - link "スタッフブログ" [ref=e346] [cursor=pointer]:
+                - /url: http://localhost:2000/blog/
+              - link "コラム" [ref=e347] [cursor=pointer]:
+                - /url: http://localhost:2000/column/
+          - generic [ref=e348]:
+            - link "会社概要" [ref=e349] [cursor=pointer]:
+              - /url: http://localhost:2000/company/
+            - link "採用情報" [ref=e350] [cursor=pointer]:
+              - /url: http://localhost:2000/recruit/
+            - link "LINE相談" [ref=e351] [cursor=pointer]:
+              - /url: http://localhost:2000/line/
+      - paragraph [ref=e352]: Copyright (c) KISUMI Design Co., Ltd. All Rights Reserved.

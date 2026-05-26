@@ -17,6 +17,10 @@ get_header(); ?>
     <!-- 保証内容リスト -->
     <section class="inner-section">
         <div class="inner-section__inner">
+            <div class="c-lower-sec-head">
+                <p class="section-title-en">Guarantee</p>
+                <h2 class="section-title-ja">保証内容</h2>
+            </div>
             <div class="support-guarantee-list">
                 <div class="support-guarantee-item">
                     <div class="support-guarantee-item__img">
@@ -24,11 +28,9 @@ get_header(); ?>
                     </div>
                     <div class="support-guarantee-item__head">
                         <span class="support-guarantee-item__num">01.</span>
-                        <h2 class="support-guarantee-item__title">かし保険</h2>
+                        <h3 class="support-guarantee-item__title">かし保険</h3>
                     </div>
-                    <p class="support-guarantee-item__text">
-                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                    </p>
+                    <p class="support-guarantee-item__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
                 </div>
                 <div class="support-guarantee-item">
                     <div class="support-guarantee-item__img">
@@ -36,11 +38,9 @@ get_header(); ?>
                     </div>
                     <div class="support-guarantee-item__head">
                         <span class="support-guarantee-item__num">02.</span>
-                        <h2 class="support-guarantee-item__title">地盤</h2>
+                        <h3 class="support-guarantee-item__title">地盤</h3>
                     </div>
-                    <p class="support-guarantee-item__text">
-                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                    </p>
+                    <p class="support-guarantee-item__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
                 </div>
                 <div class="support-guarantee-item">
                     <div class="support-guarantee-item__img">
@@ -48,11 +48,9 @@ get_header(); ?>
                     </div>
                     <div class="support-guarantee-item__head">
                         <span class="support-guarantee-item__num">03.</span>
-                        <h2 class="support-guarantee-item__title">短期保証</h2>
+                        <h3 class="support-guarantee-item__title">短期保証</h3>
                     </div>
-                    <p class="support-guarantee-item__text">
-                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                    </p>
+                    <p class="support-guarantee-item__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
                 </div>
                 <div class="support-guarantee-item">
                     <div class="support-guarantee-item__img">
@@ -60,11 +58,9 @@ get_header(); ?>
                     </div>
                     <div class="support-guarantee-item__head">
                         <span class="support-guarantee-item__num">04.</span>
-                        <h2 class="support-guarantee-item__title">シロアリ</h2>
+                        <h3 class="support-guarantee-item__title">シロアリ</h3>
                     </div>
-                    <p class="support-guarantee-item__text">
-                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                    </p>
+                    <p class="support-guarantee-item__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
                 </div>
                 <div class="support-guarantee-item">
                     <div class="support-guarantee-item__img">
@@ -72,11 +68,9 @@ get_header(); ?>
                     </div>
                     <div class="support-guarantee-item__head">
                         <span class="support-guarantee-item__num">05.</span>
-                        <h2 class="support-guarantee-item__title">駆けつけ</h2>
+                        <h3 class="support-guarantee-item__title">駆けつけ</h3>
                     </div>
-                    <p class="support-guarantee-item__text">
-                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                    </p>
+                    <p class="support-guarantee-item__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
                 </div>
                 <div class="support-guarantee-item">
                     <div class="support-guarantee-item__img">
@@ -84,57 +78,43 @@ get_header(); ?>
                     </div>
                     <div class="support-guarantee-item__head">
                         <span class="support-guarantee-item__num">06.</span>
-                        <h2 class="support-guarantee-item__title">住宅設備（オプション）</h2>
+                        <h3 class="support-guarantee-item__title">住宅設備（オプション）</h3>
                     </div>
-                    <p class="support-guarantee-item__text">
-                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                    </p>
+                    <p class="support-guarantee-item__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- 定期点検 -->
-    <section class="inner-section--neutral">
-        <div class="support-inspection">
-            <div class="support-inspection__img">
-                <div class="img-ph-wrapper" style="padding-top:70%;">
-                    <img class="img-ph" src="<?php bloginfo('template_url');?>/img/support-inspection-living.jpg" alt="無垢材の床とやわらかな光のリビング" style="object-fit:cover;">
-                </div>
+    <section class="support-inspection">
+        <div class="support-inspection__img">
+            <img src="<?php bloginfo('template_url');?>/img/support-inspection-living.jpg" alt="無垢材の床とやわらかな光のリビング">
+        </div>
+        <div class="support-inspection__body">
+            <div class="c-lower-sec-head">
+                <p class="section-title-en">Inspection</p>
+                <h2 class="section-title-ja">定期点検</h2>
             </div>
-            <div class="support-inspection__body">
-                <div class="c-lower-sec-head">
-                    <p class="section-title-en">Inspection</p>
-                    <h2 class="section-title-ja">定期点検</h2>
-                </div>
-                <p class="support-inspection__text">
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                </p>
-            </div>
+            <p class="support-inspection__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
         </div>
     </section>
 
     <!-- お手入れ方法 -->
     <section class="support-care">
-        <div class="support-care__inner">
-            <div class="support-care__body">
-                <div class="c-lower-sec-head">
-                    <p class="section-title-en">Care</p>
-                    <h2 class="section-title-ja">お手入れ方法</h2>
-                </div>
-                <p class="support-care__text">
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                </p>
-                <a class="c-more-btn" href="<?php bloginfo('url'); ?>/column/">
-                    コラムを見る
-                    <span class="c-more-btn__arrow">→</span>
-                </a>
+        <div class="support-care__body">
+            <div class="c-lower-sec-head">
+                <p class="section-title-en">Care</p>
+                <h2 class="section-title-ja">お手入れ方法</h2>
             </div>
-            <div class="support-care__img">
-                <div class="img-ph-wrapper" style="padding-top:80%;">
-                    <img class="img-ph" src="<?php bloginfo('template_url');?>/img/support-care-staircase.jpg" alt="自然光が差し込む階段の光と影" style="object-fit:cover;">
-                </div>
-            </div>
+            <p class="support-care__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            <a class="c-more-btn" href="<?php bloginfo('url'); ?>/column/">
+                コラムを見る
+                <span class="c-more-btn__arrow">→</span>
+            </a>
+        </div>
+        <div class="support-care__img">
+            <img src="<?php bloginfo('template_url');?>/img/support-care-staircase.jpg" alt="自然光が差し込む階段の光と影">
         </div>
     </section>
 
