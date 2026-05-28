@@ -102,34 +102,37 @@
                 <p class="section-title-en">Event</p>
                 <h2 id="top-event-title" class="section-title-ja">イベント情報</h2>
             </div>
-            <div class="top-event__cards js-top-event-slider">
-                <article class="top-event-card">
-                    <a href="<?php bloginfo('url'); ?>/events/">
-                        <img src="<?php bloginfo('template_url');?>/img/top-event-01.jpg" alt="イベント会場の外観">
-                        <span class="top-event-card__cat">相談会</span>
-                        <h3 class="top-event-card__name">家づくり相談会</h3>
-                        <p class="top-event-card__meta">開催日時　2026.03.15　-　2026.03.15</p>
-                        <p class="top-event-card__meta">開催場所　季住 kisumi design 本社</p>
-                    </a>
-                </article>
-                <article class="top-event-card">
-                    <a href="<?php bloginfo('url'); ?>/events/">
-                        <img src="<?php bloginfo('template_url');?>/img/top-event-02.jpg" alt="イベント会場の内観">
-                        <span class="top-event-card__cat">見学会</span>
-                        <h3 class="top-event-card__name">モデルハウス完成見学会</h3>
-                        <p class="top-event-card__meta">開催日時　2026.03.15　-　2026.03.15</p>
-                        <p class="top-event-card__meta">開催場所　季住 kisumi design 本社</p>
-                    </a>
-                </article>
-                <article class="top-event-card">
-                    <a href="<?php bloginfo('url'); ?>/events/">
-                        <img src="<?php bloginfo('template_url');?>/img/top-event-03.jpg" alt="イベント会場のキッチン">
-                        <span class="top-event-card__cat">分譲販売</span>
-                        <h3 class="top-event-card__name">第3期分譲販売開始</h3>
-                        <p class="top-event-card__meta">開催日時　2026.03.15　-　2026.03.15</p>
-                        <p class="top-event-card__meta">開催場所　季住 kisumi design 本社</p>
-                    </a>
-                </article>
+            <div class="top-event__cards js-top-event-slider swiper">
+                <div class="swiper-wrapper">
+                    <article class="top-event-card swiper-slide">
+                        <a href="<?php bloginfo('url'); ?>/events/">
+                            <img src="<?php bloginfo('template_url');?>/img/top-event-01.jpg" alt="イベント会場の外観">
+                            <span class="top-event-card__cat">相談会</span>
+                            <h3 class="top-event-card__name">家づくり相談会</h3>
+                            <p class="top-event-card__meta">開催日時　2026.03.15　-　2026.03.15</p>
+                            <p class="top-event-card__meta">開催場所　季住 kisumi design 本社</p>
+                        </a>
+                    </article>
+                    <article class="top-event-card swiper-slide">
+                        <a href="<?php bloginfo('url'); ?>/events/">
+                            <img src="<?php bloginfo('template_url');?>/img/top-event-02.jpg" alt="イベント会場の内観">
+                            <span class="top-event-card__cat">見学会</span>
+                            <h3 class="top-event-card__name">モデルハウス完成見学会</h3>
+                            <p class="top-event-card__meta">開催日時　2026.03.15　-　2026.03.15</p>
+                            <p class="top-event-card__meta">開催場所　季住 kisumi design 本社</p>
+                        </a>
+                    </article>
+                    <article class="top-event-card swiper-slide">
+                        <a href="<?php bloginfo('url'); ?>/events/">
+                            <img src="<?php bloginfo('template_url');?>/img/top-event-03.jpg" alt="イベント会場のキッチン">
+                            <span class="top-event-card__cat">分譲販売</span>
+                            <h3 class="top-event-card__name">第3期分譲販売開始</h3>
+                            <p class="top-event-card__meta">開催日時　2026.03.15　-　2026.03.15</p>
+                            <p class="top-event-card__meta">開催場所　季住 kisumi design 本社</p>
+                        </a>
+                    </article>
+                </div>
+                <div class="swiper-pagination"></div>
             </div>
             <p class="top-event__more-wrap">
                 <a class="top-more-btn" href="<?php bloginfo('url'); ?>/events/">
@@ -246,73 +249,76 @@
                 一つひとつに、住む人の物語があります。<br>
                 お引き渡しは、お付き合いの始まり。私たちが形にしてきた「暮らし」の断片と、実際に住まわれてからの率直な感想をご紹介します。
             </p>
-            <div class="top-voice__cards js-top-voice-slider">
-                <article class="top-voice-card">
-                    <a href="<?php bloginfo('url'); ?>/voice/">
-                        <img src="<?php bloginfo('template_url');?>/img/top-voice-01.jpg" alt="木造住宅の外観">
-                        <p class="top-voice-card__cat">リフォーム</p>
-                        <p class="top-voice-card__place">大阪市旭区 山本様</p>
-                        <h3 class="top-voice-card__name">高台に佇む、木と眺望の家</h3>
-                        <p class="top-voice-card__text">
-                            一つひとつに、住む人の物語があります。お引き渡しは、お付き合いの始まり。
-                        </p>
-                    </a>
-                </article>
-                <article class="top-voice-card">
-                    <a href="<?php bloginfo('url'); ?>/voice/">
-                        <img src="<?php bloginfo('template_url');?>/img/top-voice-02.jpg" alt="やわらかい光が入る住まいの内観">
-                        <p class="top-voice-card__cat">新築</p>
-                        <p class="top-voice-card__place">大阪市旭区 山本様</p>
-                        <h3 class="top-voice-card__name">明るいキッチンが主役のお家</h3>
-                        <p class="top-voice-card__text">
-                            一つひとつに、住む人の物語があります。お引き渡しは、お付き合いの始まり。
-                        </p>
-                    </a>
-                </article>
-                <article class="top-voice-card">
-                    <a href="<?php bloginfo('url'); ?>/voice/">
-                        <img src="<?php bloginfo('template_url');?>/img/top-voice-03.jpg" alt="木のキッチンとダイニング">
-                        <p class="top-voice-card__cat">リノベーション</p>
-                        <p class="top-voice-card__place">大阪市旭区 山本様</p>
-                        <h3 class="top-voice-card__name">陽だまりの階段</h3>
-                        <p class="top-voice-card__text">
-                            一つひとつに、住む人の物語があります。お引き渡しは、お付き合いの始まり。
-                        </p>
-                    </a>
-                </article>
-                <article class="top-voice-card">
-                    <a href="<?php bloginfo('url'); ?>/voice/">
-                        <img src="<?php bloginfo('template_url');?>/img/top-voice-01.jpg" alt="木造住宅の外観">
-                        <p class="top-voice-card__cat">リフォーム</p>
-                        <p class="top-voice-card__place">大阪市旭区 山本様</p>
-                        <h3 class="top-voice-card__name">高台に佇む、木と眺望の家</h3>
-                        <p class="top-voice-card__text">
-                            一つひとつに、住む人の物語があります。お引き渡しは、お付き合いの始まり。
-                        </p>
-                    </a>
-                </article>
-                <article class="top-voice-card">
-                    <a href="<?php bloginfo('url'); ?>/voice/">
-                        <img src="<?php bloginfo('template_url');?>/img/top-voice-02.jpg" alt="やわらかい光が入る住まいの内観">
-                        <p class="top-voice-card__cat">新築</p>
-                        <p class="top-voice-card__place">大阪市旭区 山本様</p>
-                        <h3 class="top-voice-card__name">明るいキッチンが主役のお家</h3>
-                        <p class="top-voice-card__text">
-                            一つひとつに、住む人の物語があります。お引き渡しは、お付き合いの始まり。
-                        </p>
-                    </a>
-                </article>
-                <article class="top-voice-card">
-                    <a href="<?php bloginfo('url'); ?>/voice/">
-                        <img src="<?php bloginfo('template_url');?>/img/top-voice-03.jpg" alt="木のキッチンとダイニング">
-                        <p class="top-voice-card__cat">リノベーション</p>
-                        <p class="top-voice-card__place">大阪市旭区 山本様</p>
-                        <h3 class="top-voice-card__name">陽だまりの階段</h3>
-                        <p class="top-voice-card__text">
-                            一つひとつに、住む人の物語があります。お引き渡しは、お付き合いの始まり。
-                        </p>
-                    </a>
-                </article>
+            <div class="top-voice__cards js-top-voice-slider swiper">
+                <div class="swiper-wrapper">
+                    <article class="top-voice-card swiper-slide">
+                        <a href="<?php bloginfo('url'); ?>/voice/">
+                            <img src="<?php bloginfo('template_url');?>/img/top-voice-01.jpg" alt="木造住宅の外観">
+                            <p class="top-voice-card__cat">リフォーム</p>
+                            <p class="top-voice-card__place">大阪市旭区 山本様</p>
+                            <h3 class="top-voice-card__name">高台に佇む、木と眺望の家</h3>
+                            <p class="top-voice-card__text">
+                                一つひとつに、住む人の物語があります。お引き渡しは、お付き合いの始まり。
+                            </p>
+                        </a>
+                    </article>
+                    <article class="top-voice-card swiper-slide">
+                        <a href="<?php bloginfo('url'); ?>/voice/">
+                            <img src="<?php bloginfo('template_url');?>/img/top-voice-02.jpg" alt="やわらかい光が入る住まいの内観">
+                            <p class="top-voice-card__cat">新築</p>
+                            <p class="top-voice-card__place">大阪市旭区 山本様</p>
+                            <h3 class="top-voice-card__name">明るいキッチンが主役のお家</h3>
+                            <p class="top-voice-card__text">
+                                一つひとつに、住む人の物語があります。お引き渡しは、お付き合いの始まり。
+                            </p>
+                        </a>
+                    </article>
+                    <article class="top-voice-card swiper-slide">
+                        <a href="<?php bloginfo('url'); ?>/voice/">
+                            <img src="<?php bloginfo('template_url');?>/img/top-voice-03.jpg" alt="木のキッチンとダイニング">
+                            <p class="top-voice-card__cat">リノベーション</p>
+                            <p class="top-voice-card__place">大阪市旭区 山本様</p>
+                            <h3 class="top-voice-card__name">陽だまりの階段</h3>
+                            <p class="top-voice-card__text">
+                                一つひとつに、住む人の物語があります。お引き渡しは、お付き合いの始まり。
+                            </p>
+                        </a>
+                    </article>
+                    <article class="top-voice-card swiper-slide">
+                        <a href="<?php bloginfo('url'); ?>/voice/">
+                            <img src="<?php bloginfo('template_url');?>/img/top-voice-01.jpg" alt="木造住宅の外観">
+                            <p class="top-voice-card__cat">リフォーム</p>
+                            <p class="top-voice-card__place">大阪市旭区 山本様</p>
+                            <h3 class="top-voice-card__name">高台に佇む、木と眺望の家</h3>
+                            <p class="top-voice-card__text">
+                                一つひとつに、住む人の物語があります。お引き渡しは、お付き合いの始まり。
+                            </p>
+                        </a>
+                    </article>
+                    <article class="top-voice-card swiper-slide">
+                        <a href="<?php bloginfo('url'); ?>/voice/">
+                            <img src="<?php bloginfo('template_url');?>/img/top-voice-02.jpg" alt="やわらかい光が入る住まいの内観">
+                            <p class="top-voice-card__cat">新築</p>
+                            <p class="top-voice-card__place">大阪市旭区 山本様</p>
+                            <h3 class="top-voice-card__name">明るいキッチンが主役のお家</h3>
+                            <p class="top-voice-card__text">
+                                一つひとつに、住む人の物語があります。お引き渡しは、お付き合いの始まり。
+                            </p>
+                        </a>
+                    </article>
+                    <article class="top-voice-card swiper-slide">
+                        <a href="<?php bloginfo('url'); ?>/voice/">
+                            <img src="<?php bloginfo('template_url');?>/img/top-voice-03.jpg" alt="木のキッチンとダイニング">
+                            <p class="top-voice-card__cat">リノベーション</p>
+                            <p class="top-voice-card__place">大阪市旭区 山本様</p>
+                            <h3 class="top-voice-card__name">陽だまりの階段</h3>
+                            <p class="top-voice-card__text">
+                                一つひとつに、住む人の物語があります。お引き渡しは、お付き合いの始まり。
+                            </p>
+                        </a>
+                    </article>
+                </div>
+                <div class="swiper-pagination"></div>
             </div>
             <p class="top-voice__more-wrap">
                 <a class="top-more-btn" href="<?php bloginfo('url'); ?>/voice/">
@@ -328,15 +334,17 @@
             <h2 id="top-gallery-title" class="section-title-ja">Gallery</h2>
         </div>
         <div class="top-gallery__slider-wrap">
-            <div class="top-gallery__slider js-top-gallery-slider">
-                <div class="top-gallery__slide">
-                    <img src="<?php bloginfo('template_url');?>/img/top-gallery-01.jpg" alt="住まいの外観写真">
-                </div>
-                <div class="top-gallery__slide">
-                    <img src="<?php bloginfo('template_url');?>/img/top-gallery-02.jpg" alt="住まいの室内写真">
-                </div>
-                <div class="top-gallery__slide">
-                    <img src="<?php bloginfo('template_url');?>/img/top-gallery-03.jpg" alt="住まいの暮らしの写真">
+            <div class="top-gallery__slider js-top-gallery-slider swiper">
+                <div class="swiper-wrapper">
+                    <div class="top-gallery__slide swiper-slide">
+                        <img src="<?php bloginfo('template_url');?>/img/top-gallery-01.jpg" alt="住まいの外観写真">
+                    </div>
+                    <div class="top-gallery__slide swiper-slide">
+                        <img src="<?php bloginfo('template_url');?>/img/top-gallery-02.jpg" alt="住まいの室内写真">
+                    </div>
+                    <div class="top-gallery__slide swiper-slide">
+                        <img src="<?php bloginfo('template_url');?>/img/top-gallery-03.jpg" alt="住まいの暮らしの写真">
+                    </div>
                 </div>
             </div>
             <div class="top-gallery__nav" aria-label="ギャラリー操作">

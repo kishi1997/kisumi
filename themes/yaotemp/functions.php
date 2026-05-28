@@ -8,9 +8,8 @@ function fit_footer() {
 	src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
 	integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="
 	crossorigin="anonymous"></script>'."\n";//削除不可
-	echo'<script src="'.get_template_directory_uri().'/js/design.js"></script>'."\n";//削除不可
-	echo'<script src="'.get_template_directory_uri().'/js/slick.min.js"></script>'."\n";//削除不可
 	echo'<script src="'.get_template_directory_uri().'/js/swiper-bundle.min.js"></script>'."\n";//削除不可
+	echo'<script src="'.get_template_directory_uri().'/js/design.js"></script>'."\n";//削除不可
 }
 
 add_action('wp_footer', 'fit_footer', '999');
@@ -23,10 +22,8 @@ function fit_head() {
 	echo '<link rel="stylesheet" href="'.get_stylesheet_uri().'">'."\n";//削除不可
 	echo '<link rel="stylesheet" href="'.get_template_directory_uri().'/css/yaotemp.css">'."\n";//削除不可
 	echo '<link rel="stylesheet" href="'.get_template_directory_uri().'/css/icon.css">'."\n";//削除不可
-	echo '<link rel="stylesheet" href="'.get_template_directory_uri().'/css/design.css">'."\n";//削除不可
-	echo '<link rel="stylesheet" href="'.get_template_directory_uri().'/css/slick.css">'."\n";//削除不可
-	echo '<link rel="stylesheet" href="'.get_template_directory_uri().'/css/slick-theme.css">'."\n";
 	echo '<link rel="stylesheet" href="'.get_template_directory_uri().'/css/swiper-bundle.min.css">'."\n";
+	echo '<link rel="stylesheet" href="'.get_template_directory_uri().'/css/design.css">'."\n";//削除不可
 	
 	//GoogleFonts
 	echo '<link rel="preconnect" href="https://fonts.googleapis.com">'."\n";//削除不可

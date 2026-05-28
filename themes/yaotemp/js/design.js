@@ -41,165 +41,128 @@ $(function () {
 });
 
 //施工事例(サムネイル固定)
-$(function () {
-  $(".yao-slider").slick({
-    arrows: false,
-    fade: true,
-    asNavFor: ".yao-thumbnail",
-  });
-  $(".yao-thumbnail").slick({
-    slidesToShow: 3,
-    asNavFor: ".yao-slider",
-    focusOnSelect: true,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 3, // 画面幅750px以下でスライド3枚表示
+document.addEventListener("DOMContentLoaded", function () {
+  if (typeof Swiper === "undefined") return;
+  const main = document.querySelector(".yao-main-swiper");
+  const thumb = document.querySelector(".yao-thumb-swiper");
+  if (!main) return;
+  const thumbSwiper = thumb
+    ? new Swiper(thumb, {
+        slidesPerView: 5,
+        spaceBetween: 10,
+        watchSlidesProgress: true,
+        slideToClickedSlide: true,
+        breakpoints: {
+          0: {
+            // スマホ
+            slidesPerView: 3,
+          },
+          768: {
+            // タブレット以上
+            slidesPerView: 5,
+          },
         },
-      },
-    ],
+      })
+    : null;
+
+  new Swiper(main, {
+    spaceBetween: 10,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    thumbs: thumbSwiper ? { swiper: thumbSwiper } : undefined,
   });
 });
 
 // トップページ Gallery
-$(function () {
-  if (!$.fn.slick || !$(".js-top-gallery-slider").length) {
-    return;
-  }
-  $(".js-top-gallery-slider").slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    infinite: true,
-    centerMode: true,
-    centerPadding: "25%",
-    arrows: true,
-    prevArrow: $(".js-top-gallery-prev"),
-    nextArrow: $(".js-top-gallery-next"),
-    responsive: [
-      {
-        breakpoint: 1000,
-        settings: {
-          centerPadding: "12%",
-        },
-      },
-      {
-        breakpoint: 560,
-        settings: {
-          centerPadding: "0%",
-        },
-      },
-    ],
+document.addEventListener("DOMContentLoaded", function () {
+  if (!document.querySelector(".js-top-gallery-slider")) return;
+
+  new Swiper(".js-top-gallery-slider", {
+    slidesPerView: "auto",
+    centeredSlides: true,
+    loop: true,
+    loopedSlides: 3,
+    spaceBetween: 12,
+    speed: 500,
+    autoplay: { delay: 3000, disableOnInteraction: false },
+    navigation: {
+      prevEl: ".js-top-gallery-prev",
+      nextEl: ".js-top-gallery-next",
+    },
   });
 });
 
-// Event sliders
-$(function () {
-  if (!$.fn.slick) {
-    return;
-  }
-  var $eventSlider = $(".js-top-event-slider");
+// トップページ Event
+document.addEventListener("DOMContentLoaded", function () {
+  if (!document.querySelector(".js-top-event-slider")) return;
 
-  function initEventSlider() {
-    if (!$eventSlider.length) {
-      return;
-    }
-    if (window.innerWidth <= 560) {
-      if (!$eventSlider.hasClass("slick-initialized")) {
-        $eventSlider.slick({
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          infinite: true,
-          arrows: false,
-          dots: true,
-          speed: 500,
-          cssEase: "ease",
-          swipeToSlide: true,
-        });
-      }
-    } else {
-      if ($eventSlider.hasClass("slick-initialized")) {
-        $eventSlider.slick("unslick");
-      }
-    }
-  }
+  new Swiper(".js-top-event-slider", {
+    slidesPerView: 1,
+    spaceBetween: 16,
+    speed: 500,
+    loop: true,
+    autoplay: { delay: 3000, disableOnInteraction: false },
+    pagination: {
+      el: ".js-top-event-slider .swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      561: {
+        slidesPerView: 3,
+        spaceBetween: 24,
+      },
+    },
+  });
+});
 
-  initEventSlider();
-  $(window).on("resize", initEventSlider);
-
-  $(".js-lower-event-slider").each(function () {
-    var $lowerEventSlider = $(this);
-    if ($lowerEventSlider.hasClass("slick-initialized")) {
-      return;
-    }
-    $lowerEventSlider.slick({
-      slidesToShow: 2,
-      slidesToScroll: 1,
-      infinite: true,
-      arrows: true,
-      dots: true,
+// 下層ページ Event
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".js-lower-event-slider").forEach(function (el) {
+    new Swiper(el, {
+      slidesPerView: 2,
+      spaceBetween: 28,
       speed: 500,
-      cssEase: "ease",
-      swipeToSlide: true,
-      prevArrow:
-        '<button class="lower-event-slider__arrow lower-event-slider__arrow--prev" type="button" aria-label="前のイベント">←</button>',
-      nextArrow:
-        '<button class="lower-event-slider__arrow lower-event-slider__arrow--next" type="button" aria-label="次のイベント">→</button>',
-      responsive: [
-        {
-          breakpoint: 1000,
-          settings: {
-            slidesToShow: 2,
-          },
-        },
-        {
-          breakpoint: 641,
-          settings: {
-            slidesToShow: 1,
-            arrows: false,
-          },
-        },
-      ],
+      loop: true,
+      autoplay: { delay: 3000, disableOnInteraction: false },
+      navigation: {
+        prevEl: el.querySelector(".lower-event-slider__arrow--prev"),
+        nextEl: el.querySelector(".lower-event-slider__arrow--next"),
+      },
+      pagination: {
+        el: el.querySelector(".swiper-pagination"),
+        clickable: true,
+      },
+      breakpoints: {
+        0: { slidesPerView: 1, spaceBetween: 20 },
+        641: { slidesPerView: 2, spaceBetween: 28 },
+      },
     });
   });
 });
 
 // トップページ Voice
-$(function () {
-  if (!$.fn.slick || !$(".js-top-voice-slider").length) {
-    return;
-  }
-  var $voiceSlider = $(".js-top-voice-slider");
-  if ($voiceSlider.hasClass("slick-initialized")) {
-    return;
-  }
-  $voiceSlider.slick({
-    slidesToShow: 3,
-    slidesToScroll: 3,
-    infinite: true,
-    arrows: false,
-    dots: true,
-    speed: 500,
-    cssEase: "ease",
-    adaptiveHeight: true,
-    swipeToSlide: true,
+document.addEventListener("DOMContentLoaded", function () {
+  if (!document.querySelector(".js-top-voice-slider")) return;
 
-    responsive: [
-      {
-        breakpoint: 1000,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 560,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
+  new Swiper(".js-top-voice-slider", {
+    slidesPerView: 3,
+    slidesPerGroup: 3,
+    spaceBetween: 40,
+    speed: 500,
+    loop: true,
+    autoplay: { delay: 4000, disableOnInteraction: false },
+    autoHeight: true,
+    pagination: {
+      el: ".js-top-voice-slider .swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      0: { slidesPerView: 1, slidesPerGroup: 1, spaceBetween: 20 },
+      561: { slidesPerView: 2, slidesPerGroup: 1, spaceBetween: 30 },
+      1001: { slidesPerView: 3, slidesPerGroup: 3, spaceBetween: 40 },
+    },
   });
 });
 
@@ -295,5 +258,17 @@ $(function () {
     $(".gallery").modaal({
       type: "image",
     });
+  }
+});
+// Snow Monkey Formsでふりがな項目は「ふりがな」のみ入力可
+document.addEventListener("DOMContentLoaded", function () {
+  const kanaInput = document.querySelector('input[name="kana"]');
+
+  if (kanaInput) {
+    // ひらがな・長音符（ー）・全角半角スペースのみを許可する設定
+    kanaInput.setAttribute("pattern", "^[ぁ-んー 　]+$");
+
+    // 条件に合わない文字が入力された際に出すエラーメッセージ
+    kanaInput.setAttribute("title", "ひらがなで入力してください");
   }
 });

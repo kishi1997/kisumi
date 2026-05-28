@@ -28,11 +28,12 @@
 				
 				<!-- スライダー -->
 				<div class="slider-gallery">
-					<div class="yao-slider">
+					<div class="yao-slider swiper">
+						<div class="swiper-wrapper">
 						<?php $thumbnail_id = get_post_thumbnail_id($post->ID);
 						$image = wp_get_attachment_image_src($thumbnail_id, 'large'); ?>
 						<?php if (has_post_thumbnail()) : ?>
-							<div class="slick-img">
+							<div class="slick-img swiper-slide">
 								<?php the_post_thumbnail(''); ?>
 							</div>
 						<?php else : ?>
@@ -41,7 +42,7 @@
 						<?php $ctm = get_post_meta($post->ID, 'gallery01', true);?>
 						<?php if(empty($ctm)):?>
 						<?php else:?>
-						<div class="slick-img">
+						<div class="slick-img swiper-slide">
 							<?php echo wp_get_attachment_image(get_post_meta($post->ID, 'gallery01', true),'large'); ?>
 						</div>
 						<?php endif;?>
@@ -49,7 +50,7 @@
 						<?php $ctm = get_post_meta($post->ID, 'gallery02', true);?>
 						<?php if(empty($ctm)):?>
 						<?php else:?>
-						<div class="slick-img">
+						<div class="slick-img swiper-slide">
 							<?php echo wp_get_attachment_image(get_post_meta($post->ID, 'gallery02', true),'large'); ?>
 						</div>
 						<?php endif;?>
@@ -57,7 +58,7 @@
 						<?php $ctm = get_post_meta($post->ID, 'gallery03', true);?>
 						<?php if(empty($ctm)):?>
 						<?php else:?>
-						<div class="slick-img">
+						<div class="slick-img swiper-slide">
 							<?php echo wp_get_attachment_image(get_post_meta($post->ID, 'gallery03', true),'large'); ?>
 						</div>
 						<?php endif;?>
@@ -65,7 +66,7 @@
 						<?php $ctm = get_post_meta($post->ID, 'gallery04', true);?>
 						<?php if(empty($ctm)):?>
 						<?php else:?>
-						<div class="slick-img">
+						<div class="slick-img swiper-slide">
 							<?php echo wp_get_attachment_image(get_post_meta($post->ID, 'gallery04', true),'large'); ?>
 						</div>
 						<?php endif;?>
@@ -73,18 +74,20 @@
 						<?php $ctm = get_post_meta($post->ID, 'gallery05', true);?>
 						<?php if(empty($ctm)):?>
 						<?php else:?>
-						<div class="slick-img">
+						<div class="slick-img swiper-slide">
 							<?php echo wp_get_attachment_image(get_post_meta($post->ID, 'gallery05', true),'large'); ?>
 						</div>
 						<?php endif;?>
+						</div>
 					</div>
 
 
-					<div class="yao-thumbnail">
+					<div class="yao-thumbnail swiper">
+						<div class="swiper-wrapper">
 						<?php $thumbnail_id = get_post_thumbnail_id($post->ID);
 						$image = wp_get_attachment_image_src($thumbnail_id, 'large'); ?>
 						<?php if (has_post_thumbnail()) : ?>
-						<div class="thumbnail-img">
+						<div class="thumbnail-img swiper-slide">
 							<?php the_post_thumbnail(''); ?>
 						</div>
 						<?php else : ?>
@@ -93,7 +96,7 @@
 						<?php $ctm = get_post_meta($post->ID, 'gallery01', true);?>
 						<?php if(empty($ctm)):?>
 						<?php else:?>
-						<div class="thumbnail-img">
+						<div class="thumbnail-img swiper-slide">
 							<?php echo wp_get_attachment_image(get_post_meta($post->ID, 'gallery01', true),'large'); ?>
 						</div>
 						<?php endif;?>
@@ -101,7 +104,7 @@
 						<?php $ctm = get_post_meta($post->ID, 'gallery02', true);?>
 						<?php if(empty($ctm)):?>
 						<?php else:?>
-						<div class="thumbnail-img">
+						<div class="thumbnail-img swiper-slide">
 							<?php echo wp_get_attachment_image(get_post_meta($post->ID, 'gallery02', true),'large'); ?>
 						</div>
 						<?php endif;?>
@@ -109,7 +112,7 @@
 						<?php $ctm = get_post_meta($post->ID, 'gallery03', true);?>
 						<?php if(empty($ctm)):?>
 						<?php else:?>
-						<div class="thumbnail-img">
+						<div class="thumbnail-img swiper-slide">
 							<?php echo wp_get_attachment_image(get_post_meta($post->ID, 'gallery03', true),'large'); ?>
 						</div>
 						<?php endif;?>
@@ -117,7 +120,7 @@
 						<?php $ctm = get_post_meta($post->ID, 'gallery04', true);?>
 						<?php if(empty($ctm)):?>
 						<?php else:?>
-						<div class="thumbnail-img">
+						<div class="thumbnail-img swiper-slide">
 							<?php echo wp_get_attachment_image(get_post_meta($post->ID, 'gallery04', true),'large'); ?>
 						</div>
 						<?php endif;?>
@@ -125,10 +128,11 @@
 						<?php $ctm = get_post_meta($post->ID, 'gallery05', true);?>
 						<?php if(empty($ctm)):?>
 						<?php else:?>
-						<div class="thumbnail-img">
+						<div class="thumbnail-img swiper-slide">
 							<?php echo wp_get_attachment_image(get_post_meta($post->ID, 'gallery05', true),'large'); ?>
 						</div>
 						<?php endif;?>
+						</div>
 					</div>
 				</div>		
 				
