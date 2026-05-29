@@ -109,7 +109,7 @@ get_header(); ?>
             <div class="company-map">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6549.778140438152!2d135.4997458!3d34.8338815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000fba4db0211bb%3A0x2a749d0513635b7b!2z5pel5pys44CB44CSNTYyLTAwMzMg5aSn6Ziq5bqc566V6Z2i5biC5LuK5a6u77yT5LiB55uu77yZ4oiS77yS77yU!5e0!3m2!1sja!2sca!4v1779612814486!5m2!1sja!2sca"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    width="600" height="450" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <table class="company-profile-table">
