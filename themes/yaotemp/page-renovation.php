@@ -57,7 +57,7 @@ get_header(); ?>
                 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
                 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
             </p>
-            <div class="c-lower-sec-head">
+            <div class="c-lower-sec-head renovation-reason-list-head">
                 <p class="section-title-en">Feature</p>
                 <h2 class="section-title-ja">女性スタッフ2名/現場管理まで契約まで無償対応</h2>
             </div>
@@ -229,8 +229,8 @@ get_header(); ?>
                     <div class="inner-card__body">
                         <div class="renovation-craft-card__img">
                             <div class="img-ph-wrapper">
-                                <img class="img-ph"
-                                    src="<?php bloginfo('template_url');?>/img/renovation-craft-01.jpg" alt="左官の職人技術">
+                                <img class="img-ph" src="<?php bloginfo('template_url');?>/img/renovation-craft-01.jpg"
+                                    alt="左官の職人技術">
                             </div>
                         </div>
                         <h3 class="inner-card__title">左官</h3>
@@ -244,8 +244,8 @@ get_header(); ?>
                     <div class="inner-card__body">
                         <div class="renovation-craft-card__img">
                             <div class="img-ph-wrapper">
-                                <img class="img-ph"
-                                    src="<?php bloginfo('template_url');?>/img/renovation-craft-02.jpg" alt="大工の職人技術">
+                                <img class="img-ph" src="<?php bloginfo('template_url');?>/img/renovation-craft-02.jpg"
+                                    alt="大工の職人技術">
                             </div>
                         </div>
                         <h3 class="inner-card__title">大工</h3>
@@ -259,8 +259,8 @@ get_header(); ?>
                     <div class="inner-card__body">
                         <div class="renovation-craft-card__img">
                             <div class="img-ph-wrapper">
-                                <img class="img-ph"
-                                    src="<?php bloginfo('template_url');?>/img/renovation-craft-03.jpg" alt="塗装の職人技術">
+                                <img class="img-ph" src="<?php bloginfo('template_url');?>/img/renovation-craft-03.jpg"
+                                    alt="塗装の職人技術">
                             </div>
                         </div>
                         <h3 class="inner-card__title">塗装</h3>
@@ -274,8 +274,8 @@ get_header(); ?>
                     <div class="inner-card__body">
                         <div class="renovation-craft-card__img">
                             <div class="img-ph-wrapper">
-                                <img class="img-ph"
-                                    src="<?php bloginfo('template_url');?>/img/renovation-craft-04.jpg" alt="タイルの職人技術">
+                                <img class="img-ph" src="<?php bloginfo('template_url');?>/img/renovation-craft-04.jpg"
+                                    alt="タイルの職人技術">
                             </div>
                         </div>
                         <h3 class="inner-card__title">タイル</h3>

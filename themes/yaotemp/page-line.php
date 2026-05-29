@@ -82,7 +82,7 @@ get_header(); ?>
         <!-- STEP 03 -->
         <div class="line-step">
             <div class="line-step__img">
-                <img src="<?php bloginfo('template_url');?>/img/line-hero.jpg" alt="相談後の打ち合わせイメージ">
+                <img src="<?php bloginfo('template_url');?>/img/line-step03.jpg" alt="ご相談・ご予約の日程調整イメージ">
             </div>
             <div class="line-step__content">
                 <p class="line-step__num">STEP. 03</p>
