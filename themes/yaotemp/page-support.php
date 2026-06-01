@@ -24,7 +24,7 @@ get_header(); ?>
             <div class="support-guarantee-list">
                 <div class="support-guarantee-item">
                     <div class="support-guarantee-item__img">
-                        <img src="<?php bloginfo('template_url');?>/img/support-inspection-living.jpg" alt="保証対象となる住まいのリビング">
+                        <img src="<?php bloginfo('template_url');?>/img/support-inspection-living.jpg" alt="かし保険 イメージ画像">
                     </div>
                     <div class="support-guarantee-item__head">
                         <span class="support-guarantee-item__num">01.</span>
@@ -34,7 +34,7 @@ get_header(); ?>
                 </div>
                 <div class="support-guarantee-item">
                     <div class="support-guarantee-item__img">
-                        <img src="<?php bloginfo('template_url');?>/img/custom-home-feature-01-construction.jpg" alt="地盤と構造を確認する施工現場">
+                        <img src="<?php bloginfo('template_url');?>/img/custom-home-feature-01-construction.jpg" alt="地盤 イメージ画像">
                     </div>
                     <div class="support-guarantee-item__head">
                         <span class="support-guarantee-item__num">02.</span>
@@ -44,7 +44,7 @@ get_header(); ?>
                 </div>
                 <div class="support-guarantee-item">
                     <div class="support-guarantee-item__img">
-                        <img src="<?php bloginfo('template_url');?>/img/custom-home-warranty-window.jpg" alt="短期保証で確認する窓まわり">
+                        <img src="<?php bloginfo('template_url');?>/img/custom-home-warranty-window.jpg" alt="短期保証 イメージ画像">
                     </div>
                     <div class="support-guarantee-item__head">
                         <span class="support-guarantee-item__num">03.</span>
@@ -54,7 +54,7 @@ get_header(); ?>
                 </div>
                 <div class="support-guarantee-item">
                     <div class="support-guarantee-item__img">
-                        <img src="<?php bloginfo('template_url');?>/img/custom-home-spec-wood-floor.jpg" alt="シロアリ対策に関わる木の床材">
+                        <img src="<?php bloginfo('template_url');?>/img/custom-home-spec-wood-floor.jpg" alt="シロアリ イメージ画像">
                     </div>
                     <div class="support-guarantee-item__head">
                         <span class="support-guarantee-item__num">04.</span>
@@ -64,7 +64,7 @@ get_header(); ?>
                 </div>
                 <div class="support-guarantee-item">
                     <div class="support-guarantee-item__img">
-                        <img src="<?php bloginfo('template_url');?>/img/support-care-staircase.jpg" alt="駆けつけ対応を支える住まいの点検">
+                        <img src="<?php bloginfo('template_url');?>/img/support-care-staircase.jpg" alt="駆けつけ イメージ画像">
                     </div>
                     <div class="support-guarantee-item__head">
                         <span class="support-guarantee-item__num">05.</span>
@@ -74,7 +74,7 @@ get_header(); ?>
                 </div>
                 <div class="support-guarantee-item">
                     <div class="support-guarantee-item__img">
-                        <img src="<?php bloginfo('template_url');?>/img/custom-home-spec-kitchen.jpg" alt="住宅設備保証の対象となるキッチン">
+                        <img src="<?php bloginfo('template_url');?>/img/custom-home-spec-kitchen.jpg" alt="住宅設備（オプション） イメージ画像">
                     </div>
                     <div class="support-guarantee-item__head">
                         <span class="support-guarantee-item__num">06.</span>
@@ -89,7 +89,7 @@ get_header(); ?>
     <!-- 定期点検 -->
     <section class="support-inspection">
         <div class="support-inspection__img">
-            <img src="<?php bloginfo('template_url');?>/img/support-inspection-living.jpg" alt="無垢材の床とやわらかな光のリビング">
+            <img src="<?php bloginfo('template_url');?>/img/support-inspection-living.jpg" alt="定期点検 イメージ画像">
         </div>
         <div class="support-inspection__body">
             <div class="c-lower-sec-head">
@@ -114,7 +114,7 @@ get_header(); ?>
             </a>
         </div>
         <div class="support-care__img">
-            <img src="<?php bloginfo('template_url');?>/img/support-care-staircase.jpg" alt="自然光が差し込む階段の光と影">
+            <img src="<?php bloginfo('template_url');?>/img/support-care-staircase.jpg" alt="お手入れ方法 イメージ画像">
         </div>
     </section>
 

@@ -38,7 +38,7 @@ get_header(); ?>
         <!-- STEP 01 -->
         <div class="line-step">
             <div class="line-step__img">
-                <img src="<?php bloginfo('template_url');?>/img/line-step01-exterior.jpg" alt="LINE相談前に見ておきたい住まいの外観">
+                <img src="<?php bloginfo('template_url');?>/img/line-step01-exterior.jpg" alt="LINE友だち追加 イメージ画像">
             </div>
             <div class="line-step__content">
                 <p class="line-step__num">STEP. 01</p>
@@ -60,7 +60,7 @@ get_header(); ?>
         <!-- STEP 02 -->
         <div class="line-step">
             <div class="line-step__img">
-                <img src="<?php bloginfo('template_url');?>/img/line-step02-staff.jpg" alt="お客様に丁寧に対応するスタッフ">
+                <img src="<?php bloginfo('template_url');?>/img/line-step02-staff.jpg" alt="お客様情報を送信 イメージ画像">
             </div>
             <div class="line-step__content">
                 <p class="line-step__num">STEP. 02</p>
@@ -82,7 +82,7 @@ get_header(); ?>
         <!-- STEP 03 -->
         <div class="line-step">
             <div class="line-step__img">
-                <img src="<?php bloginfo('template_url');?>/img/line-step03.jpg" alt="ご相談・ご予約の日程調整イメージ">
+                <img src="<?php bloginfo('template_url');?>/img/line-step03.jpg" alt="ご相談・ご予約の日程調整 イメージ画像">
             </div>
             <div class="line-step__content">
                 <p class="line-step__num">STEP. 03</p>

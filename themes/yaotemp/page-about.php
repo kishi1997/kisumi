@@ -39,7 +39,7 @@ get_header(); ?>
                 <div class="inner-2col__img">
                     <div class="img-ph-wrapper">
                         <img class="img-ph" src="<?php bloginfo('template_url');?>/img/about-concept-window.jpg"
-                            alt="窓辺に並ぶ木の小物">
+                            alt="季節を住まう、時を愛でる イメージ画像">
                     </div>
                 </div>
             </div>
@@ -54,7 +54,7 @@ get_header(); ?>
                     <div class="about-feature-item__img">
                         <div class="img-ph-wrapper">
                             <img class="img-ph" src="<?php bloginfo('template_url');?>/img/about-feature-01-living.jpg"
-                                alt="無垢材の床と緑のある暮らし">
+                                alt="家は完成した時が〜 イメージ画像">
                         </div>
                     </div>
                     <div class="about-feature-item__text">
@@ -77,7 +77,7 @@ get_header(); ?>
                         <div class="img-ph-wrapper">
                             <img class="img-ph"
                                 src="<?php bloginfo('template_url');?>/img/about-feature-02-kitchen-living.jpg"
-                                alt="木の梁が印象的なキッチンとリビング">
+                                alt="丁寧な対話から〜 イメージ画像">
                         </div>
                     </div>
                     <div class="about-feature-item__text">
@@ -100,7 +100,7 @@ get_header(); ?>
                         <div class="img-ph-wrapper">
                             <img class="img-ph"
                                 src="<?php bloginfo('template_url');?>/img/about-feature-03-study-desk.jpg"
-                                alt="窓に面した作業スペース">
+                                alt="建物ではなく〜 イメージ画像">
                         </div>
                     </div>
                     <div class="about-feature-item__text">
@@ -140,7 +140,7 @@ get_header(); ?>
                         <div class="img-ph-wrapper">
                             <img class="img-ph"
                                 src="<?php bloginfo('template_url');?>/img/about-service-custom-home.jpg"
-                                alt="アイランドキッチンを持つ注文住宅">
+                                alt="注文住宅（自由設計） イメージ画像">
                         </div>
                     </div>
                     <div class="about-service-card__body">
@@ -160,7 +160,7 @@ get_header(); ?>
                         <div class="img-ph-wrapper">
                             <img class="img-ph"
                                 src="<?php bloginfo('template_url');?>/img/about-service-renovation-01.jpg"
-                                alt="リノベーション後の明るいリビング">
+                                alt="リフォーム・リノベーション イメージ画像">
                         </div>
                     </div>
                     <div class="about-service-card__body">
@@ -190,7 +190,7 @@ get_header(); ?>
                 <div class="about-region-item">
                     <div class="img-ph-wrapper">
                         <img class="img-ph" src="<?php bloginfo('template_url');?>/img/about-region-gathering.jpg"
-                            alt="北摂の暮らし">
+                            alt="北摂の“暮らす価値”を次世代へ イメージ画像">
                     </div>
                     <div class="about-region-item__overlay">
                         <h3 class="about-region-item__title">北摂の"暮らす価値"を次世代へ</h3>
@@ -203,7 +203,7 @@ get_header(); ?>
                 <div class="about-region-item">
                     <div class="img-ph-wrapper">
                         <img class="img-ph" src="<?php bloginfo('template_url');?>/img/about-region-house-exterior.jpg"
-                            alt="安心できる場所">
+                            alt="いつまでも安心できる、変わらない場所と仲間 イメージ画像">
                     </div>
                     <div class="about-region-item__overlay">
                         <h3 class="about-region-item__title">いつまでも安心できる、<br>変わらない場所と仲間</h3>
@@ -215,7 +215,7 @@ get_header(); ?>
                 </div>
                 <div class="about-region-item">
                     <div class="img-ph-wrapper">
-                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/top-link-region.jpg" alt="八方良し">
+                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/top-link-region.jpg" alt="みんなが笑顔になる「八方良し」の精神 イメージ画像">
                     </div>
                     <div class="about-region-item__overlay">
                         <h3 class="about-region-item__title">みんなが笑顔になる<br>「八方良し」の精神</h3>
@@ -241,7 +241,7 @@ get_header(); ?>
                     <div class="about-column-card__img">
                         <div class="img-ph-wrapper">
                             <img class="img-ph" src="<?php bloginfo('template_url');?>/img/about-column-placeholder.jpg"
-                                alt="住まいのコラムイメージ">
+                                alt="コラム イメージ画像">
                         </div>
                     </div>
                     <div class="about-column-card__body">
@@ -255,7 +255,7 @@ get_header(); ?>
                     <div class="about-column-card__img">
                         <div class="img-ph-wrapper">
                             <img class="img-ph" src="<?php bloginfo('template_url');?>/img/about-column-placeholder.jpg"
-                                alt="住まいのコラムイメージ">
+                                alt="コラム イメージ画像">
                         </div>
                     </div>
                     <div class="about-column-card__body">
@@ -269,7 +269,7 @@ get_header(); ?>
                     <div class="about-column-card__img">
                         <div class="img-ph-wrapper">
                             <img class="img-ph" src="<?php bloginfo('template_url');?>/img/about-column-placeholder.jpg"
-                                alt="住まいのコラムイメージ">
+                                alt="コラム イメージ画像">
                         </div>
                     </div>
                     <div class="about-column-card__body">

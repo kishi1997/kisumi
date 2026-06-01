@@ -38,7 +38,7 @@ get_header(); ?>
                 <div class="inner-2col__img">
                     <div class="img-ph-wrapper">
                         <img class="img-ph" src="<?php bloginfo('template_url');?>/img/renovation-intro-kitchen.jpg"
-                            alt="モカブラウンの壁と木の温もりのリノベキッチン">
+                            alt="すでにある形に暮らしを合わせて イメージ画像">
                     </div>
                 </div>
             </div>
@@ -66,7 +66,7 @@ get_header(); ?>
                     <div class="renovation-reason-item__img">
                         <div class="img-ph-wrapper">
                             <img class="img-ph"
-                                src="<?php bloginfo('template_url');?>/img/renovation-reason-01-kitchen.jpg" alt="">
+                                src="<?php bloginfo('template_url');?>/img/renovation-reason-01-kitchen.jpg" alt="パース イメージ画像">
                         </div>
                     </div>
                     <div class="renovation-reason-item__body">
@@ -82,7 +82,7 @@ get_header(); ?>
                     <div class="renovation-reason-item__img">
                         <div class="img-ph-wrapper">
                             <img class="img-ph"
-                                src="<?php bloginfo('template_url');?>/img/renovation-reason-02-interior.jpg" alt="">
+                                src="<?php bloginfo('template_url');?>/img/renovation-reason-02-interior.jpg" alt="図面 イメージ画像">
                         </div>
                     </div>
                     <div class="renovation-reason-item__body">
@@ -98,7 +98,7 @@ get_header(); ?>
                     <div class="renovation-reason-item__img">
                         <div class="img-ph-wrapper">
                             <img class="img-ph"
-                                src="<?php bloginfo('template_url');?>/img/renovation-reason-03-niche.jpg" alt="">
+                                src="<?php bloginfo('template_url');?>/img/renovation-reason-03-niche.jpg" alt="現調 イメージ画像">
                         </div>
                     </div>
                     <div class="renovation-reason-item__body">
@@ -126,7 +126,7 @@ get_header(); ?>
                     <div class="renovation-type-item__img">
                         <div class="img-ph-wrapper">
                             <img class="img-ph" src="<?php bloginfo('template_url');?>/img/renovation-type-01-house.jpg"
-                                alt="中古リノベーション">
+                                alt="中古＋リノベ イメージ画像">
                         </div>
                     </div>
                     <div class="renovation-type-item__body">
@@ -145,7 +145,7 @@ get_header(); ?>
                         <div class="img-ph-wrapper">
                             <img class="img-ph"
                                 src="<?php bloginfo('template_url');?>/img/renovation-type-02-weekend.jpg"
-                                alt="持ち家リノベーション">
+                                alt="持ち家＋リノベ イメージ画像">
                         </div>
                     </div>
                     <div class="renovation-type-item__body">
@@ -230,7 +230,7 @@ get_header(); ?>
                         <div class="renovation-craft-card__img">
                             <div class="img-ph-wrapper">
                                 <img class="img-ph" src="<?php bloginfo('template_url');?>/img/renovation-craft-01.jpg"
-                                    alt="左官の職人技術">
+                                    alt="左官 イメージ画像">
                             </div>
                         </div>
                         <h3 class="inner-card__title">左官</h3>
@@ -245,7 +245,7 @@ get_header(); ?>
                         <div class="renovation-craft-card__img">
                             <div class="img-ph-wrapper">
                                 <img class="img-ph" src="<?php bloginfo('template_url');?>/img/renovation-craft-02.jpg"
-                                    alt="大工の職人技術">
+                                    alt="大工 イメージ画像">
                             </div>
                         </div>
                         <h3 class="inner-card__title">大工</h3>
@@ -260,7 +260,7 @@ get_header(); ?>
                         <div class="renovation-craft-card__img">
                             <div class="img-ph-wrapper">
                                 <img class="img-ph" src="<?php bloginfo('template_url');?>/img/renovation-craft-03.jpg"
-                                    alt="塗装の職人技術">
+                                    alt="塗装 イメージ画像">
                             </div>
                         </div>
                         <h3 class="inner-card__title">塗装</h3>
@@ -275,7 +275,7 @@ get_header(); ?>
                         <div class="renovation-craft-card__img">
                             <div class="img-ph-wrapper">
                                 <img class="img-ph" src="<?php bloginfo('template_url');?>/img/renovation-craft-04.jpg"
-                                    alt="タイルの職人技術">
+                                    alt="タイル イメージ画像">
                             </div>
                         </div>
                         <h3 class="inner-card__title">タイル</h3>
@@ -304,7 +304,7 @@ get_header(); ?>
                             <figure class="lower-event-card__media">
                                 <img class="lower-event-card__img"
                                     src="<?php echo get_template_directory_uri(); ?>/img/top-event-01.jpg"
-                                    alt="イベント会場の外観">
+                                    alt="家づくり相談会 イメージ画像">
                                 <span class="lower-event-card__status lower-event-card__status--open">募集中</span>
                             </figure>
                             <div class="lower-event-card__body">
@@ -320,7 +320,7 @@ get_header(); ?>
                             <figure class="lower-event-card__media">
                                 <img class="lower-event-card__img"
                                     src="<?php echo get_template_directory_uri(); ?>/img/top-event-02.jpg"
-                                    alt="イベント会場の内観">
+                                    alt="モデルハウス完成見学会 イメージ画像">
                                 <span class="lower-event-card__status lower-event-card__status--open">募集中</span>
                             </figure>
                             <div class="lower-event-card__body">
@@ -336,7 +336,7 @@ get_header(); ?>
                             <figure class="lower-event-card__media">
                                 <img class="lower-event-card__img"
                                     src="<?php echo get_template_directory_uri(); ?>/img/top-event-03.jpg"
-                                    alt="イベント会場のキッチン">
+                                    alt="第3期分譲販売開始 イメージ画像">
                                 <span class="lower-event-card__status lower-event-card__status--closed">開催終了</span>
                             </figure>
                             <div class="lower-event-card__body">
@@ -369,7 +369,7 @@ get_header(); ?>
         <a class="inner-banner" href="<?php bloginfo('url'); ?>/voice/">
             <div class="img-ph-wrapper">
                 <img class="img-ph" src="<?php bloginfo('template_url');?>/img/renovation-banner-portfolio.jpg"
-                    alt="施工事例イメージ">
+                    alt="施工事例 イメージ画像">
             </div>
             <div class="inner-banner__overlay">
                 <p class="inner-banner__en">Portfolio</p>
@@ -379,7 +379,7 @@ get_header(); ?>
         <a class="inner-banner" href="<?php bloginfo('url'); ?>/support/">
             <div class="img-ph-wrapper">
                 <img class="img-ph" src="<?php bloginfo('template_url');?>/img/renovation-banner-support.jpg"
-                    alt="保障・アフターサポートイメージ">
+                    alt="保障・アフターサポート イメージ画像">
             </div>
             <div class="inner-banner__overlay">
                 <p class="inner-banner__en">Support</p>

@@ -35,7 +35,7 @@ get_header(); ?>
                 <div class="recruit-firstyear__right">
                     <div class="recruit-firstyear__fig">
                         <img src="<?php bloginfo('template_url');?>/img/recruit-firstyear-interior.jpg"
-                            alt="木の天井と梁が美しい新築LDK">
+                            alt="初年度契約 イメージ画像">
                     </div>
                     <div class="recruit-stats">
                         <div class="recruit-stat">
@@ -62,7 +62,7 @@ get_header(); ?>
             <div class="recruit-data-grid">
                 <div class="recruit-data-card">
                     <div class="recruit-data-card__fig">
-                        <img src="<?php bloginfo('template_url');?>/img/recruit-culture-workspace.jpg" alt="働く環境">
+                        <img src="<?php bloginfo('template_url');?>/img/recruit-culture-workspace.jpg" alt="数字で見る季住 イメージ画像">
                     </div>
                     <div class="recruit-data-card__body">
                         <p class="recruit-data-card__num">〇<span>件</span></p>
@@ -71,7 +71,7 @@ get_header(); ?>
                 </div>
                 <div class="recruit-data-card">
                     <div class="recruit-data-card__fig">
-                        <img src="<?php bloginfo('template_url');?>/img/recruit-schedule-room.jpg" alt="一日の仕事の場">
+                        <img src="<?php bloginfo('template_url');?>/img/recruit-schedule-room.jpg" alt="数字で見る季住 イメージ画像">
                     </div>
                     <div class="recruit-data-card__body">
                         <p class="recruit-data-card__num">〇<span>%</span></p>
@@ -80,7 +80,7 @@ get_header(); ?>
                 </div>
                 <div class="recruit-data-card">
                     <div class="recruit-data-card__fig">
-                        <img src="<?php bloginfo('template_url');?>/img/recruit-staff-portrait.jpg" alt="季住デザインのスタッフ">
+                        <img src="<?php bloginfo('template_url');?>/img/recruit-staff-portrait.jpg" alt="数字で見る季住 イメージ画像">
                     </div>
                     <div class="recruit-data-card__body">
                         <p class="recruit-data-card__num">〇<span>名</span></p>
@@ -101,14 +101,14 @@ get_header(); ?>
             <p class="recruit-body-text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
         </div>
         <div class="recruit-culture__img">
-            <img src="<?php bloginfo('template_url');?>/img/recruit-culture-workspace.jpg" alt="木の香りのあるワークスペース">
+            <img src="<?php bloginfo('template_url');?>/img/recruit-culture-workspace.jpg" alt="風土 イメージ画像">
         </div>
     </section>
 
     <!-- 求める人 -->
     <section class="recruit-ideal">
         <div class="recruit-ideal__img">
-            <img src="<?php bloginfo('template_url');?>/img/recruit-ideal-staircase.jpg" alt="吹き抜けの開放的な住まいの階段">
+            <img src="<?php bloginfo('template_url');?>/img/recruit-ideal-staircase.jpg" alt="求める人 イメージ画像">
         </div>
         <div class="recruit-ideal__body">
             <div class="c-lower-sec-head">
@@ -210,7 +210,7 @@ get_header(); ?>
                 <?php for ($i = 1; $i <= 4; $i++) : ?>
                 <div class="recruit-staff-card">
                     <div class="recruit-staff-card__img-wrap">
-                        <img src="<?php bloginfo('template_url');?>/img/recruit-staff-portrait.jpg" alt="スタッフ写真">
+                        <img src="<?php bloginfo('template_url');?>/img/recruit-staff-portrait.jpg" alt="スタッフ紹介 イメージ画像">
                     </div>
                     <p class="recruit-staff-card__role">役職役職役職</p>
                     <p class="recruit-staff-card__name">お名前　お名前</p>
