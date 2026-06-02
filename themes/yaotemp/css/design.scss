@@ -3864,12 +3864,12 @@ main {
 /* ─── lower-page: inner-section common additions ─── */
 
 .inner-section__subtitle {
-  margin: 20px 0 12px;
+  margin: 24px 0 12px;
   font-size: 1.8rem;
-  font-weight: 400;
+  font-weight: 700;
   letter-spacing: 0.06em;
   line-height: 1.6;
-  color: var(--color-text);
+  color: var(--color-primary);
 }
 
 .inner-section__more {
