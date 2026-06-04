@@ -4820,9 +4820,16 @@ main {
   margin: 12px 0 0;
 
   dt {
-    font-size: 1.4rem;
-    color: var(--color-text-subtle);
-    margin-bottom: 2px;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: 8px;
+    margin-top: 12px;
+    border-bottom: 1px solid #9d9486;
+    padding-bottom: 6px;
+    &:first-child {
+      margin-top: 0;
+    }
   }
 
   dd {
