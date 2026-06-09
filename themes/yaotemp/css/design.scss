@@ -4066,11 +4066,14 @@ main {
   }
 
   .about-region-item__title {
-    margin: 0 0 8px;
+    margin: 0 0 12px;
     font-size: clamp(1.6rem, 1.8vw, 2rem);
     font-weight: 400;
     line-height: 1.4;
     letter-spacing: 0.06em;
+    color: var(--color-primary);
+    border-bottom: 1px solid var(--color-primary);
+    padding-bottom: 4px;
   }
 
   .about-region-item__text {
@@ -6714,6 +6717,12 @@ body {
   }
 }
 
+#page-about .about-feature-item:nth-child(even) .about-feature-item__img {
+  @media screen and (max-width: 1000px) {
+    order: 0;
+  }
+}
+
 #page-recruit .recruit-firstyear,
 #page-recruit .recruit-data-grid {
   @media screen and (max-width: 1000px) {
@@ -7435,5 +7444,264 @@ body {
       text-decoration: underline;
       opacity: 0.7;
     }
+  }
+}
+
+/* 2026-06-04 requested lower-page adjustments */
+
+:root {
+  --lower-width: 1180px;
+  --lower-narrow-width: 1080px;
+  --lower-gutter: clamp(22px, 5vw, 72px);
+}
+
+.inner-section__inner,
+.c-section-head,
+.page-about .c-section-head,
+.page-custom-home .c-section-head,
+#page-renovation .c-section-head,
+#page-recruit .c-section-head,
+.c-lower-sec-head {
+  width: min(var(--lower-width), 100%);
+}
+
+#page-faq .inner-section__inner,
+#page-faq .faq-filter,
+#page-recruit .recruit-schedule__inner,
+#page-line .line-lead__inner,
+#page-line .line-steps {
+  width: min(var(--lower-narrow-width), 100%);
+  max-width: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.page-custom-home .inner-2col {
+  align-items: start;
+  min-height: 0;
+}
+
+.page-custom-home .inner-2col__text {
+  padding: 0;
+  background-color: transparent;
+}
+
+.page-custom-home .inner-2col__img {
+  margin-left: 0;
+}
+
+.page-custom-home .inner-2col__img .img-ph-wrapper {
+  min-height: clamp(340px, 34vw, 500px);
+}
+
+.custom-home-intro-below {
+  width: min(760px, 100%);
+  margin-top: clamp(28px, 4vw, 54px);
+}
+
+.custom-home-intro-below .inner-section__subtitle {
+  margin-top: 0;
+  font-size: 2.4rem;
+}
+
+#page-about .about-region {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  align-items: stretch;
+  border-top: 1px solid var(--lower-line);
+}
+
+#page-about .about-region-item {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
+  align-items: center;
+  gap: 0;
+  overflow: visible;
+  background-color: transparent;
+  padding: clamp(44px, 6vw, 82px) 0;
+  border-bottom: 1px solid var(--lower-line);
+}
+
+#page-about .about-region-item:nth-child(even) {
+  grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+}
+
+#page-about .about-region-item .img-ph-wrapper {
+  position: relative;
+  overflow: hidden;
+  min-height: clamp(360px, 42vw, 620px);
+  height: 100%;
+  padding-top: 0 !important;
+  border-radius: var(--lower-photo-radius);
+}
+
+#page-about .about-region-item:nth-child(even) .img-ph-wrapper {
+  order: 2;
+}
+
+#page-about .about-region-item__overlay {
+  position: relative;
+  z-index: 2;
+  margin-left: clamp(-90px, -6vw, -42px);
+  padding: clamp(28px, 4vw, 58px);
+  border: 0;
+  background-color: var(--lower-panel-bg);
+  backdrop-filter: none;
+  color: var(--color-text);
+}
+
+#page-about .about-region-item:nth-child(even) .about-region-item__overlay {
+  margin-right: clamp(-90px, -6vw, -42px);
+  margin-left: 0;
+}
+
+#page-about .about-region-item__title {
+  font-size: clamp(2rem, 2.3vw, 2.8rem);
+  line-height: 1.45;
+}
+
+#page-about .about-region-item__text {
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 2.1;
+  color: var(--color-text-subtle);
+  display: block;
+  overflow: visible;
+}
+
+#page-about .about-column-card__link {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  color: inherit;
+  text-decoration: none;
+}
+
+#page-about .about-column-card__link:hover {
+  opacity: 0.78;
+}
+
+#page-faq {
+  --faq-content-width: min(var(--lower-narrow-width), 100%);
+}
+
+#page-faq .faq-section {
+  padding-right: var(--lower-gutter);
+  padding-left: var(--lower-gutter);
+}
+
+#page-faq .faq-filter {
+  justify-content: flex-start;
+  gap: 12px;
+  margin-bottom: clamp(54px, 6vw, 88px);
+}
+
+#page-faq .faq-filter__btn {
+  min-width: 0;
+  min-height: 54px;
+  padding: 8px 14px 8px 20px;
+  font-size: clamp(1.25rem, 1vw, 1.45rem);
+}
+
+#page-faq .faq-category__title {
+  padding: clamp(18px, 2vw, 26px) clamp(20px, 2.5vw, 32px);
+  font-size: clamp(1.7rem, 1.55vw, 2.2rem);
+}
+
+#page-faq .faq-item__q {
+  padding: clamp(20px, 2.2vw, 30px) clamp(16px, 2vw, 28px);
+}
+
+#page-faq .faq-item__text {
+  font-size: clamp(1.35rem, 1.18vw, 1.75rem);
+  line-height: 1.65;
+}
+
+#page-faq .faq-item__a-text {
+  font-size: 1.4rem;
+}
+
+#page-recruit .recruit-culture,
+#page-recruit .recruit-ideal {
+  box-sizing: border-box;
+  width: min(var(--lower-width), 100%);
+  margin-right: auto;
+  margin-left: auto;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+#page-recruit .recruit-culture__body,
+#page-recruit .recruit-ideal__body {
+  max-width: none;
+  margin-left: 0;
+}
+
+#page-recruit .recruit-culture__img,
+#page-recruit .recruit-ideal__img {
+  min-height: clamp(300px, 28vw, 440px);
+}
+
+#page-line .line-steps {
+  gap: clamp(28px, 4vw, 56px);
+  padding: 0 0 clamp(74px, 8vw, 128px);
+}
+
+#page-line .line-step,
+#page-line .line-step:nth-child(even) {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  overflow: hidden;
+  background-color: var(--color-bg);
+}
+
+#page-line .line-step:nth-child(even) {
+  background-color: var(--color-surface-warm);
+}
+
+#page-line .line-step__img,
+#page-line .line-step__content {
+  padding: clamp(28px, 4vw, 58px);
+}
+
+@media screen and (max-width: 1000px) {
+  #page-about .about-region,
+  #page-recruit .recruit-culture,
+  #page-recruit .recruit-ideal,
+  #page-line .line-step,
+  #page-line .line-step:nth-child(even) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  #page-line .line-step:nth-child(even) .line-step__img {
+    order: 0;
+  }
+
+  #page-about .about-region-item,
+  #page-about .about-region-item:nth-child(even) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  #page-about .about-region-item__overlay,
+  #page-about .about-region-item:nth-child(even) .about-region-item__overlay {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  #page-about .about-region-item:nth-child(even) .img-ph-wrapper {
+    order: 0;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #page-about .about-region,
+  #page-about .about-column-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .custom-home-intro-below .inner-section__subtitle {
+    font-size: 2rem;
+  }
+  #page-about .about-region-item__overlay {
+    padding: 22px;
   }
 }

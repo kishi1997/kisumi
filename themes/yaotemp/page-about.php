@@ -198,6 +198,7 @@ get_header(); ?>
             </div>
             <div class="about-column-grid">
                 <article class="about-column-card">
+                    <a class="about-column-card__link" href="<?php bloginfo('url'); ?>/column/">
                     <div class="about-column-card__img">
                         <div class="img-ph-wrapper">
                             <img class="img-ph" src="<?php bloginfo('template_url');?>/img/about-column-placeholder.jpg"
@@ -210,8 +211,10 @@ get_header(); ?>
                         <h3 class="about-column-card__title">タイトルタイトルタイトルタイトル</h3>
                         <p class="about-column-card__excerpt">本文引用本文引用本文引用本文引用本文引用本文引用本文引用本文引用本文引用本文引用</p>
                     </div>
+                    </a>
                 </article>
                 <article class="about-column-card">
+                    <a class="about-column-card__link" href="<?php bloginfo('url'); ?>/column/">
                     <div class="about-column-card__img">
                         <div class="img-ph-wrapper">
                             <img class="img-ph" src="<?php bloginfo('template_url');?>/img/about-column-placeholder.jpg"
@@ -224,8 +227,10 @@ get_header(); ?>
                         <h3 class="about-column-card__title">タイトルタイトルタイトルタイトル</h3>
                         <p class="about-column-card__excerpt">本文引用本文引用本文引用本文引用本文引用本文引用本文引用本文引用本文引用本文引用</p>
                     </div>
+                    </a>
                 </article>
                 <article class="about-column-card">
+                    <a class="about-column-card__link" href="<?php bloginfo('url'); ?>/column/">
                     <div class="about-column-card__img">
                         <div class="img-ph-wrapper">
                             <img class="img-ph" src="<?php bloginfo('template_url');?>/img/about-column-placeholder.jpg"
@@ -238,6 +243,7 @@ get_header(); ?>
                         <h3 class="about-column-card__title">タイトルタイトルタイトルタイトル</h3>
                         <p class="about-column-card__excerpt">本文引用本文引用本文引用本文引用本文引用本文引用本文引用本文引用本文引用本文引用</p>
                     </div>
+                    </a>
                 </article>
             </div>
             <p class="about-column-more">
