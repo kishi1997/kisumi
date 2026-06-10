@@ -25,6 +25,12 @@ get_header(); ?>
     <section class="inner-section">
         <div class="inner-section__inner">
             <div class="inner-2col">
+                <div class="inner-2col__img">
+                    <div class="img-ph-wrapper">
+                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-intro-living.jpg"
+                            alt="時とともに育つ、漆喰と無垢の家 イメージ画像">
+                    </div>
+                </div>
                 <div class="inner-2col__text">
                     <div class="c-lower-sec-head">
                         <p class="section-title-en">Our Concept</p>
@@ -33,12 +39,6 @@ get_header(); ?>
                     <p class="inner-section__lead">
                         「どんな家に住みたいか」の前に、「どんな毎日を過ごしたいか」を教えてください。朝、窓から届く光の角度に季節の移ろいを感じたり、素足で歩いたときの無垢材の柔らかさにホッとしたり。私たちが大切にしているのは、スペックや間取りの数字だけでは測れない、住む人の感情が動く瞬間です。お引き渡しの日は、ゴールではなく始まり。家族の成長とともに刻まれるキズや汚れさえも、愛おしい記憶として家に馴染んでいく。流行に左右されることなく、時を重ねるほどにヴィンテージのような味わいを増していく、世界にたったひとつの住まいをゼロから共に創り上げます。
                     </p>
-                </div>
-                <div class="inner-2col__img">
-                    <div class="img-ph-wrapper">
-                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-intro-living.jpg"
-                            alt="時とともに育つ、漆喰と無垢の家 イメージ画像">
-                    </div>
                 </div>
             </div>
             <div class="custom-home-intro-below">
