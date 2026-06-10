@@ -18,6 +18,12 @@ get_header(); ?>
     <section class="inner-section">
         <div class="inner-section__inner">
             <div class="inner-2col">
+                <div class="inner-2col__img">
+                    <div class="img-ph-wrapper">
+                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/renovation-intro-kitchen.jpg"
+                            alt="すでにある形に暮らしを合わせて イメージ画像">
+                    </div>
+                </div>
                 <div class="inner-2col__text">
                     <div class="c-lower-sec-head">
                         <p class="section-title-en">Our Approach</p>
@@ -34,12 +40,6 @@ get_header(); ?>
                             <span class="c-more-btn__arrow">→</span>
                         </a>
                     </p>
-                </div>
-                <div class="inner-2col__img">
-                    <div class="img-ph-wrapper">
-                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/renovation-intro-kitchen.jpg"
-                            alt="すでにある形に暮らしを合わせて イメージ画像">
-                    </div>
                 </div>
             </div>
         </div>
