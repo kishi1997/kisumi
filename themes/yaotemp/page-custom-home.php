@@ -54,23 +54,23 @@ get_header(); ?>
     <section class="inner-section custom-home-section-index">
         <div class="inner-section__inner">
             <div class="custom-home-section-index-grid">
-                <div class="custom-home-section-index-item">
+                <a class="custom-home-section-index-item" href="#sec-materials">
                     <p class="custom-home-section-index-item__label"><span
                             class="custom-home-section-index-item__num">01.</span>素材</p>
                     <div class="img-ph-wrapper" style="padding-top:72%;">
                         <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-material.jpg"
                             alt="素材 イメージ画像" style="object-fit:cover;">
                     </div>
-                </div>
-                <div class="custom-home-section-index-item">
+                </a>
+                <a class="custom-home-section-index-item" href="#sec-spec">
                     <p class="custom-home-section-index-item__label"><span
                             class="custom-home-section-index-item__num">02.</span>こだわりの標準仕様</p>
                     <div class="img-ph-wrapper" style="padding-top:72%;">
                         <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-spec-kitchen.jpg"
                             alt="こだわりの標準仕様 イメージ画像" style="object-fit:cover;">
                     </div>
-                </div>
-                <div class="custom-home-section-index-item">
+                </a>
+                <a class="custom-home-section-index-item" href="#sec-performance">
                     <p class="custom-home-section-index-item__label"><span
                             class="custom-home-section-index-item__num">03.</span>性能</p>
                     <div class="img-ph-wrapper" style="padding-top:72%;">
@@ -78,21 +78,21 @@ get_header(); ?>
                             src="<?php bloginfo('template_url');?>/img/custom-home-feature-01-construction.jpg" alt="性能 イメージ画像"
                             style="object-fit:cover;">
                     </div>
-                </div>
-                <div class="custom-home-section-index-item">
+                </a>
+                <a class="custom-home-section-index-item" href="#sec-craftsmen">
                     <p class="custom-home-section-index-item__label"><span
                             class="custom-home-section-index-item__num">04.</span>職人の技術</p>
                     <div class="img-ph-wrapper" style="padding-top:72%;">
                         <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-craft-01.jpeg"
                             alt="職人の技術 イメージ画像" style="object-fit:cover;">
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </section>
 
     <!-- 漆喰 / 無垢 -->
-    <section class="inner-section inner-section--gray">
+    <section id="sec-materials" class="inner-section inner-section--gray">
         <div class="inner-section__inner">
             <div class="c-lower-sec-head">
                 <p class="section-title-en">Materials</p>
@@ -136,7 +136,7 @@ get_header(); ?>
     </section>
 
     <!-- 02 こだわりの標準仕様 -->
-    <section class="inner-section">
+    <section id="sec-spec" class="inner-section">
         <div class="inner-section__inner">
             <div class="c-lower-sec-head">
                 <p class="section-title-en">Standard Spec</p>
@@ -200,7 +200,7 @@ get_header(); ?>
     </section>
 
     <!-- 03 性能 -->
-    <section class="inner-section inner-section--gray">
+    <section id="sec-performance" class="inner-section inner-section--gray">
         <div class="inner-section__inner">
             <div class="c-lower-sec-head">
                 <p class="section-title-en">Performance</p>
@@ -264,7 +264,7 @@ get_header(); ?>
     </section>
 
     <!-- 04 職人の技術 -->
-    <section class="inner-section inner-section--neutral">
+    <section id="sec-craftsmen" class="inner-section inner-section--neutral">
         <div class="inner-section__inner">
             <div class="c-lower-sec-head">
                 <p class="section-title-en">Craftsmen</p>
