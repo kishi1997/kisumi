@@ -121,8 +121,8 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
   document.querySelectorAll(".js-lower-event-slider").forEach(function (el) {
     new Swiper(el, {
-      slidesPerView: 2,
-      spaceBetween: 28,
+      slidesPerView: 1,
+      spaceBetween: 0,
       speed: 500,
       loop: true,
       autoplay: { delay: 3000, disableOnInteraction: false },
@@ -133,10 +133,6 @@ document.addEventListener("DOMContentLoaded", function () {
       pagination: {
         el: el.querySelector(".swiper-pagination"),
         clickable: true,
-      },
-      breakpoints: {
-        0: { slidesPerView: 1, spaceBetween: 20 },
-        641: { slidesPerView: 2, spaceBetween: 28 },
       },
     });
   });
