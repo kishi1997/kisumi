@@ -7086,12 +7086,11 @@ body {
 .lower-event-slider {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: minmax(0, 1fr);
   gap: clamp(18px, 2vw, 28px);
   padding-bottom: 44px;
 
   @media screen and (max-width: 640px) {
-    grid-template-columns: minmax(0, 1fr);
     padding-bottom: 32px;
   }
 }
@@ -7106,11 +7105,7 @@ body {
 
 .lower-event-slider .swiper-slide {
   height: auto;
-  padding: 0 14px;
-
-  @media screen and (max-width: 640px) {
-    padding: 0 10px;
-  }
+  padding: 0;
 }
 
 .lower-event-card {
