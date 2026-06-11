@@ -46,13 +46,13 @@ get_header(); ?>
     </section>
 
     <!-- どこに頼めばいいか分からない -->
-    <section class="inner-section inner-section--gray">
+    <section class="inner-section inner-section--gray renovation-problem">
         <div class="inner-section__inner">
-            <div class="c-lower-sec-head">
+            <div class="c-lower-sec-head renovation-problem__head">
                 <p class="section-title-en">Problem</p>
                 <h2 class="section-title-ja">どこに頼めばいいか<br>分からない</h2>
             </div>
-            <p class="inner-section__lead">
+            <p class="inner-section__lead renovation-problem__lead">
                 「こんな小さな修理でもいいのかな」「中古物件を買ってリノベしたいけれど、何から始めればいい？」リフォームやリノベーションは、新築以上に「見えない部分」への不安が多いものです。
                 季住デザインでは、初回相談から現地調査（現調）、図面やパースの作成、そして実際の現場管理まで、女性スタッフ2名をはじめとする専門チームがチーム一丸となって一貫対応いたします。
                 窓口がずっと変わらないからこそ、あなたの「理想の空気感」が現場の職人まですっすぐ伝わり、些細な疑問へのレスポンスも驚くほどスムーズです。

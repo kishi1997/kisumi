@@ -7281,6 +7281,22 @@ body {
   text-align: center;
 }
 
+/* リノベ Problem セクション 1カラム中央揃え */
+.renovation-problem__head {
+  text-align: center;
+
+  .section-title-en {
+    justify-content: center;
+  }
+}
+
+.renovation-problem__lead {
+  max-width: 760px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
 /* 下層ページ用 水平カード（1記事・左写真右テキスト） */
 .lower-event-card--horizontal {
   height: auto;
