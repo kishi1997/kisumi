@@ -7524,6 +7524,10 @@ body {
   grid-template-columns: minmax(0, 1fr);
   align-items: start;
   min-height: 0;
+  max-width: 1080px;
+  margin-right: auto;
+  margin-left: auto;
+  gap: clamp(16px, 2vw, 28px);
 }
 
 .page-custom-home .inner-2col__text {
@@ -7536,21 +7540,102 @@ body {
 }
 
 .page-custom-home .inner-2col__img .img-ph-wrapper {
-  min-height: clamp(340px, 34vw, 500px);
+  min-height: clamp(220px, 26vw, 340px);
 }
 
-/* リノベ イントロ 縦並び */
+/* カスタムホーム イントロ セクション余白調整 */
+.custom-home-intro {
+  padding-top: clamp(40px, 4.5vw, 64px);
+  padding-bottom: clamp(40px, 4.5vw, 64px);
+}
+
+/* リノベ イントロ 縦並び・サイズ調整 */
 .page-renovation .inner-2col {
   grid-template-columns: minmax(0, 1fr);
   min-height: auto;
+  max-width: 1080px;
+  margin-right: auto;
+  margin-left: auto;
+  gap: clamp(16px, 2vw, 28px);
 }
 
 .page-renovation .inner-2col__img {
   margin-left: 0;
 }
 
+.page-renovation .inner-2col__img .img-ph-wrapper {
+  min-height: clamp(220px, 26vw, 340px);
+}
+
+/* リノベ セクション間余白調整 */
+.renovation-intro {
+  padding-top: clamp(40px, 4.5vw, 64px);
+  padding-bottom: clamp(20px, 2.5vw, 32px);
+}
+
+.renovation-problem {
+  padding-top: clamp(20px, 2.5vw, 32px);
+}
+
+/* Problem セクション内コンテンツ幅を OUR APPROACH と揃える */
+.renovation-problem .inner-section__inner > * {
+  max-width: 1080px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* イントロ見出し・CTA 中央揃え */
+.renovation-intro .c-lower-sec-head,
+.custom-home-intro .c-lower-sec-head {
+  text-align: center;
+}
+
+.renovation-intro .section-title-en,
+.custom-home-intro .section-title-en {
+  justify-content: center;
+}
+
+.renovation-intro .inner-section__more {
+  text-align: center;
+}
+
+/* イントロ テキストブロック 横パディング */
+.renovation-intro .inner-2col__text,
+.custom-home-intro .inner-2col__text {
+  padding-left: clamp(32px, 9%, 100px);
+  padding-right: clamp(32px, 9%, 100px);
+
+  @media screen and (max-width: 640px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.custom-home-intro .custom-home-intro-below {
+  padding-left: clamp(32px, 9%, 100px);
+  padding-right: clamp(32px, 9%, 100px);
+
+  @media screen and (max-width: 640px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* イントロ内 lead・subtitle テキスト：全幅・中央揃え */
+.renovation-intro .inner-section__lead,
+.custom-home-intro .inner-section__lead {
+  max-width: none;
+  text-align: center;
+}
+
+.custom-home-intro .inner-section__subtitle {
+  text-align: center;
+}
+
 .custom-home-intro-below {
-  width: min(760px, 100%);
+  width: min(1080px, 100%);
+  margin-right: auto;
+  margin-left: auto;
   margin-top: clamp(28px, 4vw, 54px);
 }
 
@@ -7754,7 +7839,7 @@ body {
     grid-template-columns: minmax(0, 1fr);
   }
   .custom-home-intro-below .inner-section__subtitle {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   #page-about .about-region-item__overlay {
     padding: 22px;

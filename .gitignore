@@ -12,3 +12,5 @@ themes/yaotemp/img/catalog/
 .agents
 screenshots/
 screenshot.js
+.playwright-mcp
+*.png

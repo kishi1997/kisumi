@@ -15,7 +15,7 @@ get_header(); ?>
     </section>
 
     <!-- イントロ -->
-    <section class="inner-section">
+    <section class="inner-section renovation-intro">
         <div class="inner-section__inner">
             <div class="inner-2col">
                 <div class="inner-2col__img">
