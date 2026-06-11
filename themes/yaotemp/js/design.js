@@ -125,7 +125,7 @@ document.addEventListener("DOMContentLoaded", function () {
       spaceBetween: 0,
       speed: 500,
       loop: true,
-      autoplay: { delay: 3000, disableOnInteraction: false },
+      // autoplay: { delay: 3000, disableOnInteraction: false },
       navigation: {
         prevEl: el.querySelector(".lower-event-slider__arrow--prev"),
         nextEl: el.querySelector(".lower-event-slider__arrow--next"),
