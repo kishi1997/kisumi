@@ -25,12 +25,6 @@ get_header(); ?>
     <section class="inner-section custom-home-intro">
         <div class="inner-section__inner">
             <div class="inner-2col">
-                <div class="inner-2col__img">
-                    <div class="img-ph-wrapper">
-                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-intro-living.jpg"
-                            alt="時とともに育つ、漆喰と無垢の家 イメージ画像">
-                    </div>
-                </div>
                 <div class="inner-2col__text">
                     <div class="c-lower-sec-head">
                         <p class="section-title-en">Our Concept</p>
@@ -39,6 +33,12 @@ get_header(); ?>
                     <p class="inner-section__lead">
                         「どんな家に住みたいか」の前に、「どんな毎日を過ごしたいか」を教えてください。朝、窓から届く光の角度に季節の移ろいを感じたり、素足で歩いたときの無垢材の柔らかさにホッとしたり。私たちが大切にしているのは、スペックや間取りの数字だけでは測れない、住む人の感情が動く瞬間です。お引き渡しの日は、ゴールではなく始まり。家族の成長とともに刻まれるキズや汚れさえも、愛おしい記憶として家に馴染んでいく。流行に左右されることなく、時を重ねるほどにヴィンテージのような味わいを増していく、世界にたったひとつの住まいをゼロから共に創り上げます。
                     </p>
+                </div>
+                <div class="inner-2col__img">
+                    <div class="img-ph-wrapper">
+                        <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-intro-living.jpg"
+                            alt="時とともに育つ、漆喰と無垢の家">
+                    </div>
                 </div>
             </div>
             <div class="custom-home-intro-below">
@@ -59,7 +59,7 @@ get_header(); ?>
                             class="custom-home-section-index-item__num">01.</span>素材</p>
                     <div class="img-ph-wrapper" style="padding-top:72%;">
                         <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-material.jpg"
-                            alt="素材 イメージ画像" style="object-fit:cover;">
+                            alt="素材" style="object-fit:cover;">
                     </div>
                 </a>
                 <a class="custom-home-section-index-item" href="#sec-spec">
@@ -67,7 +67,7 @@ get_header(); ?>
                             class="custom-home-section-index-item__num">02.</span>こだわりの標準仕様</p>
                     <div class="img-ph-wrapper" style="padding-top:72%;">
                         <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-spec-kitchen.jpg"
-                            alt="こだわりの標準仕様 イメージ画像" style="object-fit:cover;">
+                            alt="こだわりの標準仕様" style="object-fit:cover;">
                     </div>
                 </a>
                 <a class="custom-home-section-index-item" href="#sec-performance">
@@ -75,8 +75,8 @@ get_header(); ?>
                             class="custom-home-section-index-item__num">03.</span>性能</p>
                     <div class="img-ph-wrapper" style="padding-top:72%;">
                         <img class="img-ph"
-                            src="<?php bloginfo('template_url');?>/img/custom-home-feature-01-construction.jpg"
-                            alt="性能 イメージ画像" style="object-fit:cover;">
+                            src="<?php bloginfo('template_url');?>/img/custom-home-feature-01-construction.jpg" alt="性能"
+                            style="object-fit:cover;">
                     </div>
                 </a>
                 <a class="custom-home-section-index-item" href="#sec-craftsmen">
@@ -84,7 +84,7 @@ get_header(); ?>
                             class="custom-home-section-index-item__num">04.</span>職人の技術</p>
                     <div class="img-ph-wrapper" style="padding-top:72%;">
                         <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-craft-01.jpeg"
-                            alt="職人の技術 イメージ画像" style="object-fit:cover;">
+                            alt="職人の技術" style="object-fit:cover;">
                     </div>
                 </a>
             </div>
@@ -103,7 +103,7 @@ get_header(); ?>
                     <div class="custom-home-material-item__img">
                         <div class="img-ph-wrapper">
                             <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-material.jpg"
-                                alt="漆喰 イメージ画像">
+                                alt="漆喰">
                         </div>
                     </div>
                     <div class="custom-home-material-item__body">
@@ -121,8 +121,7 @@ get_header(); ?>
                     <div class="custom-home-material-item__img">
                         <div class="img-ph-wrapper">
                             <img class="img-ph"
-                                src="<?php bloginfo('template_url');?>/img/custom-home-spec-wood-floor.jpg"
-                                alt="無垢 イメージ画像">
+                                src="<?php bloginfo('template_url');?>/img/custom-home-spec-wood-floor.jpg" alt="無垢">
                         </div>
                     </div>
                     <div class="custom-home-material-item__body">
@@ -152,7 +151,7 @@ get_header(); ?>
                     <div class="custom-home-spec-item__img">
                         <div class="img-ph-wrapper">
                             <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-spec-kitchen.jpg"
-                                alt="キッチン イメージ画像">
+                                alt="キッチン">
                         </div>
                     </div>
                     <div class="custom-home-spec-item__body">
@@ -166,7 +165,7 @@ get_header(); ?>
                     <div class="custom-home-spec-item__img">
                         <div class="img-ph-wrapper">
                             <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-spec-light.jpg"
-                                alt="照明・アクセサリー イメージ画像">
+                                alt="照明・アクセサリー">
                         </div>
                     </div>
                     <div class="custom-home-spec-item__body">
@@ -180,7 +179,7 @@ get_header(); ?>
                     <div class="custom-home-spec-item__img">
                         <div class="img-ph-wrapper">
                             <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-spec-sikkui.jpg"
-                                alt="ガルバ・ジョリパ・漆喰 イメージ画像">
+                                alt="ガルバ・ジョリパ・漆喰">
                         </div>
                     </div>
                     <div class="custom-home-spec-item__body">
@@ -194,7 +193,7 @@ get_header(); ?>
                     <div class="custom-home-spec-item__img">
                         <div class="img-ph-wrapper">
                             <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-spec-tategu.jpg"
-                                alt="建具(神谷) イメージ画像">
+                                alt="建具(神谷)">
                         </div>
                     </div>
                     <div class="custom-home-spec-item__body">
@@ -225,7 +224,7 @@ get_header(); ?>
                         <div class="img-ph-wrapper">
                             <img class="img-ph"
                                 src="<?php bloginfo('template_url');?>/img/custom-home-feature-01-construction.jpg"
-                                alt="耐震 3 イメージ画像">
+                                alt="耐震 3">
                         </div>
                     </div>
                     <div class="custom-home-spec-item__body">
@@ -239,8 +238,7 @@ get_header(); ?>
                     <div class="custom-home-spec-item__img">
                         <div class="img-ph-wrapper">
                             <img class="img-ph"
-                                src="<?php bloginfo('template_url');?>/img/custom-home-warranty-window.jpg"
-                                alt="気密 イメージ画像">
+                                src="<?php bloginfo('template_url');?>/img/custom-home-warranty-window.jpg" alt="気密">
                         </div>
                     </div>
                     <div class="custom-home-spec-item__body">
@@ -254,8 +252,7 @@ get_header(); ?>
                     <div class="custom-home-spec-item__img">
                         <div class="img-ph-wrapper">
                             <img class="img-ph"
-                                src="<?php bloginfo('template_url');?>/img/custom-home-feature-02-energy.jpg"
-                                alt="断熱 イメージ画像">
+                                src="<?php bloginfo('template_url');?>/img/custom-home-feature-02-energy.jpg" alt="断熱">
                         </div>
                     </div>
                     <div class="custom-home-spec-item__body">
@@ -270,7 +267,7 @@ get_header(); ?>
                         <div class="img-ph-wrapper">
                             <img class="img-ph"
                                 src="<?php bloginfo('template_url');?>/img/support-inspection-living.jpg"
-                                alt="一種換気・熱交換 イメージ画像">
+                                alt="一種換気・熱交換">
                         </div>
                     </div>
                     <div class="custom-home-spec-item__body">
@@ -295,7 +292,7 @@ get_header(); ?>
                 <div class="custom-home-feature-item">
                     <div class="img-ph-wrapper">
                         <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-craft-01.jpeg"
-                            alt="左官 イメージ画像">
+                            alt="左官">
                     </div>
                     <h3 class="custom-home-feature-item__title">左官</h3>
                     <p class="custom-home-feature-item__text">図面には描ききれない、手仕事のぬくもり。
@@ -305,7 +302,7 @@ get_header(); ?>
                 <div class="custom-home-feature-item">
                     <div class="img-ph-wrapper">
                         <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-craft-02.jpeg"
-                            alt="造作（大工・建具） イメージ画像">
+                            alt="造作（大工・建具）">
                     </div>
                     <h3 class="custom-home-feature-item__title">造作(大工・建具)</h3>
                     <p class="custom-home-feature-item__text">あなたの暮らしの寸法に、ぴったりと合わせる。
@@ -421,7 +418,7 @@ get_header(); ?>
                             <figure class="lower-event-card__media">
                                 <img class="lower-event-card__img"
                                     src="<?php echo get_template_directory_uri(); ?>/img/top-event-01.jpg"
-                                    alt="家づくり相談会 イメージ画像">
+                                    alt="家づくり相談会">
                                 <span class="lower-event-card__status lower-event-card__status--open">募集中</span>
                             </figure>
                             <div class="lower-event-card__body">
@@ -437,7 +434,7 @@ get_header(); ?>
                             <figure class="lower-event-card__media">
                                 <img class="lower-event-card__img"
                                     src="<?php echo get_template_directory_uri(); ?>/img/top-event-02.jpg"
-                                    alt="モデルハウス完成見学会 イメージ画像">
+                                    alt="モデルハウス完成見学会">
                                 <span class="lower-event-card__status lower-event-card__status--open">募集中</span>
                             </figure>
                             <div class="lower-event-card__body">
@@ -453,7 +450,7 @@ get_header(); ?>
                             <figure class="lower-event-card__media">
                                 <img class="lower-event-card__img"
                                     src="<?php echo get_template_directory_uri(); ?>/img/top-event-03.jpg"
-                                    alt="第3期分譲販売開始 イメージ画像">
+                                    alt="第3期分譲販売開始">
                                 <span class="lower-event-card__status lower-event-card__status--closed">開催終了</span>
                             </figure>
                             <div class="lower-event-card__body">
@@ -486,7 +483,7 @@ get_header(); ?>
         <a class="inner-banner" href="<?php bloginfo('url'); ?>/voice/">
             <div class="img-ph-wrapper">
                 <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-banner-portfolio.jpg"
-                    alt="施工事例 イメージ画像">
+                    alt="施工事例">
             </div>
             <div class="inner-banner__overlay">
                 <p class="inner-banner__en">Portfolio</p>
@@ -496,7 +493,7 @@ get_header(); ?>
         <a class="inner-banner" href="<?php bloginfo('url'); ?>/support/">
             <div class="img-ph-wrapper">
                 <img class="img-ph" src="<?php bloginfo('template_url');?>/img/custom-home-banner-support.jpg"
-                    alt="保障・アフターサポート イメージ画像">
+                    alt="保障・アフターサポート">
             </div>
             <div class="inner-banner__overlay">
                 <p class="inner-banner__en">Support</p>

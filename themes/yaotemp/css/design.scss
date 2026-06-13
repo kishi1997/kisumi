@@ -4408,24 +4408,6 @@ main {
     padding: 0 0 clamp(24px, 4vw, 42px);
     border-bottom: 0;
 
-    &::before {
-      content: "";
-      position: absolute;
-      top: 58px;
-      bottom: 10px;
-      left: 28px;
-      width: 1px;
-      background-color: var(--color-border-light);
-    }
-
-    &:last-child {
-      padding-bottom: 0;
-
-      &::before {
-        content: none;
-      }
-    }
-
     > div {
       min-width: 0;
       padding: clamp(22px, 3vw, 34px);
@@ -4437,13 +4419,33 @@ main {
       grid-template-columns: 52px minmax(0, 1fr);
       gap: 14px;
 
-      &::before {
-        left: 23px;
-      }
-
       > div {
         padding: 18px;
       }
+    }
+  }
+
+  .custom-home-flow__step::before {
+    content: "";
+    position: absolute;
+    top: 58px;
+    bottom: 10px;
+    left: 28px;
+    width: 1px;
+    background-color: var(--color-border-light);
+  }
+
+  .custom-home-flow__step:last-child {
+    padding-bottom: 0;
+  }
+
+  .custom-home-flow__step:last-child::before {
+    content: none;
+  }
+
+  @media screen and (max-width: 640px) {
+    .custom-home-flow__step::before {
+      left: 23px;
     }
   }
 
@@ -4830,9 +4832,10 @@ main {
     margin-top: 12px;
     border-bottom: 1px solid #9d9486;
     padding-bottom: 6px;
-    &:first-child {
-      margin-top: 0;
-    }
+  }
+
+  dt:first-child {
+    margin-top: 0;
   }
 
   dd {
@@ -5010,7 +5013,7 @@ main {
   }
 }
 
-/* page-line: pseudo-elements & hover */
+/* page-line: pseudo-elements and hover */
 #page-line .line-step__num::after {
   content: "";
   flex: 1 0 24px;
@@ -6161,14 +6164,14 @@ body {
 #page-custom-home .custom-home-flow__step {
   border-bottom-color: transparent;
 
-  &::before {
-    background-color: var(--lower-line);
-  }
-
   > div {
     background-color: var(--lower-surface-panel);
     border-top-color: var(--lower-line);
   }
+}
+
+#page-custom-home .custom-home-flow__step::before {
+  background-color: var(--lower-line);
 }
 
 .custom-home-material-list {
@@ -7415,10 +7418,6 @@ body {
   background-color: transparent;
   overflow: visible;
 
-  &::before {
-    display: none;
-  }
-
   @media screen and (max-width: 1000px) {
     margin-left: 0;
     margin-right: 0;
@@ -7427,6 +7426,10 @@ body {
   @media screen and (max-width: 560px) {
     padding: clamp(20px, 3vw, 32px) 0;
   }
+}
+
+#page-renovation .renovation-type-item__body::before {
+  display: none;
 }
 
 #page-renovation .renovation-type-item__detail {
@@ -7477,18 +7480,18 @@ body {
     text-decoration: none;
     padding-left: 1em;
     position: relative;
-
-    &::before {
-      content: "–";
-      position: absolute;
-      left: 0;
-    }
-
-    &:hover {
-      text-decoration: underline;
-      opacity: 0.7;
-    }
   }
+}
+
+.sitemap-group__list li a::before {
+  content: "–";
+  position: absolute;
+  left: 0;
+}
+
+.sitemap-group__list li a:hover {
+  text-decoration: underline;
+  opacity: 0.7;
 }
 
 /* 2026-06-04 requested lower-page adjustments */

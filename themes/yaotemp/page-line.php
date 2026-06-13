@@ -53,14 +53,14 @@ get_header(); ?>
                 </div>
             </div>
             <div class="line-step__img">
-                <img src="<?php bloginfo('template_url');?>/img/line-step01-exterior.jpg" alt="LINE友だち追加 イメージ画像">
+                <img src="<?php bloginfo('template_url');?>/img/line-step01-exterior.jpg" alt="LINE友だち追加">
             </div>
         </div>
 
         <!-- STEP 02 -->
         <div class="line-step">
             <div class="line-step__img">
-                <img src="<?php bloginfo('template_url');?>/img/line-step02-staff.jpg" alt="お客様情報を送信 イメージ画像">
+                <img src="<?php bloginfo('template_url');?>/img/line-step02-staff.jpg" alt="お客様情報を送信">
             </div>
             <div class="line-step__content">
                 <p class="line-step__num">STEP. 02</p>
@@ -90,7 +90,7 @@ get_header(); ?>
                 </p>
             </div>
             <div class="line-step__img">
-                <img src="<?php bloginfo('template_url');?>/img/line-step03.jpg" alt="ご相談・ご予約の日程調整 イメージ画像">
+                <img src="<?php bloginfo('template_url');?>/img/line-step03.jpg" alt="ご相談・ご予約の日程調整">
             </div>
         </div>
 

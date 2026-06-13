@@ -31,7 +31,7 @@
             <ul class="staff-list">
                 <li>
                     <div class="left-box">
-                        <img src="<?php bloginfo('template_url');?>/img/staff-test.jpg" alt="山田　花子 イメージ画像">
+                        <img src="<?php bloginfo('template_url');?>/img/staff-test.jpg" alt="山田　花子">
                     </div>
                     <div class="right-box">
                         <p class="position">役職が入ります</p>
@@ -63,7 +63,7 @@
 
                 <li>
                     <div class="left-box">
-                        <img src="<?php bloginfo('template_url');?>/img/staff-test.jpg" alt="山田　花子 イメージ画像">
+                        <img src="<?php bloginfo('template_url');?>/img/staff-test.jpg" alt="山田　花子">
                     </div>
                     <div class="right-box">
                         <p class="position">役職が入ります</p>
@@ -102,7 +102,7 @@
         <div class="main-contents">
             <ul class="staff-link-list">
                 <li>
-                    <img src="<?php bloginfo('template_url');?>/img/staff-test.jpg" alt="山田　花子 イメージ画像">
+                    <img src="<?php bloginfo('template_url');?>/img/staff-test.jpg" alt="山田　花子">
                     <p class="position">役職が入ります</p>
                     <h2>山田　花子</h2>
                     <p class="message">一言メッセージが入ります。一言メッセージが入ります。</p>
@@ -111,7 +111,7 @@
                     </p>
                 </li>
                 <li>
-                    <img src="<?php bloginfo('template_url');?>/img/staff-test.jpg" alt="山田　花子 イメージ画像">
+                    <img src="<?php bloginfo('template_url');?>/img/staff-test.jpg" alt="山田　花子">
                     <p class="position">役職が入ります</p>
                     <h2>山田　花子</h2>
                     <p class="message">一言メッセージが入ります。一言メッセージが入ります。</p>
@@ -120,7 +120,7 @@
                     </p>
                 </li>
                 <li>
-                    <img src="<?php bloginfo('template_url');?>/img/staff-test.jpg" alt="山田　花子 イメージ画像">
+                    <img src="<?php bloginfo('template_url');?>/img/staff-test.jpg" alt="山田　花子">
                     <p class="position">役職が入ります</p>
                     <h2>山田　花子</h2>
                     <p class="message">一言メッセージが入ります。一言メッセージが入ります。</p>
@@ -129,7 +129,7 @@
                     </p>
                 </li>
                 <li>
-                    <img src="<?php bloginfo('template_url');?>/img/staff-test.jpg" alt="山田　花子 イメージ画像">
+                    <img src="<?php bloginfo('template_url');?>/img/staff-test.jpg" alt="山田　花子">
                     <p class="position">役職が入ります</p>
                     <h2>山田　花子</h2>
                     <p class="message">一言メッセージが入ります。一言メッセージが入ります。</p>

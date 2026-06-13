@@ -25,7 +25,7 @@ get_header(); ?>
                 <div class="support-guarantee-item">
                     <div class="support-guarantee-item__img">
                         <img src="<?php bloginfo('template_url');?>/img/support-inspection-living.jpg"
-                            alt="かし保険 イメージ画像">
+                            alt="かし保険">
                     </div>
                     <div class="support-guarantee-item__head">
                         <span class="support-guarantee-item__num">01.</span>
@@ -38,7 +38,7 @@ get_header(); ?>
                 <div class="support-guarantee-item">
                     <div class="support-guarantee-item__img">
                         <img src="<?php bloginfo('template_url');?>/img/custom-home-feature-01-construction.jpg"
-                            alt="地盤 イメージ画像">
+                            alt="地盤">
                     </div>
                     <div class="support-guarantee-item__head">
                         <span class="support-guarantee-item__num">02.</span>
@@ -51,7 +51,7 @@ get_header(); ?>
                 <div class="support-guarantee-item">
                     <div class="support-guarantee-item__img">
                         <img src="<?php bloginfo('template_url');?>/img/custom-home-warranty-window.jpg"
-                            alt="短期保証 イメージ画像">
+                            alt="短期保証">
                     </div>
                     <div class="support-guarantee-item__head">
                         <span class="support-guarantee-item__num">03.</span>
@@ -64,7 +64,7 @@ get_header(); ?>
                 <div class="support-guarantee-item">
                     <div class="support-guarantee-item__img">
                         <img src="<?php bloginfo('template_url');?>/img/custom-home-spec-wood-floor.jpg"
-                            alt="シロアリ イメージ画像">
+                            alt="シロアリ">
                     </div>
                     <div class="support-guarantee-item__head">
                         <span class="support-guarantee-item__num">04.</span>
@@ -76,7 +76,7 @@ get_header(); ?>
                 </div>
                 <div class="support-guarantee-item">
                     <div class="support-guarantee-item__img">
-                        <img src="<?php bloginfo('template_url');?>/img/support-care-kaketuke.jpg" alt="駆けつけ イメージ画像">
+                        <img src="<?php bloginfo('template_url');?>/img/support-care-kaketuke.jpg" alt="駆けつけ">
                     </div>
                     <div class="support-guarantee-item__head">
                         <span class="support-guarantee-item__num">05.</span>
@@ -89,7 +89,7 @@ get_header(); ?>
                 <div class="support-guarantee-item">
                     <div class="support-guarantee-item__img">
                         <img src="<?php bloginfo('template_url');?>/img/custom-home-spec-kitchen.jpg"
-                            alt="住宅設備（オプション） イメージ画像">
+                            alt="住宅設備（オプション）">
                     </div>
                     <div class="support-guarantee-item__head">
                         <span class="support-guarantee-item__num">06.</span>
@@ -106,7 +106,7 @@ get_header(); ?>
     <!-- 定期点検 -->
     <section class="support-inspection">
         <div class="support-inspection__img">
-            <img src="<?php bloginfo('template_url');?>/img/support-inspection.jpg" alt="定期点検 イメージ画像">
+            <img src="<?php bloginfo('template_url');?>/img/support-inspection.jpg" alt="定期点検">
         </div>
         <div class="support-inspection__body">
             <div class="c-lower-sec-head">
@@ -135,7 +135,7 @@ get_header(); ?>
             </a>
         </div>
         <div class="support-care__img">
-            <img src="<?php bloginfo('template_url');?>/img/support-care-staircase.jpg" alt="お手入れ方法 イメージ画像">
+            <img src="<?php bloginfo('template_url');?>/img/support-care-staircase.jpg" alt="お手入れ方法">
         </div>
     </section>
 
