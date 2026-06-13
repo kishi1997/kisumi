@@ -77,13 +77,27 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // トップページ Gallery
 document.addEventListener("DOMContentLoaded", function () {
-  if (!document.querySelector(".js-top-gallery-slider")) return;
+  const gallerySlider = document.querySelector(".js-top-gallery-slider");
+  if (!gallerySlider) return;
 
-  new Swiper(".js-top-gallery-slider", {
+  const galleryWrapper = gallerySlider.querySelector(".swiper-wrapper");
+  const gallerySlides = Array.from(galleryWrapper.children);
+
+  // Swiper's loop can leave the previous slide empty when only three slides exist.
+  gallerySlides.forEach(function (slide) {
+    const clone = slide.cloneNode(true);
+    clone.setAttribute("aria-hidden", "true");
+    clone.querySelectorAll("img").forEach(function (image) {
+      image.setAttribute("alt", "");
+    });
+    galleryWrapper.appendChild(clone);
+  });
+
+  new Swiper(gallerySlider, {
     slidesPerView: "auto",
     centeredSlides: true,
     loop: true,
-    loopedSlides: 3,
+    initialSlide: gallerySlides.length,
     spaceBetween: 12,
     speed: 500,
     autoplay: { delay: 3000, disableOnInteraction: false },
